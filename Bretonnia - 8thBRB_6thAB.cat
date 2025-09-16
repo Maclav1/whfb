@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3a81ff07-f518-e6bd-5da8-43be15dd967e" name="Bretonnia - Army Book (2013-4) -V8.6.6." revision="1" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3a81ff07-f518-e6bd-5da8-43be15dd967e" name="Bretonnia - Army Book (2013-4) -V8.6.6." revision="2" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="3a81ff07--pubN66518" name="AB"/>
     <publication id="3a81ff07--pubN67095" name="End Times - Nagash"/>
@@ -62,11 +62,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="68fcabcf-af34-c0c5-e3a8-08162936c481" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="781834b5-1579-7f1e-f21e-67145ff97831" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
+        <infoLink id="68fcabcf-af34-c0c5-e3a8-08162936c481" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="781834b5-1579-7f1e-f21e-67145ff97831" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cfe6cbcf-0337-51a5-d3a7-7a1f37d2ac2c" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -74,7 +74,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="acc709dd-c736-60b0-8bbc-9743af574fcb" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+            <infoLink id="acc709dd-c736-60b0-8bbc-9743af574fcb" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="3"/>
@@ -90,11 +90,11 @@
                 <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="dde77aee-0878-231b-8b1f-06c7ebbe8d65" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup"/>
-                <entryLink id="23407474-cfc2-812d-c173-29ac5b24161b" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup"/>
-                <entryLink id="1f66dc28-d408-3706-30c9-349c80431f6f" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup"/>
-                <entryLink id="1c7d94ba-a7b0-51b1-cabb-f5c299b355b8" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup"/>
-                <entryLink id="dad3126b-a26b-92b4-e79c-89bba64bd06a" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup"/>
+                <entryLink id="dde77aee-0878-231b-8b1f-06c7ebbe8d65" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="23407474-cfc2-812d-c173-29ac5b24161b" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
+                <entryLink id="1f66dc28-d408-3706-30c9-349c80431f6f" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="1c7d94ba-a7b0-51b1-cabb-f5c299b355b8" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
+                <entryLink id="dad3126b-a26b-92b4-e79c-89bba64bd06a" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup" name="Virtues of the Chivalric Knight"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -115,7 +115,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="37b39222-bda4-081b-0800-a3f37463687e" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry"/>
+                <entryLink id="37b39222-bda4-081b-0800-a3f37463687e" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50"/>
@@ -126,7 +126,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ffe62b39-1fd5-d444-0dc9-a02121d35c20" hidden="false" collective="false" import="true" targetId="b7d2c3a4-46a4-8201-e72e-32b53f869a7e" type="selectionEntry"/>
+                <entryLink id="ffe62b39-1fd5-d444-0dc9-a02121d35c20" hidden="false" collective="false" import="true" targetId="b7d2c3a4-46a4-8201-e72e-32b53f869a7e" type="selectionEntry" name="Hippogryph"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="200"/>
@@ -137,7 +137,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7633468c-0951-a262-4556-ace3ba32e78d" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+                <entryLink id="7633468c-0951-a262-4556-ace3ba32e78d" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21"/>
@@ -156,7 +156,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0ce3ccf3-77bb-535e-4fb0-1d8c83ea9da5" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+                <infoLink id="0ce3ccf3-77bb-535e-4fb0-1d8c83ea9da5" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -167,7 +167,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="f67709e0-2f43-7a5b-a69f-16d1054ced87" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
+                <infoLink id="f67709e0-2f43-7a5b-a69f-16d1054ced87" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="12"/>
@@ -178,7 +178,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="999e545d-ba09-c80b-b3e1-e580a57d4554" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
+                <infoLink id="999e545d-ba09-c80b-b3e1-e580a57d4554" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="28"/>
@@ -196,7 +196,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="56d53797-8644-387c-4d32-390979d9aee9" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile"/>
+                <infoLink id="56d53797-8644-387c-4d32-390979d9aee9" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile" name="Morning Star"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3"/>
@@ -219,7 +219,7 @@
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="f3d19776-4458-745e-1d34-377496f892f4" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
+                <infoLink id="f3d19776-4458-745e-1d34-377496f892f4" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="6"/>
@@ -237,7 +237,7 @@
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="59ead720-c1c0-016d-8cd8-789f266b783a" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile"/>
+                <infoLink id="59ead720-c1c0-016d-8cd8-789f266b783a" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="6"/>
@@ -271,11 +271,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="21be8c8f-2e1d-7d0a-4585-a6ecd26a50b5" hidden="false" targetId="1878ae8d-9dc2-c4cf-40a2-5658894ecd5a" type="rule"/>
-        <infoLink id="a3c3efc6-8d04-bfab-66eb-f58970ff0887" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
+        <infoLink id="21be8c8f-2e1d-7d0a-4585-a6ecd26a50b5" hidden="false" targetId="1878ae8d-9dc2-c4cf-40a2-5658894ecd5a" type="rule" name="Aura of the Lady"/>
+        <infoLink id="a3c3efc6-8d04-bfab-66eb-f58970ff0887" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1e96de9d-fc17-6524-b625-3c6fe3e346ae-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="1e96de9d-fc17-6524-b625-3c6fe3e346ae-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="51cdff1d-b131-caf3-ba75-5d06e6bead5b" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -288,9 +288,9 @@
                 <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="8a905786-74a1-8c99-fdc2-8d2ce1a5ec38" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup"/>
-                <entryLink id="36a5fb39-560c-7546-662d-6d24c97e0248" hidden="false" collective="false" import="true" targetId="549ecbb0-2b98-5965-d2be-e3c6bec791b9" type="selectionEntryGroup"/>
-                <entryLink id="f0f928fe-20b3-50e9-efac-d0c042036c7d" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup"/>
+                <entryLink id="8a905786-74a1-8c99-fdc2-8d2ce1a5ec38" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="36a5fb39-560c-7546-662d-6d24c97e0248" hidden="false" collective="false" import="true" targetId="549ecbb0-2b98-5965-d2be-e3c6bec791b9" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="f0f928fe-20b3-50e9-efac-d0c042036c7d" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -315,7 +315,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="d9fd048d-b74a-3158-0e0b-e12fd3dbb282" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile"/>
+                    <infoLink id="d9fd048d-b74a-3158-0e0b-e12fd3dbb282" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile" name="Barding"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4"/>
@@ -323,7 +323,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="45ed2cf7-1589-939d-a6c2-689533ba39b8" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+                <entryLink id="45ed2cf7-1589-939d-a6c2-689533ba39b8" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
@@ -435,18 +435,18 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="bc8f5051-f902-5a04-5454-d6b338b54dc4" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
+        <infoLink id="bc8f5051-f902-5a04-5454-d6b338b54dc4" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1441d8c5-6685-4017-d716-82efbf4da51c-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="1441d8c5-6685-4017-d716-82efbf4da51c-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3521ac64-8b1c-5536-c664-a519203a9187" name="Crew" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="7889c50f-6db2-be20-0738-afcc13f155f3" name="Peasant" publicationId="3a81ff07--pubN66518" page="57" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <profiles>
                 <profile id="6881ad74-aa43-3b17-5df1-c50bd9316d50" name="Peasant" publicationId="3a81ff07--pubN66518" page="57" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
@@ -528,14 +528,14 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="3bf170d2-0a5b-8a3e-cf50-04c940acf9db" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
-        <infoLink id="d064a80e-e9df-6261-747e-e17bfec0f3e8" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="e76fa784-6e84-23ab-76c2-f8645d6828e0" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
-        <infoLink id="668691db-28eb-9f8e-7620-ecc5335af3bd" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="5a626f9f-911a-a87c-0684-929b50f32d3b" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+        <infoLink id="3bf170d2-0a5b-8a3e-cf50-04c940acf9db" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
+        <infoLink id="d064a80e-e9df-6261-747e-e17bfec0f3e8" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="e76fa784-6e84-23ab-76c2-f8645d6828e0" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
+        <infoLink id="668691db-28eb-9f8e-7620-ecc5335af3bd" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="5a626f9f-911a-a87c-0684-929b50f32d3b" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="575b0d9d-ee6f-c3e8-be65-3d1b316d6e65-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="575b0d9d-ee6f-c3e8-be65-3d1b316d6e65-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="68e59be9-fd4c-97d2-72f8-43c623de8071" name="Grail Guardian" publicationId="3a81ff07--pubN66518" page="50" hidden="false" collective="false" import="true" type="model">
@@ -588,7 +588,7 @@
                     <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="0fb24f09-4fb0-da0a-5561-445ba130394a" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup"/>
+                    <entryLink id="0fb24f09-4fb0-da0a-5561-445ba130394a" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -600,7 +600,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="09d73fed-c9fd-f5b3-8a17-cd636b5749f5" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+        <entryLink id="09d73fed-c9fd-f5b3-8a17-cd636b5749f5" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -638,14 +638,14 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7e748828-7763-f13f-8547-747e3e44c995" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
-        <infoLink id="b672b7fa-055d-743d-b1f0-276dc421e5cb" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="b133f87b-ecb5-e6ca-e3e8-c1809d745307" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
-        <infoLink id="7614789c-234c-bd18-a4a9-9441451d4b17" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="8a8d0dec-1719-cb66-fa98-ea2cd577a671" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+        <infoLink id="7e748828-7763-f13f-8547-747e3e44c995" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
+        <infoLink id="b672b7fa-055d-743d-b1f0-276dc421e5cb" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="b133f87b-ecb5-e6ca-e3e8-c1809d745307" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
+        <infoLink id="7614789c-234c-bd18-a4a9-9441451d4b17" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="8a8d0dec-1719-cb66-fa98-ea2cd577a671" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d980a149-a4c1-b0cb-db3e-f7186d7d3e6f-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="d980a149-a4c1-b0cb-db3e-f7186d7d3e6f-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="96ddf819-bd83-6285-2544-3ca526bae742" name="Grail Knight" publicationId="3a81ff07--pubN66518" page="50" hidden="false" collective="false" import="true" type="model">
@@ -698,7 +698,7 @@
                     <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="ba565086-79ff-8f09-cce1-9b66ca84c33d" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup"/>
+                    <entryLink id="ba565086-79ff-8f09-cce1-9b66ca84c33d" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -710,7 +710,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6557c6e7-1e7a-b6d6-6c80-73df3ae3ca94" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+        <entryLink id="6557c6e7-1e7a-b6d6-6c80-73df3ae3ca94" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -769,15 +769,15 @@ third paragraph.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7889765b-018a-d99d-eeff-61d24f7b692c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="d67cd9dd-f735-545a-4541-4e0cee3d4e9a" hidden="false" targetId="bcef5af7-2c9f-7b48-645a-f46d1feae6a9" type="rule"/>
-        <infoLink id="8f7d34d0-3464-6bd4-4ccc-9dde3f114a32" hidden="false" targetId="42c9b57e-783d-866b-d670-d74b42ce663f" type="rule"/>
-        <infoLink id="ef06c59d-d39f-7fc7-a206-8edb19cbc49d" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="9183cad0-5c43-7d17-4dc2-2adae1b7a445" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
-        <infoLink id="72b1e3e0-c801-00ef-bf83-4b42026c628d" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+        <infoLink id="7889765b-018a-d99d-eeff-61d24f7b692c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="d67cd9dd-f735-545a-4541-4e0cee3d4e9a" hidden="false" targetId="bcef5af7-2c9f-7b48-645a-f46d1feae6a9" type="rule" name="Hatred"/>
+        <infoLink id="8f7d34d0-3464-6bd4-4ccc-9dde3f114a32" hidden="false" targetId="42c9b57e-783d-866b-d670-d74b42ce663f" type="rule" name="Stubborn"/>
+        <infoLink id="ef06c59d-d39f-7fc7-a206-8edb19cbc49d" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="9183cad0-5c43-7d17-4dc2-2adae1b7a445" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink id="72b1e3e0-c801-00ef-bf83-4b42026c628d" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="361da793-94b5-c818-c288-d31a766ea96d-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="361da793-94b5-c818-c288-d31a766ea96d-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2719c096-6976-8fef-1317-ff122b379a44" name="Battle Pilgrim" publicationId="3a81ff07--pubN66518" page="52" hidden="false" collective="false" import="true" type="model">
@@ -854,11 +854,11 @@ Ignore “even if normally immune to psychology.”</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="9d04069d-abc2-aaaa-715d-5d6d4226e085" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
-        <infoLink id="9316b66e-87fb-b2e2-8d91-511f52b3a3a2" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
+        <infoLink id="9d04069d-abc2-aaaa-715d-5d6d4226e085" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
+        <infoLink id="9316b66e-87fb-b2e2-8d91-511f52b3a3a2" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a52d42e8-6868-4a1f-98a5-194ba67e0823-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="a52d42e8-6868-4a1f-98a5-194ba67e0823-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d72f6ebe-c2e2-4de9-8009-b83a34eada4a" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f7afe12-9a98-1c3b-e667-751743e9d862">
@@ -897,11 +897,11 @@ Ignore “even if normally immune to psychology.”</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="8a18f5b1-8787-59c7-1d8c-0e4a63460859" hidden="false" targetId="1998cd9c-3a23-474d-a0b4-20830bf908f9" type="rule"/>
-                <infoLink id="f69df8f2-05bd-09d6-374a-c3e5a3bab854" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule"/>
-                <infoLink id="6bce1bd9-0ea3-c0f0-e5d9-6c5b4e41bde8" hidden="false" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" type="rule"/>
-                <infoLink id="ef44a466-3a9e-5e16-66e6-ef3c6b3de1d2" hidden="false" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" type="rule"/>
-                <infoLink id="167c2a77-cb9c-6caf-8b00-4dc6bdd07d10" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
+                <infoLink id="8a18f5b1-8787-59c7-1d8c-0e4a63460859" hidden="false" targetId="1998cd9c-3a23-474d-a0b4-20830bf908f9" type="rule" name="Thunderstomp"/>
+                <infoLink id="f69df8f2-05bd-09d6-374a-c3e5a3bab854" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule" name="Fly"/>
+                <infoLink id="6bce1bd9-0ea3-c0f0-e5d9-6c5b4e41bde8" hidden="false" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" type="rule" name="Large Target"/>
+                <infoLink id="ef44a466-3a9e-5e16-66e6-ef3c6b3de1d2" hidden="false" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" type="rule" name="Terror"/>
+                <infoLink id="167c2a77-cb9c-6caf-8b00-4dc6bdd07d10" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="230"/>
@@ -999,14 +999,14 @@ Ignore “even if normally immune to psychology.”</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="86d26d7b-6a03-ab90-e706-d3b2102a6ac8" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="77f3735c-b76e-8437-16fa-9fb31d8a3dc0" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
-        <infoLink id="304d35a8-e12c-3242-0a7a-6c0e7f33573a" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="150922e3-2324-d1a1-ddbc-ad9a8b0aa0e2" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
-        <infoLink id="640f1f8e-e28c-8b30-6d9e-57a81f67dd44" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+        <infoLink id="86d26d7b-6a03-ab90-e706-d3b2102a6ac8" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="77f3735c-b76e-8437-16fa-9fb31d8a3dc0" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
+        <infoLink id="304d35a8-e12c-3242-0a7a-6c0e7f33573a" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="150922e3-2324-d1a1-ddbc-ad9a8b0aa0e2" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink id="640f1f8e-e28c-8b30-6d9e-57a81f67dd44" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="818d852f-395a-ed72-80dc-0a87146a85b8-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="818d852f-395a-ed72-80dc-0a87146a85b8-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b38b8d25-b85b-7060-0fe1-ca5aee263497" name="Knight Errant" publicationId="3a81ff07--pubN66518" page="48" hidden="false" collective="false" import="true" type="model">
@@ -1059,7 +1059,7 @@ Ignore “even if normally immune to psychology.”</description>
                     <constraint field="points" scope="parent" value="25" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="95665ac5-eac5-f3f1-4fb0-bc9251411322" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup"/>
+                    <entryLink id="95665ac5-eac5-f3f1-4fb0-bc9251411322" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1099,7 +1099,7 @@ Ignore “even if normally immune to psychology.”</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4e1fd53d-e8fe-636c-8506-1b9572be2930" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+        <entryLink id="4e1fd53d-e8fe-636c-8506-1b9572be2930" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1107,14 +1107,14 @@ Ignore “even if normally immune to psychology.”</description>
     </selectionEntry>
     <selectionEntry id="b95e6207-c0cf-e868-6435-605712f6b9ec" name="Knights of the Realm" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="8a6f3009-a0ce-5780-d1bd-c20da35e9e3e" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
-        <infoLink id="e3d46d42-e17e-02b2-e8ee-bb3e19de85f5" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="55e87ced-2340-66c0-a8c3-7ab2d74ae7cc" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
-        <infoLink id="01c77f88-4501-251a-823f-ddbc74d809be" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="0c8caf2b-1d68-f210-d346-10104af98244" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+        <infoLink id="8a6f3009-a0ce-5780-d1bd-c20da35e9e3e" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
+        <infoLink id="e3d46d42-e17e-02b2-e8ee-bb3e19de85f5" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="55e87ced-2340-66c0-a8c3-7ab2d74ae7cc" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
+        <infoLink id="01c77f88-4501-251a-823f-ddbc74d809be" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="0c8caf2b-1d68-f210-d346-10104af98244" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b95e6207-c0cf-e868-6435-605712f6b9ec-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="b95e6207-c0cf-e868-6435-605712f6b9ec-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d14a8269-b86a-1060-2599-20d648e368b2" name="Knight of the Realm" publicationId="3a81ff07--pubN66518" page="49" hidden="false" collective="false" import="true" type="model">
@@ -1167,7 +1167,7 @@ Ignore “even if normally immune to psychology.”</description>
                     <constraint field="points" scope="parent" value="25" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="572f20d9-c6c2-156a-a69e-d77d981912d4" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup"/>
+                    <entryLink id="572f20d9-c6c2-156a-a69e-d77d981912d4" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1207,7 +1207,7 @@ Ignore “even if normally immune to psychology.”</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9282e545-29f1-49c8-e6c2-35bbb0d6543c" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+        <entryLink id="9282e545-29f1-49c8-e6c2-35bbb0d6543c" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1225,13 +1225,13 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="5a85b0cd-2fbe-095e-307a-3a4da315f42a" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="fe2ed6a7-ae6d-c553-c2c1-b4e650a64125" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="4ae117d3-5b60-5955-d4d4-537b5fb77e5d" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
-        <infoLink id="435c05ea-900f-2a92-3f25-aeb89cdeb639" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+        <infoLink id="5a85b0cd-2fbe-095e-307a-3a4da315f42a" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="fe2ed6a7-ae6d-c553-c2c1-b4e650a64125" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="4ae117d3-5b60-5955-d4d4-537b5fb77e5d" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink id="435c05ea-900f-2a92-3f25-aeb89cdeb639" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c3bc599e-667e-66d9-c225-aae92923a7c9-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="c3bc599e-667e-66d9-c225-aae92923a7c9-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d9ef593c-2fe0-db7c-4085-478da53930d5" name="Man-at-arms" publicationId="3a81ff07--pubN66518" page="52" hidden="false" collective="false" import="true" type="model">
@@ -1321,7 +1321,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="04b6773c-cbd4-6299-68bf-615fe9d40869" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile"/>
+                <infoLink id="04b6773c-cbd4-6299-68bf-615fe9d40869" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile" name="Halberd"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1332,7 +1332,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b8d7bebb-9ace-81f9-3781-e6d38c9c3160" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile"/>
+                <infoLink id="b8d7bebb-9ace-81f9-3781-e6d38c9c3160" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile" name="Spear (Foot)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1357,13 +1357,13 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="a4e1d937-6fe5-99be-3a62-d72d0fdad0a6" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="bc8612e6-66dd-4de4-36d1-071f23d06682" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="12f35a9c-e66d-acf2-e9d3-bdd641a76c84" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
-        <infoLink id="7275f844-e31e-65a5-ef83-d8186482a75e" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+        <infoLink id="a4e1d937-6fe5-99be-3a62-d72d0fdad0a6" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="bc8612e6-66dd-4de4-36d1-071f23d06682" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="12f35a9c-e66d-acf2-e9d3-bdd641a76c84" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink id="7275f844-e31e-65a5-ef83-d8186482a75e" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c5da1a9b-0e8b-970f-202a-912cef47589c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="c5da1a9b-0e8b-970f-202a-912cef47589c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ae02e31b-0d6e-bab4-1d8f-8afd4a83bcc9" name="Man-at-arms" publicationId="3a81ff07--pubN66518" page="52" hidden="false" collective="false" import="true" type="model">
@@ -1453,7 +1453,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="55e32ec6-f440-813d-f4c0-d25dfcd1e500" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile"/>
+                <infoLink id="55e32ec6-f440-813d-f4c0-d25dfcd1e500" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile" name="Halberd"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1464,7 +1464,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="4e0b7474-b4c0-d41c-ba60-ad822dd5b51a" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile"/>
+                <infoLink id="4e0b7474-b4c0-d41c-ba60-ad822dd5b51a" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile" name="Spear (Foot)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1489,7 +1489,7 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="489c51ef-abf4-64ca-faff-173ac8969ce1" hidden="false" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" type="rule">
+        <infoLink id="489c51ef-abf4-64ca-faff-173ac8969ce1" hidden="false" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" type="rule" name="Fast Cavalry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1498,10 +1498,10 @@ Ignore “even if normally immune to psychology.”</description>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="fa409efe-a4fc-c605-be14-9e1d22a97e00" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
+        <infoLink id="fa409efe-a4fc-c605-be14-9e1d22a97e00" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9edcb2f7-e506-f5e3-ee32-2f0b2ca8df59-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="9edcb2f7-e506-f5e3-ee32-2f0b2ca8df59-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a8c0918a-05b3-df71-af53-99b97486693c" name="Mounted Yeoman" publicationId="3a81ff07--pubN66518" page="54" hidden="false" collective="false" import="true" type="model">
@@ -1533,7 +1533,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0db4505c-9d3a-0833-881b-333e1b7bc685" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+                <infoLink id="0db4505c-9d3a-0833-881b-333e1b7bc685" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2"/>
@@ -1544,7 +1544,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="4fbc1e8d-962b-d135-5727-91cd722ff32d" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+                <infoLink id="4fbc1e8d-962b-d135-5727-91cd722ff32d" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
@@ -1606,7 +1606,7 @@ Ignore “even if normally immune to psychology.”</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b94692cf-6e0c-25b6-3bda-babef9e8dfcc" hidden="false" collective="false" import="true" targetId="5de6e484-123c-d2c3-e8cf-942f05130bf0" type="selectionEntry"/>
+        <entryLink id="b94692cf-6e0c-25b6-3bda-babef9e8dfcc" hidden="false" collective="false" import="true" targetId="5de6e484-123c-d2c3-e8cf-942f05130bf0" type="selectionEntry" name="Horse"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1633,11 +1633,11 @@ Ignore “even if normally immune to psychology.”</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e5f4f9f0-c97f-7505-faaf-35f5d171f945" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="6e317d94-1c24-7179-54c9-9017efa4645c" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
+        <infoLink id="e5f4f9f0-c97f-7505-faaf-35f5d171f945" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="6e317d94-1c24-7179-54c9-9017efa4645c" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="87359a1c-ee64-0d25-ebbc-47892f6b7d2a-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="87359a1c-ee64-0d25-ebbc-47892f6b7d2a-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fdcb761c-33ad-910c-a5d4-a760366f3761" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1645,7 +1645,7 @@ Ignore “even if normally immune to psychology.”</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="7a5811d4-fa85-0d98-eb05-f0aa6b2de35f" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+            <infoLink id="7a5811d4-fa85-0d98-eb05-f0aa6b2de35f" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="2"/>
@@ -1661,11 +1661,11 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="fbcbfcbd-3003-1a96-5eee-ae7d9585900b" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup"/>
-                <entryLink id="ebd0f8b5-bade-af34-9ad0-e8e39ef10473" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup"/>
-                <entryLink id="fd80ed6a-fc94-490e-04ac-5ab6221ef245" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup"/>
-                <entryLink id="b571f813-e049-5b39-86eb-64d4b543028b" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup"/>
-                <entryLink id="2e1e10c5-4b76-c82e-5979-02732655bc39" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup"/>
+                <entryLink id="fbcbfcbd-3003-1a96-5eee-ae7d9585900b" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="ebd0f8b5-bade-af34-9ad0-e8e39ef10473" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
+                <entryLink id="fd80ed6a-fc94-490e-04ac-5ab6221ef245" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="b571f813-e049-5b39-86eb-64d4b543028b" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
+                <entryLink id="2e1e10c5-4b76-c82e-5979-02732655bc39" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup" name="Virtues of the Chivalric Knight"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1686,7 +1686,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c676a85d-a7ea-b1d0-c764-242c9ec0c120" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry"/>
+                <entryLink id="c676a85d-a7ea-b1d0-c764-242c9ec0c120" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50"/>
@@ -1697,7 +1697,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="8a732378-358c-6696-c9f2-2f822e5168e5" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+                <entryLink id="8a732378-358c-6696-c9f2-2f822e5168e5" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="14"/>
@@ -1716,7 +1716,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1b01cb62-110b-073d-474a-907cc8bade31" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+                <infoLink id="1b01cb62-110b-073d-474a-907cc8bade31" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1727,7 +1727,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="3250024f-daa4-205f-697f-dc72ae6291d6" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
+                <infoLink id="3250024f-daa4-205f-697f-dc72ae6291d6" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8"/>
@@ -1738,7 +1738,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b3010744-6fb3-69b1-e724-941b1113741b" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
+                <infoLink id="b3010744-6fb3-69b1-e724-941b1113741b" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21"/>
@@ -1756,7 +1756,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="80af5b10-f87d-7dc2-e1e1-61bc356de53d" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile"/>
+                <infoLink id="80af5b10-f87d-7dc2-e1e1-61bc356de53d" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile" name="Morning Star"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2"/>
@@ -1779,7 +1779,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="212d67cf-deb0-d998-aa42-245e418a348e" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
+                <infoLink id="212d67cf-deb0-d998-aa42-245e418a348e" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4"/>
@@ -1797,7 +1797,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a1374207-d983-2eae-359c-8e7466151c52" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile"/>
+                <infoLink id="a1374207-d983-2eae-359c-8e7466151c52" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4"/>
@@ -1835,11 +1835,11 @@ Ignore “even if normally immune to psychology.”</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0ae804e1-9ef4-66ca-84d3-09c7e48e060b" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="bced9abb-38e5-bc69-2688-2cea7486a7a4" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
+        <infoLink id="0ae804e1-9ef4-66ca-84d3-09c7e48e060b" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="bced9abb-38e5-bc69-2688-2cea7486a7a4" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9a58ba5c-de76-57ec-25ed-873a4e828485-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="9a58ba5c-de76-57ec-25ed-873a4e828485-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c8fdbcbb-7781-0ba6-fdfd-86ec574d5879" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1864,15 +1864,15 @@ Ignore “even if normally immune to psychology.”</description>
                     <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="66769f79-81ce-c59e-c813-c691fd1fd06f" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup"/>
-                    <entryLink id="97440dec-cdb4-3bd1-845e-5c9fd911047a" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup"/>
-                    <entryLink id="5c952863-190f-c7a5-3db9-2531d7bac11f" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup"/>
-                    <entryLink id="0f599aa4-1018-a4f5-8708-3460c31522c8" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup"/>
+                    <entryLink id="66769f79-81ce-c59e-c813-c691fd1fd06f" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
+                    <entryLink id="97440dec-cdb4-3bd1-845e-5c9fd911047a" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                    <entryLink id="5c952863-190f-c7a5-3db9-2531d7bac11f" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
+                    <entryLink id="0f599aa4-1018-a4f5-8708-3460c31522c8" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="efe40d18-f1bf-68f2-e9a3-f959762bc84d" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup"/>
+                <entryLink id="efe40d18-f1bf-68f2-e9a3-f959762bc84d" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup" name="Virtues of the Chivalric Knight"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1892,12 +1892,23 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="93658d00-4e79-8f42-c1f4-33bc746b4a57" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup"/>
+                <entryLink id="93658d00-4e79-8f42-c1f4-33bc746b4a57" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="1790-2eb2-66f1-31cd" page="0" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b9e9-98aa-09cd-9493" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Shield" id="5764-27d9-8e8b-2910" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1913,7 +1924,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ff77c0b1-861d-0f27-3066-1bb630d6f13b" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry"/>
+                <entryLink id="ff77c0b1-861d-0f27-3066-1bb630d6f13b" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50"/>
@@ -1924,7 +1935,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ece35096-cc24-799b-8f73-7f5e484c4350" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+                <entryLink id="ece35096-cc24-799b-8f73-7f5e484c4350" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="14"/>
@@ -1943,7 +1954,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="544e38c4-5e05-232f-b87a-784da4e1c2b2" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+                <infoLink id="544e38c4-5e05-232f-b87a-784da4e1c2b2" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1954,7 +1965,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e74e5928-41a8-1e4e-54d4-099654930324" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
+                <infoLink id="e74e5928-41a8-1e4e-54d4-099654930324" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8"/>
@@ -1965,10 +1976,69 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c5d5f3e9-19b5-4c09-df89-68cbae8ec51d" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
+                <infoLink id="c5d5f3e9-19b5-4c09-df89-68cbae8ec51d" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon" id="3952-00c4-43c6-2487" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dbc3-2ba4-6329-bf66" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Morning Star" hidden="false" id="a180-150a-22c2-7d35" page="0" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8f34-9206-39f0-041c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Morning Star" id="913d-298d-5238-a2cc" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lance" hidden="false" id="5b4d-a5db-c000-de93" page="0" collective="false">
+              <modifiers>
+                <modifier type="increment" value="1" field="e586-206b-b39b-ff5b">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" childId="9ae6b348-c5f1-6f50-ce38-960941f8b324" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" childId="e81dacbc-1cd5-e38c-8677-cfed7e2ebb4c" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="false" id="e586-206b-b39b-ff5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Lance (mounted models only)" id="227a-4bf9-d49a-9283" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Great Weapon" hidden="false" id="b91b-53d5-083d-0fb9" page="0" collective="false">
+              <modifiers>
+                <modifier type="increment" value="1" field="b9ff-bf0d-d98b-d1b8">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" childId="2fe2d817-c361-62c0-d758-61a7af3dbe23" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="false" id="b9ff-bf0d-d98b-d1b8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Great Weapon" id="d1d6-1508-92e0-9435" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1990,12 +2060,12 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="eb0eccc7-65ad-168d-f3b0-b2c70c5dd09f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="4b91c48a-d765-3345-a275-0135880d6b85" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="b37cbc60-af33-8590-5fce-553a77a204ef" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile"/>
+        <infoLink id="eb0eccc7-65ad-168d-f3b0-b2c70c5dd09f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="4b91c48a-d765-3345-a275-0135880d6b85" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="b37cbc60-af33-8590-5fce-553a77a204ef" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="dd90cf2d-9a0c-3931-de7b-c8efcefeffdf-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="dd90cf2d-9a0c-3931-de7b-c8efcefeffdf-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3bb53cb6-235b-aefb-1997-f4c25491822a" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
@@ -2027,7 +2097,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="82d6f8de-855c-92dc-24da-3040cc822ec2" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+                <infoLink id="82d6f8de-855c-92dc-24da-3040cc822ec2" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
@@ -2043,7 +2113,7 @@ Ignore “even if normally immune to psychology.”</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1c905069-44ad-edfa-ed34-e3937fe4a90d" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule"/>
+            <infoLink id="1c905069-44ad-edfa-ed34-e3937fe4a90d" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5"/>
@@ -2134,12 +2204,12 @@ Obstacles, Fences.”</description>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="e1b4e504-2a7f-e02c-dfdb-c3af186f3532" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="91fe11d1-6a24-6bfe-5ccf-9384df76f5de" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="b019468f-8795-1652-7c68-872c866438f3" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile"/>
+        <infoLink id="e1b4e504-2a7f-e02c-dfdb-c3af186f3532" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="91fe11d1-6a24-6bfe-5ccf-9384df76f5de" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="b019468f-8795-1652-7c68-872c866438f3" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2162c30c-b8f7-c233-a27e-d966b9298d42-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="2162c30c-b8f7-c233-a27e-d966b9298d42-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2da7b9b8-fd43-9fa7-d66d-2a4f15cd8bde" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
@@ -2171,7 +2241,7 @@ Obstacles, Fences.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="407478f0-2e87-7d2d-0346-0ae3e6f5b0f5" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+                <infoLink id="407478f0-2e87-7d2d-0346-0ae3e6f5b0f5" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
@@ -2187,7 +2257,7 @@ Obstacles, Fences.”</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="04ea9036-3660-0e13-2857-35f0fb209c61" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule"/>
+            <infoLink id="04ea9036-3660-0e13-2857-35f0fb209c61" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5"/>
@@ -2278,13 +2348,13 @@ Obstacles, Fences.”</description>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3456e153-a16e-b5ad-f75c-180a6f22769c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="d95e5777-c8d8-b701-a2b7-7ff705f0e14a" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="02df7cd3-142b-4fe0-d08e-b6e63ba06042" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile"/>
-        <infoLink id="b6e5b6e4-6ea8-9db1-23b0-d028f565d944" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule"/>
+        <infoLink id="3456e153-a16e-b5ad-f75c-180a6f22769c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="d95e5777-c8d8-b701-a2b7-7ff705f0e14a" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="02df7cd3-142b-4fe0-d08e-b6e63ba06042" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
+        <infoLink id="b6e5b6e4-6ea8-9db1-23b0-d028f565d944" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f9fc96ff-22d2-a3d7-ac59-4431598a34c6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="f9fc96ff-22d2-a3d7-ac59-4431598a34c6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d1ee1745-8efc-2126-bd36-1b2e5f884a44" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
@@ -2316,7 +2386,7 @@ Obstacles, Fences.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="69e07944-866e-fd3d-dd60-56c01f760d87" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+                <infoLink id="69e07944-866e-fd3d-dd60-56c01f760d87" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
@@ -2332,7 +2402,7 @@ Obstacles, Fences.”</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="285aa69c-a348-1edf-aaa0-2472e7388185" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule"/>
+            <infoLink id="285aa69c-a348-1edf-aaa0-2472e7388185" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5"/>
@@ -2404,13 +2474,13 @@ Obstacles, Fences.”</description>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="6877c935-e48f-094e-b266-47b95a14c5ac" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule"/>
-        <infoLink id="68f87d93-2993-b53a-03e1-5cfe746a1564" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="c606f5b7-9887-8fc1-8812-c89f7b13b2d1" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile"/>
-        <infoLink id="69220d4d-1736-8605-1e15-a46b86c2f074" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule"/>
+        <infoLink id="6877c935-e48f-094e-b266-47b95a14c5ac" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="68f87d93-2993-b53a-03e1-5cfe746a1564" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="c606f5b7-9887-8fc1-8812-c89f7b13b2d1" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
+        <infoLink id="69220d4d-1736-8605-1e15-a46b86c2f074" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e9503594-7d8f-12a5-1da9-03812d63144e-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="e9503594-7d8f-12a5-1da9-03812d63144e-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ba9f8ffa-6c5e-5603-c9d9-ab8dfd6540f8" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
@@ -2442,7 +2512,7 @@ Obstacles, Fences.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="45362d0c-e1e7-2945-055e-e08b569d1e63" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
+                <infoLink id="45362d0c-e1e7-2945-055e-e08b569d1e63" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
@@ -2458,7 +2528,7 @@ Obstacles, Fences.”</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="51430d1a-120c-423b-e1f9-2f81703a9c60" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule"/>
+            <infoLink id="51430d1a-120c-423b-e1f9-2f81703a9c60" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5"/>
@@ -2552,13 +2622,13 @@ Ignore all the text after the words “Flying Cavalry”.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="59c30d0a-737e-55c3-03f8-e56bb772a6a5" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="52758a47-1f30-b86c-3021-bb964b1736f7" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
-        <infoLink id="06df4170-b1ab-e4a8-df67-9620042a9b5a" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="81446f8e-5f42-aa80-a99e-0c6cc3cdff27" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+        <infoLink id="59c30d0a-737e-55c3-03f8-e56bb772a6a5" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="52758a47-1f30-b86c-3021-bb964b1736f7" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
+        <infoLink id="06df4170-b1ab-e4a8-df67-9620042a9b5a" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="81446f8e-5f42-aa80-a99e-0c6cc3cdff27" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e8c94e70-6e0d-132d-ce4e-38525347c9be-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="e8c94e70-6e0d-132d-ce4e-38525347c9be-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fe121203-93bb-f9c8-5ed0-114ed16f2beb" name="Pegasus Knight" publicationId="3a81ff07--pubN66518" page="54" hidden="false" collective="false" import="true" type="model">
@@ -2586,7 +2656,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="9178c206-88f3-7a4e-7ef7-6c8b2a94ee40" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+            <infoLink id="9178c206-88f3-7a4e-7ef7-6c8b2a94ee40" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="55"/>
@@ -2644,7 +2714,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="cf59ad92-f041-df7f-1d44-9ae853111925" hidden="false" collective="false" import="true" targetId="33e9d559-b3ff-78c9-9c0b-dc7615fb654c" type="selectionEntry"/>
+        <entryLink id="cf59ad92-f041-df7f-1d44-9ae853111925" hidden="false" collective="false" import="true" targetId="33e9d559-b3ff-78c9-9c0b-dc7615fb654c" type="selectionEntry" name="Pegasus"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -2671,11 +2741,11 @@ Ignore all the text after the words “Flying Cavalry”.</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="40139db1-e3f5-f80f-f667-68485bdb62c0" hidden="false" targetId="1878ae8d-9dc2-c4cf-40a2-5658894ecd5a" type="rule"/>
-        <infoLink id="aca66e8f-e8e9-ab6d-2134-0311d10d7e57" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
+        <infoLink id="40139db1-e3f5-f80f-f667-68485bdb62c0" hidden="false" targetId="1878ae8d-9dc2-c4cf-40a2-5658894ecd5a" type="rule" name="Aura of the Lady"/>
+        <infoLink id="aca66e8f-e8e9-ab6d-2134-0311d10d7e57" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c8baec49-b77a-6833-1672-d637c9dd54dc-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="c8baec49-b77a-6833-1672-d637c9dd54dc-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="abe5091f-a2e9-2d30-0136-cf9b5731c4a9" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2688,9 +2758,9 @@ Ignore all the text after the words “Flying Cavalry”.</description>
                 <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c6b2ca86-2a04-e946-5763-857e644d3ba0" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup"/>
-                <entryLink id="adea3b1a-462e-6626-3490-b4ec855ea208" hidden="false" collective="false" import="true" targetId="549ecbb0-2b98-5965-d2be-e3c6bec791b9" type="selectionEntryGroup"/>
-                <entryLink id="84a64353-d22d-03cd-1442-3ae17b5a28a2" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup"/>
+                <entryLink id="c6b2ca86-2a04-e946-5763-857e644d3ba0" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="adea3b1a-462e-6626-3490-b4ec855ea208" hidden="false" collective="false" import="true" targetId="549ecbb0-2b98-5965-d2be-e3c6bec791b9" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="84a64353-d22d-03cd-1442-3ae17b5a28a2" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2710,7 +2780,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="59fd5c05-dda9-f0cd-6190-abd4e7067d1e" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry"/>
+                <entryLink id="59fd5c05-dda9-f0cd-6190-abd4e7067d1e" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50"/>
@@ -2726,7 +2796,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="747e919a-21f7-5d8f-deec-6ba44bbdd805" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile"/>
+                    <infoLink id="747e919a-21f7-5d8f-deec-6ba44bbdd805" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile" name="Barding"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="6"/>
@@ -2734,7 +2804,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="99b6ee82-1e99-b242-fe20-8e91f470e12e" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+                <entryLink id="99b6ee82-1e99-b242-fe20-8e91f470e12e" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15"/>
@@ -2823,14 +2893,14 @@ Ignore all the text after the words “Flying Cavalry”.</description>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="38571e13-86aa-dcf0-1d74-a9b1ff7aa9c2" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
-        <infoLink id="845b4a8a-614b-ec47-2bb0-470630c09414" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile"/>
-        <infoLink id="3cb424ba-96b9-08b6-d333-f8253ee71fa8" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile"/>
-        <infoLink id="dce5b967-587b-684a-fbe6-b162aa973f40" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="271d268a-4359-8175-67e6-43b2907d2a6c" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
+        <infoLink id="38571e13-86aa-dcf0-1d74-a9b1ff7aa9c2" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
+        <infoLink id="845b4a8a-614b-ec47-2bb0-470630c09414" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="3cb424ba-96b9-08b6-d333-f8253ee71fa8" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
+        <infoLink id="dce5b967-587b-684a-fbe6-b162aa973f40" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="271d268a-4359-8175-67e6-43b2907d2a6c" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e86e7899-609e-6163-2506-f2d858be2aeb-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="e86e7899-609e-6163-2506-f2d858be2aeb-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c8e5ad12-76ca-7f04-f35b-13491f893b55" name="Questing Knight" publicationId="3a81ff07--pubN66518" page="49" hidden="false" collective="false" import="true" type="model">
@@ -2883,7 +2953,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
                     <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="f7e533cc-00c5-55f9-2886-d8bb46ce58c9" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup"/>
+                    <entryLink id="f7e533cc-00c5-55f9-2886-d8bb46ce58c9" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2923,7 +2993,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8f88fbaf-c265-8c19-7d1e-e6c0123f8464" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry"/>
+        <entryLink id="8f88fbaf-c265-8c19-7d1e-e6c0123f8464" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -2975,7 +3045,7 @@ Replace Beasts of Chaos with Beastmen.</description>
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="1158f51a-ac50-edbb-911e-f454280336df-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="1158f51a-ac50-edbb-911e-f454280336df-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="767618ae-3017-ad04-7d5c-09a044aeb69b" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef4601da-f10e-f150-df50-21ff05d64e00">
@@ -3018,11 +3088,11 @@ their dice into dispelling a spell affecting them.”</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="7323bd23-8bad-076d-380c-a0e67f353017" hidden="false" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" type="rule"/>
-                <infoLink id="fde76ba4-116a-a587-2721-2f4c693a3a91" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule"/>
-                <infoLink id="73c63eb7-6324-6816-2b0a-8fc7606fe9e2" hidden="false" targetId="295dbafa-e830-d618-d50f-475d11eada72" type="rule"/>
-                <infoLink id="c67bb81a-2d4c-2f64-732d-a65d9e2c634a" hidden="false" targetId="72e3f8b1-da84-f90c-e896-e28252f6d164" type="rule"/>
-                <infoLink id="076229c0-1d53-deec-df15-9aa421194f97" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
+                <infoLink id="7323bd23-8bad-076d-380c-a0e67f353017" hidden="false" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" type="rule" name="Stomp"/>
+                <infoLink id="fde76ba4-116a-a587-2721-2f4c693a3a91" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule" name="Fly"/>
+                <infoLink id="73c63eb7-6324-6816-2b0a-8fc7606fe9e2" hidden="false" targetId="295dbafa-e830-d618-d50f-475d11eada72" type="rule" name="Magic Resistance (*)"/>
+                <infoLink id="c67bb81a-2d4c-2f64-732d-a65d9e2c634a" hidden="false" targetId="72e3f8b1-da84-f90c-e896-e28252f6d164" type="rule" name="Fear"/>
+                <infoLink id="076229c0-1d53-deec-df15-9aa421194f97" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="65"/>
@@ -3256,14 +3326,14 @@ Green Knight may move normally on the turn he appears.”</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="377343cb-7c86-2a7f-ba7d-cc7f4b438c8c" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile"/>
-        <infoLink id="910ea909-6dd0-8ac8-a2fe-7355db1375c8" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
-        <infoLink id="b9d35b2d-6b88-7a38-5343-8a2eb3610aea" hidden="false" targetId="2ec5a4fd-6baa-1a3b-63ab-cc491196ab6d" type="rule"/>
-        <infoLink id="46ccf366-701e-9968-c0c6-26209347e81c" hidden="false" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" type="rule"/>
-        <infoLink id="49f0f25e-3024-0f7c-a732-0a4bdb1c4607" hidden="false" targetId="1a89177c-b959-d231-39c0-5279109805d2" type="rule"/>
+        <infoLink id="377343cb-7c86-2a7f-ba7d-cc7f4b438c8c" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="910ea909-6dd0-8ac8-a2fe-7355db1375c8" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink id="b9d35b2d-6b88-7a38-5343-8a2eb3610aea" hidden="false" targetId="2ec5a4fd-6baa-1a3b-63ab-cc491196ab6d" type="rule" name="Immune to Psychology"/>
+        <infoLink id="46ccf366-701e-9968-c0c6-26209347e81c" hidden="false" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" type="rule" name="Terror"/>
+        <infoLink id="49f0f25e-3024-0f7c-a732-0a4bdb1c4607" hidden="false" targetId="1a89177c-b959-d231-39c0-5279109805d2" type="rule" name="Ethereal"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="52e31064-dcd9-7cf4-52d9-289f05bca1ea-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="52e31064-dcd9-7cf4-52d9-289f05bca1ea-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="53873a60-dd48-7a26-c918-8aba0d1e8a1e" name="Magic Items: Magic Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3cca8504-b74b-fcc3-4381-86a2314adde5">
@@ -3329,8 +3399,8 @@ Green Knight may move normally on the turn he appears.”</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="3a8d6661-2e28-2118-df65-e38c236724be" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
-                <infoLink id="6d535c08-d2ec-362b-dc40-3124131d2ed7" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile"/>
+                <infoLink id="3a8d6661-2e28-2118-df65-e38c236724be" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
+                <infoLink id="6d535c08-d2ec-362b-dc40-3124131d2ed7" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile" name="Barding"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -3375,8 +3445,8 @@ Green Knight may move normally on the turn he appears.”</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a288c942-da42-cce7-e461-2abc8e68a6da" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
-        <infoLink id="6f4f5a61-64e0-19aa-436e-a9551854042e" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile"/>
+        <infoLink id="a288c942-da42-cce7-e461-2abc8e68a6da" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
+        <infoLink id="6f4f5a61-64e0-19aa-436e-a9551854042e" hidden="false" targetId="0145b117-a391-6128-f81d-1196526ab8b9" type="profile" name="Barding"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -3412,7 +3482,7 @@ Green Knight may move normally on the turn he appears.”</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="230652f3-0ffd-195c-c564-ba9cff9e7845" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
+        <infoLink id="230652f3-0ffd-195c-c564-ba9cff9e7845" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -3443,11 +3513,11 @@ Green Knight may move normally on the turn he appears.”</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f00d3e03-4496-10f2-ca71-82d61bd76f0a" hidden="false" targetId="1998cd9c-3a23-474d-a0b4-20830bf908f9" type="rule"/>
-        <infoLink id="0378ad31-6f31-de59-a3e0-f3b6ed2043b5" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule"/>
-        <infoLink id="8b06f638-bebf-a84a-06a7-296ca0050d62" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
-        <infoLink id="47aac9c3-402a-38ac-2f6c-f3d920a468f4" hidden="false" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" type="rule"/>
-        <infoLink id="3134e4ef-1ea8-4048-ee7f-5bad76d876f2" hidden="false" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" type="rule"/>
+        <infoLink id="f00d3e03-4496-10f2-ca71-82d61bd76f0a" hidden="false" targetId="1998cd9c-3a23-474d-a0b4-20830bf908f9" type="rule" name="Thunderstomp"/>
+        <infoLink id="0378ad31-6f31-de59-a3e0-f3b6ed2043b5" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule" name="Fly"/>
+        <infoLink id="8b06f638-bebf-a84a-06a7-296ca0050d62" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
+        <infoLink id="47aac9c3-402a-38ac-2f6c-f3d920a468f4" hidden="false" targetId="f452cf33-7bcc-dab2-ae72-a58154328d14" type="rule" name="Large Target"/>
+        <infoLink id="3134e4ef-1ea8-4048-ee7f-5bad76d876f2" hidden="false" targetId="1244f5c7-fd90-598d-2908-d0b39f90d3cf" type="rule" name="Terror"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -3478,7 +3548,7 @@ Green Knight may move normally on the turn he appears.”</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e1c0aad8-a59a-5093-8e37-286b01f19f4a" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
+        <infoLink id="e1c0aad8-a59a-5093-8e37-286b01f19f4a" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -3509,10 +3579,10 @@ Green Knight may move normally on the turn he appears.”</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f4efd011-e9e8-e985-975a-fb154641e995" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
-        <infoLink id="fbf02bc1-e7ac-0011-f143-a1b903901f0c" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule"/>
-        <infoLink id="a2de467f-9744-2547-7a5a-a11a2a375517" hidden="false" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" type="rule"/>
-        <infoLink id="13cb3eb3-767c-4458-c22a-ea4f4207de27" hidden="false" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" type="rule"/>
+        <infoLink id="f4efd011-e9e8-e985-975a-fb154641e995" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
+        <infoLink id="fbf02bc1-e7ac-0011-f143-a1b903901f0c" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule" name="Fly"/>
+        <infoLink id="a2de467f-9744-2547-7a5a-a11a2a375517" hidden="false" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" type="rule" name="Stomp"/>
+        <infoLink id="13cb3eb3-767c-4458-c22a-ea4f4207de27" hidden="false" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" type="rule" name="Fast Cavalry"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -3543,10 +3613,10 @@ Green Knight may move normally on the turn he appears.”</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="eb31b564-f7c2-0720-213b-e7cef8bd6094" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule"/>
-        <infoLink id="82b9a5fa-2cc4-19c3-78e0-1720df22dcce" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule"/>
-        <infoLink id="2f07a112-5af5-171d-d11f-4e06fd28b974" hidden="false" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" type="rule"/>
-        <infoLink id="160e4ac2-e056-dbcd-f52d-e5ad94da8a41" hidden="false" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" type="rule"/>
+        <infoLink id="eb31b564-f7c2-0720-213b-e7cef8bd6094" hidden="false" targetId="725153c1-7674-1ce7-c441-699126b522ce" type="rule" name="Fly"/>
+        <infoLink id="82b9a5fa-2cc4-19c3-78e0-1720df22dcce" hidden="false" targetId="f7979fa6-7117-4457-4f53-b12894c14526" type="rule" name="Swiftstride"/>
+        <infoLink id="2f07a112-5af5-171d-d11f-4e06fd28b974" hidden="false" targetId="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" type="rule" name="Stomp"/>
+        <infoLink id="160e4ac2-e056-dbcd-f52d-e5ad94da8a41" hidden="false" targetId="c4e647a6-6c36-9f0b-49dd-ce8010420e45" type="rule" name="Fast Cavalry"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
