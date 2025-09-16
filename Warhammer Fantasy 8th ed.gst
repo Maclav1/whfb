@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Fantasy 8th ed" revision="9" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Fantasy 8th ed" revision="10" battleScribeVersion="2.03" authorName="Vincent Goede (StealthKnightSteg)" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=14&amp;t=124" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0" hidden="false"/>
   </costTypes>
@@ -63,12 +63,12 @@
       <categoryLinks>
         <categoryLink id="5374616e6461726423232344415441232323-4c6f72647323232344415441232323" name="Lords" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
           <constraints>
-            <constraint field="limit::points" scope="roster" value="50" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
+            <constraint field="limit::points" scope="roster" value="25" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-4865726f657323232344415441232323" name="Heroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
           <constraints>
-            <constraint field="limit::points" scope="roster" value="50" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
+            <constraint field="limit::points" scope="roster" value="25" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-436f726523232344415441232323" name="Core" hidden="false" targetId="436f726523232344415441232323" primary="false">
