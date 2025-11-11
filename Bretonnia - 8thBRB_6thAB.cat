@@ -1650,12 +1650,7 @@ Ignore “even if normally immune to psychology.”</description>
           </constraints>
           <rules>
             <rule id="c962f461-6fa8-fbfb-2f29-b33e6b60c5e7" name="Defensive Stakes (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="54" hidden="false">
-              <description>AMENDMENTS:
-Page 54 – Peasant Bowmen, Defensive Stakes.
-Ignore “[...] turning [...]” in the second paragraph.
-Page 54 – Peasant Bowmen, Defensive Stakes.
-Replace the last two paragraphs with “Defensive stakes are
-Obstacles, Fences.”</description>
+              <description>Defensive stakes are Obstacles, Fences.</description>
             </rule>
           </rules>
           <costs>
@@ -1745,9 +1740,7 @@ Obstacles, Fences.”</description>
       </constraints>
       <rules>
         <rule id="37fe8c15-dd48-b4cd-7ee3-dd169e5d1f20" name="Flying Cavalry (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="55" hidden="false">
-          <description>AMENDMENTS:
-Page 55 – Pegasus Knights, Flying Cavalry.
-Ignore all the text after the words “Flying Cavalry”.</description>
+          <description>Flying cavalry are treated as Fast Cavalry with the Fly special rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1808,7 +1801,7 @@ Ignore all the text after the words “Flying Cavalry”.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d464ca3d-5afc-62a6-cfd9-1500c0a28ef6" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3300,7 +3293,7 @@ Green Knight may move normally on the turn he appears.”</description>
       </profiles>
       <rules>
         <rule id="7cbec114-f87b-2c26-7265-6a66ff7e6bdd" name="Purebreed Warhorse" publicationId="3a81ff07--pubN66518" page="56" hidden="false">
-          <description>.</description>
+          <description>Bretonnian Warhorses do not suffer any movement penalties for being barded.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3337,7 +3330,7 @@ Green Knight may move normally on the turn he appears.”</description>
       </profiles>
       <rules>
         <rule id="d855a7f1-78f8-8653-752a-1406568d972b" name="Purebreed Warhorse" publicationId="3a81ff07--pubN66518" page="56" hidden="false">
-          <description>.</description>
+          <description>Bretonnian Warhorses do not suffer any movement penalties for being barded.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6118,6 +6111,7 @@ rule.”</description>
           </constraints>
           <infoLinks>
             <infoLink name="The Grail Vow" id="0c90-2ea4-ad54-7092" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
+            <infoLink name="The Blessing of the Lady" id="8fd1-8741-7e47-3c57" hidden="false" type="rule" targetId="06d8-0c6d-2668-c0ba"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
@@ -6129,6 +6123,7 @@ rule.”</description>
           </constraints>
           <infoLinks>
             <infoLink name="The Knight&apos;s Vow" id="86cf-ab0f-c189-abde" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+            <infoLink name="The Blessing of the Lady" id="e3fe-eab3-274f-60c2" hidden="false" type="rule" targetId="06d8-0c6d-2668-c0ba"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -6140,6 +6135,7 @@ rule.”</description>
           </constraints>
           <infoLinks>
             <infoLink name="The Questing Vow (FAQ&apos;ed)" id="72ce-7af5-b672-10c1" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
+            <infoLink name="The Blessing of the Lady" id="ba16-4863-bb74-8995" hidden="false" type="rule" targetId="06d8-0c6d-2668-c0ba"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10"/>
@@ -6178,7 +6174,7 @@ turn[...]” in the second paragraph</description>
       <description>Inflict a further -1 armour save modifier.</description>
     </rule>
     <rule id="1878ae8d-9dc2-c4cf-40a2-5658894ecd5a" name="Aura of the Lady" publicationId="3a81ff07--pubN66518" page="47" hidden="false">
-      <description>.</description>
+      <description>A Prophetess of the Lady has Magic Resistance (2). A Damsel of the Lady has Magic Resistance (1).</description>
     </rule>
     <rule id="13af1824-e85a-9db0-e710-d2b294327062" name="Breath Weapons" publicationId="3a81ff07--pubN92715" page="67" hidden="false">
       <description>.</description>
@@ -6325,22 +6321,16 @@ of the third paragraph.</description>
       <description>.</description>
     </rule>
     <rule id="ff8f06ad-533f-431b-63fc-06305551973c" name="The Grail Vow" publicationId="3a81ff07--pubN66518" page="43" hidden="false">
-      <description>.</description>
+      <description>Knights with the Grail Vow are Immune to Psychology.</description>
     </rule>
     <rule id="6f0d6579-84ef-a434-aad0-033cdc23d04d" name="The Knight&apos;s Vow" publicationId="3a81ff07--pubN66518" page="43" hidden="false">
-      <description>.</description>
+      <description>Knights with the Knight’s Vow may ignore Panic caused by friendly Peasants.</description>
     </rule>
-    <rule id="937ec604-c9ce-a0ad-3c46-926f75fdf87b" name="The Peasant&apos;s Duty (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="42" hidden="false">
-      <description>AMENDMENTS:
-Page 42 – Vow’s of Bretonnia, The Peasant’s Duty
-Change the second sentence to “Unit standards in units with
-the Peasant’s Duty do not confer any additional victory points.”</description>
+    <rule id="937ec604-c9ce-a0ad-3c46-926f75fdf87b" name="The Peasant&apos;s Duty" publicationId="3a81ff07--pubN66518" page="42" hidden="false">
+      <description>Models with the Peasant’s Duty may use the Leadership of any non-fleeing Knights within 6&quot; of them. Unit Standards in units with the Peasant’s Duty do not confer any additional Victory Points.</description>
     </rule>
-    <rule id="88e15dd5-8875-2e97-8d7a-395ca9babc0f" name="The Questing Vow (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="43" hidden="false">
-      <description>AMENDMENTS:
-Page 43 – Vow’s of Bretonnia,The Questing Vow
-Change “[...] failed Psychology tests [...]” to “[...] failed Fear
-and Terror tests [...]”.</description>
+    <rule id="88e15dd5-8875-2e97-8d7a-395ca9babc0f" name="The Questing Vow" publicationId="3a81ff07--pubN66518" page="43" hidden="false">
+      <description>Knights with the Questing Vow may ignore panic caused by friendly units and models with The Peasant’s Duty, may re-roll any failed Fear and Terror.</description>
     </rule>
     <rule id="1998cd9c-3a23-474d-a0b4-20830bf908f9" name="Thunderstomp" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
       <description>A Thunderstomp makes D6 hits on the target unit, rather than the single hit for a normal Stomp. It is otherwise treated exactly like a normal Stomp.</description>
@@ -6365,6 +6355,9 @@ and Terror tests [...]”.</description>
     </rule>
     <rule name="Hold Your Ground" id="5286-0f9b-9755-3c75" hidden="false">
       <description>This character and any unit they have joined is Unbreakable the first time it is required to make a break test and does not have to make a Panic test when a friendly unit of Peasantry Breaks and flees from combat whilst within 6&quot; of it. Additionally, unless this character is fleeing, any friendly Peasantry unit that is within their Command range may re-roll a failed Panic test.</description>
+    </rule>
+    <rule name="The Blessing of the Lady" id="06d8-0c6d-2668-c0ba" hidden="false">
+      <description>6+ ward. 5+ ward vs S5 or higher.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
