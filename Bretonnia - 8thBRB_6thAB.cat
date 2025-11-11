@@ -80,12 +80,12 @@
             <cost name="pts" typeId="points" value="3"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="520225e8-68d9-047a-38b4-4c082980631f" name="Magic Items and Virtues" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="520225e8-68d9-047a-38b4-4c082980631f" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d7c2c686-6438-4763-f69d-b008e6f2e121" name="Magic Items and Virtues" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d7c2c686-6438-4763-f69d-b008e6f2e121" name="Magic Items" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
@@ -94,13 +94,20 @@
                 <entryLink id="23407474-cfc2-812d-c173-29ac5b24161b" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
                 <entryLink id="1f66dc28-d408-3706-30c9-349c80431f6f" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
                 <entryLink id="1c7d94ba-a7b0-51b1-cabb-f5c299b355b8" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
-                <entryLink id="dad3126b-a26b-92b4-e79c-89bba64bd06a" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup" name="Virtues of the Chivalric Knight"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Virtues" hidden="false" id="d046-9692-51f1-d0af" page="0">
+          <entryLinks>
+            <entryLink import="true" name="Virtues of the Chivalric Knight" hidden="false" id="dad3126b-a26b-92b4-e79c-89bba64bd06a" collective="false" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f4f-a31e-6e03-e409" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -141,47 +148,6 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d941483d-2c81-25c9-6580-8b2539edf0ee" name="Vow" hidden="false" collective="false" import="true" defaultSelectionEntryId="5baa80ee-d959-1016-4da7-ebb5da9d9781">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5baa80ee-d959-1016-4da7-ebb5da9d9781" name="Knights Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="0ce3ccf3-77bb-535e-4fb0-1d8c83ea9da5" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="04e9b977-11c5-5fe8-b354-45f094a02d65" name="Questing Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f67709e0-2f43-7a5b-a69f-16d1054ced87" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="12"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cbe73d3f-ffc0-2c73-b302-9742334adae8" name="Grail Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="999e545d-ba09-c80b-b3e1-e580a57d4554" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="28"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -249,6 +215,9 @@
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Chivalric Vows" hidden="false" id="4686-e39b-0f70-d414" type="selectionEntryGroup" targetId="b199-a313-6e54-e715"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="1e96de9d-fc17-6524-b625-3c6fe3e346ae" name="Damsel of the Lady" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -593,7 +562,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -703,7 +672,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -718,20 +687,7 @@
     </selectionEntry>
     <selectionEntry id="361da793-94b5-c818-c288-d31a766ea96d" name="Grail Reliquae with Battle Pilgrims" page="0" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="maxInRoster" value="1">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d980a149-a4c1-b0cb-db3e-f7186d7d3e6f" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cbe73d3f-ffc0-2c73-b302-9742334adae8" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ae6b348-c5f1-6f50-ce38-960941f8b324" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="352b544c-2350-dc04-859d-d4f738755407" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a52d42e8-6868-4a1f-98a5-194ba67e0823" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="575b0d9d-ee6f-c3e8-be65-3d1b316d6e65" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
+        <modifier type="increment" field="maxInRoster" value="1"/>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -1046,7 +1002,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="7"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2e4be5ef-30f6-f4e4-edaf-7ecf1175b792" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1064,7 +1020,7 @@ Ignore “even if normally immune to psychology.”</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="30954858-867e-61d5-d922-b1c6801d330b" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1091,9 +1047,6 @@ Ignore “even if normally immune to psychology.”</description>
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1154,7 +1107,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="8"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="592d8f61-c865-7f0b-5343-583f66447ce9" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1172,7 +1125,7 @@ Ignore “even if normally immune to psychology.”</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="16"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c188a07-a75b-ddf1-6884-64e33f97e2bd" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1270,7 +1223,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="5"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="26cbec0c-37cf-4cea-5aad-c7f3e5e31eca" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1305,7 +1258,7 @@ Ignore “even if normally immune to psychology.”</description>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="12"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1333,138 +1286,6 @@ Ignore “even if normally immune to psychology.”</description>
               </constraints>
               <infoLinks>
                 <infoLink id="b8d7bebb-9ace-81f9-3781-e6d38c9c3160" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile" name="Spear (Foot)"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c5da1a9b-0e8b-970f-202a-912cef47589c" name="Men-at-arms (King&apos;s Army)" page="0" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="3">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9e52978-fc66-4a5d-9761-d2eb93a24920" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="a4e1d937-6fe5-99be-3a62-d72d0fdad0a6" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
-        <infoLink id="bc8612e6-66dd-4de4-36d1-071f23d06682" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
-        <infoLink id="12f35a9c-e66d-acf2-e9d3-bdd641a76c84" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
-        <infoLink id="7275f844-e31e-65a5-ef83-d8186482a75e" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="c5da1a9b-0e8b-970f-202a-912cef47589c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ae02e31b-0d6e-bab4-1d8f-8afd4a83bcc9" name="Man-at-arms" publicationId="3a81ff07--pubN66518" page="52" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="7b1b337e-960e-391c-6286-3305fd88c2bb" name="Man-at-arms" publicationId="3a81ff07--pubN66518" page="53" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                <characteristic name="BS" typeId="4.2532323234441546e+23">2</characteristic>
-                <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ff84d7e5-f9ed-562f-3313-27d2ab6fdf98" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="a599d732-cd6a-2c2a-2168-705c5c99b401" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6f728e5e-8259-0eaa-6724-eebfd9fbdf77" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="10"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="535d3820-5389-f464-7f66-c0eb428efbb8" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e4c4bfe3-5007-b3f1-2aef-dd87ab5d3d32" name="Yeoman Warden" publicationId="3a81ff07--pubN66518" page="53" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                    <characteristic name="WS" typeId="5.753232323444154e+23">3</characteristic>
-                    <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
-                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">2</characteristic>
-                    <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="12"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="21e09061-fecc-8f8c-51bb-c9056bc67969" name="Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="edbe545d-8d89-e283-0dec-03ba2cfd9e51" name="Pole-arm" page="0" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="55e32ec6-f440-813d-f4c0-d25dfcd1e500" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile" name="Halberd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c86f5e10-255a-948e-146e-8364cdaaa43b" name="Spear" page="0" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4e0b7474-b4c0-d41c-ba60-ad822dd5b51a" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile" name="Spear (Foot)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -1564,7 +1385,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="7"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db189ed9-e181-56a7-f966-0dfedc62e056" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1572,7 +1393,7 @@ Ignore “even if normally immune to psychology.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a4832f2-8b87-700e-5c62-4ee50cd27971" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1599,7 +1420,7 @@ Ignore “even if normally immune to psychology.”</description>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1612,18 +1433,18 @@ Ignore “even if normally immune to psychology.”</description>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87359a1c-ee64-0d25-ebbc-47892f6b7d2a" name="Paladin" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="87359a1c-ee64-0d25-ebbc-47892f6b7d2a" name="Seargent-at-Arms" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="931451e6-ee88-4664-d393-aa1462cb0035" name="Paladin" publicationId="3a81ff07--pubN66518" page="47" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+        <profile id="931451e6-ee88-4664-d393-aa1462cb0035" name="Seargent-at-Arms" publicationId="3a81ff07--pubN66518" page="47" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-            <characteristic name="WS" typeId="5.753232323444154e+23">5</characteristic>
-            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">4</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">2</characteristic>
             <characteristic name="S" typeId="5.323232344415441e+21">4</characteristic>
-            <characteristic name="T" typeId="5.423232344415441e+21">4</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
             <characteristic name="W" typeId="5.723232344415441e+21">2</characteristic>
-            <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
-            <characteristic name="A" typeId="4.123232344415441e+21">3</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">4</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">2</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
             <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
@@ -1634,7 +1455,8 @@ Ignore “even if normally immune to psychology.”</description>
       </profiles>
       <infoLinks>
         <infoLink id="e5f4f9f0-c97f-7505-faaf-35f5d171f945" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
-        <infoLink id="6e317d94-1c24-7179-54c9-9017efa4645c" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="6e317d94-1c24-7179-54c9-9017efa4645c" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
+        <infoLink name="Hold Your Ground" id="07fd-fa8d-c817-bb12" hidden="false" type="rule" targetId="5286-0f9b-9755-3c75"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="87359a1c-ee64-0d25-ebbc-47892f6b7d2a-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
@@ -1665,7 +1487,6 @@ Ignore “even if normally immune to psychology.”</description>
                 <entryLink id="ebd0f8b5-bade-af34-9ad0-e8e39ef10473" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
                 <entryLink id="fd80ed6a-fc94-490e-04ac-5ab6221ef245" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
                 <entryLink id="b571f813-e049-5b39-86eb-64d4b543028b" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
-                <entryLink id="2e1e10c5-4b76-c82e-5979-02732655bc39" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup" name="Virtues of the Chivalric Knight"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1677,71 +1498,19 @@ Ignore “even if normally immune to psychology.”</description>
       <selectionEntryGroups>
         <selectionEntryGroup id="bed5f7b6-01fb-2133-d500-5ca00f5f8dcb" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a3f38f4-86af-8fb8-fb91-0e45727d774b">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="03adeb7f-fb2c-3ebe-c713-46c6fbcc4fef" name="Royal Pegasus" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4a3f38f4-86af-8fb8-fb91-0e45727d774b" name="Bretonnian Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c676a85d-a7ea-b1d0-c764-242c9ec0c120" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
+                <entryLink id="8a732378-358c-6696-c9f2-2f822e5168e5" hidden="false" collective="false" import="true" targetId="2d759d58-081e-4072-22f3-de8e4cd15a6c" type="selectionEntry" name="Bretonnian Warhorse"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="50"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4a3f38f4-86af-8fb8-fb91-0e45727d774b" name="Barded Bretonnian Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="8a732378-358c-6696-c9f2-2f822e5168e5" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="14"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4695bcf5-65d8-0ed1-609e-b92287393647" name="Vow" hidden="false" collective="false" import="true" defaultSelectionEntryId="aea79bf1-d924-31d2-4912-39474b559d15">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="aea79bf1-d924-31d2-4912-39474b559d15" name="Knights Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1b01cb62-110b-073d-474a-907cc8bade31" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fd4511f5-1d41-8e55-b6eb-1f3c8bc3015b" name="Questing Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="3250024f-daa4-205f-697f-dc72ae6291d6" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="8"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="352b544c-2350-dc04-859d-d4f738755407" name="Grail Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="b3010744-6fb3-69b1-e724-941b1113741b" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="21"/>
+                <cost name="pts" typeId="points" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1751,294 +1520,37 @@ Ignore “even if normally immune to psychology.”</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ed8a3f72-ea46-56fd-3c5f-ddc64570ec44" name="Morning Star" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ed8a3f72-ea46-56fd-3c5f-ddc64570ec44" name=" Spear" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="80af5b10-f87d-7dc2-e1e1-61bc356de53d" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile" name="Morning Star"/>
+                <infoLink id="80af5b10-f87d-7dc2-e1e1-61bc356de53d" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile" name="Spear (Foot)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0a94c7fb-239e-fc9f-77cd-cf35761a2a29" name="Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="maxSelections" value="1">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="87359a1c-ee64-0d25-ebbc-47892f6b7d2a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="352b544c-2350-dc04-859d-d4f738755407" type="equalTo"/>
-                        <condition field="selections" scope="87359a1c-ee64-0d25-ebbc-47892f6b7d2a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aea79bf1-d924-31d2-4912-39474b559d15" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="212d67cf-deb0-d998-aa42-245e418a348e" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f93aae2f-4677-8bc5-b0cc-6de43df6ea82" name="Great Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="maxSelections" value="1">
-                  <conditions>
-                    <condition field="selections" scope="87359a1c-ee64-0d25-ebbc-47892f6b7d2a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd4511f5-1d41-8e55-b6eb-1f3c8bc3015b" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="a1374207-d983-2eae-359c-8e7466151c52" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="60"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9a58ba5c-de76-57ec-25ed-873a4e828485" name="Paladin (Army Battle Standard Bearer)" page="0" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="07b0a4ca-9598-45f3-e57f-ee7d4a3bd33d" name="Paladin" publicationId="3a81ff07--pubN66518" page="47" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-          <characteristics>
-            <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-            <characteristic name="WS" typeId="5.753232323444154e+23">5</characteristic>
-            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
-            <characteristic name="S" typeId="5.323232344415441e+21">4</characteristic>
-            <characteristic name="T" typeId="5.423232344415441e+21">4</characteristic>
-            <characteristic name="W" typeId="5.723232344415441e+21">2</characteristic>
-            <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
-            <characteristic name="A" typeId="4.123232344415441e+21">3</characteristic>
-            <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
-            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-            <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-            <characteristic name="MR" typeId="4d5223232344415441232323"/>
-            <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="0ae804e1-9ef4-66ca-84d3-09c7e48e060b" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
-        <infoLink id="bced9abb-38e5-bc69-2688-2cea7486a7a4" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9a58ba5c-de76-57ec-25ed-873a4e828485-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c8fdbcbb-7781-0ba6-fdfd-86ec574d5879" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="9550418a-8acc-f008-8635-f917db7ba51f" name="Magic Items and Virtues" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="71e83c25-a995-5cc1-510a-0fae7408dd91" name="Magic Items" hidden="false" collective="false" import="true">
-                  <modifiers>
-                    <modifier type="decrement" field="maxPoints" value="50">
-                      <conditions>
-                        <condition field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28023c03-9bdc-53c6-6f22-d80db5dc1c44" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="66769f79-81ce-c59e-c813-c691fd1fd06f" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
-                    <entryLink id="97440dec-cdb4-3bd1-845e-5c9fd911047a" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
-                    <entryLink id="5c952863-190f-c7a5-3db9-2531d7bac11f" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
-                    <entryLink id="0f599aa4-1018-a4f5-8708-3460c31522c8" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="efe40d18-f1bf-68f2-e9a3-f959762bc84d" hidden="false" collective="false" import="true" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup" name="Virtues of the Chivalric Knight"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f8fe5f17-44b7-fd18-da51-97b04a770127" name="Battle Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="28023c03-9bdc-53c6-6f22-d80db5dc1c44" name="Magic Items" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="93658d00-4e79-8f42-c1f4-33bc746b4a57" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="1790-2eb2-66f1-31cd" page="0" collective="false">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b9e9-98aa-09cd-9493" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Shield" id="5764-27d9-8e8b-2910" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="2"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0acd1f8a-a848-f47e-3b68-dda5ca8c1e32" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="77e3569b-d620-0dcc-61d1-b4204e566a8f">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="156d20e2-d6ec-88ed-a628-b8a0276d77e4" name="Royal Pegasus" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="ff77c0b1-861d-0f27-3066-1bb630d6f13b" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="50"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="77e3569b-d620-0dcc-61d1-b4204e566a8f" name="Barded Bretonnian Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="ece35096-cc24-799b-8f73-7f5e484c4350" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="14"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6cd0ea2b-104f-5ed0-28e2-68c3f6400db4" name="Vow" hidden="false" collective="false" import="true" defaultSelectionEntryId="e81dacbc-1cd5-e38c-8677-cfed7e2ebb4c">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e81dacbc-1cd5-e38c-8677-cfed7e2ebb4c" name="Knights Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0a94c7fb-239e-fc9f-77cd-cf35761a2a29" name="Cavalry Spear" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="544e38c4-5e05-232f-b87a-784da4e1c2b2" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2fe2d817-c361-62c0-d758-61a7af3dbe23" name="Questing Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="e74e5928-41a8-1e4e-54d4-099654930324" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="8"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9ae6b348-c5f1-6f50-ce38-960941f8b324" name="Grail Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c5d5f3e9-19b5-4c09-df89-68cbae8ec51d" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="21"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Weapon" id="3952-00c4-43c6-2487" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dbc3-2ba4-6329-bf66" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Morning Star" hidden="false" id="a180-150a-22c2-7d35" page="0" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8f34-9206-39f0-041c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Morning Star" id="913d-298d-5238-a2cc" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile"/>
+                <infoLink id="212d67cf-deb0-d998-aa42-245e418a348e" hidden="false" targetId="130f12b9-cc3d-4de8-903d-a3e25371ccac" type="profile" name="Spear (Mounted)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lance" hidden="false" id="5b4d-a5db-c000-de93" page="0" collective="false">
-              <modifiers>
-                <modifier type="increment" value="1" field="e586-206b-b39b-ff5b">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" childId="9ae6b348-c5f1-6f50-ce38-960941f8b324" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <condition type="equalTo" value="1" field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" childId="e81dacbc-1cd5-e38c-8677-cfed7e2ebb4c" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
+            <selectionEntry id="f93aae2f-4677-8bc5-b0cc-6de43df6ea82" name="Polearm" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="0" field="selections" scope="parent" shared="false" id="e586-206b-b39b-ff5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Lance (mounted models only)" id="227a-4bf9-d49a-9283" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile"/>
+                <infoLink id="a1374207-d983-2eae-359c-8e7466151c52" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile" name="Halberd"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Great Weapon" hidden="false" id="b91b-53d5-083d-0fb9" page="0" collective="false">
-              <modifiers>
-                <modifier type="increment" value="1" field="b9ff-bf0d-d98b-d1b8">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="9a58ba5c-de76-57ec-25ed-873a4e828485" childId="2fe2d817-c361-62c0-d758-61a7af3dbe23" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="0" field="selections" scope="parent" shared="false" id="b9ff-bf0d-d98b-d1b8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Great Weapon" id="d1d6-1508-92e0-9435" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
+                <cost name="pts" typeId="points" value="2"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2103,6 +1615,17 @@ Ignore “even if normally immune to psychology.”</description>
                 <cost name="pts" typeId="points" value="1"/>
               </costs>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="fbc4-9674-3f5a-4dff">
+              <infoLinks>
+                <infoLink name="Skirmishers (FAQ&apos;ed)" id="519f-8b09-befb-76ff" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c4d-4c6a-59d4-a303" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="6"/>
@@ -2119,9 +1642,9 @@ Ignore “even if normally immune to psychology.”</description>
             <cost name="pts" typeId="points" value="5"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fe41bb12-e063-e93f-4f96-210f4f09b6a7" name="Defensive Stakes" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe41bb12-e063-e93f-4f96-210f4f09b6a7" name="Defensive Stakes" page="0" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <rules>
@@ -2147,7 +1670,7 @@ Obstacles, Fences.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="5"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5a0d4944-ebf1-d3d9-9ccb-94ad3e2d0898" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2182,403 +1705,7 @@ Obstacles, Fences.”</description>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2162c30c-b8f7-c233-a27e-d966b9298d42" name="Peasant Bowmen (King&apos;s Army)" page="0" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="3">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9e52978-fc66-4a5d-9761-d2eb93a24920" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="e1b4e504-2a7f-e02c-dfdb-c3af186f3532" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
-        <infoLink id="91fe11d1-6a24-6bfe-5ccf-9384df76f5de" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
-        <infoLink id="b019468f-8795-1652-7c68-872c866438f3" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="2162c30c-b8f7-c233-a27e-d966b9298d42-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2da7b9b8-fd43-9fa7-d66d-2a4f15cd8bde" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="66f1c2f2-b8a6-ebb3-4871-a1bbbd5f7b3f" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="54" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntries>
-            <selectionEntry id="4b2a3223-b1a0-6b60-ab9a-41dad37465fb" name="Light Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="407478f0-2e87-7d2d-0346-0ae3e6f5b0f5" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="1"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="6"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4f0eeea7-6556-9600-f11c-3eecceea8850" name="Braziers" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="04ea9036-3660-0e13-2857-35f0fb209c61" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="31e196b1-c7fe-5013-ea02-c2844f2040b3" name="Defensive Stakes" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="c17a4591-d98a-5199-6ccb-dd4389929f78" name="Defensive Stakes (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="54" hidden="false">
-              <description>AMENDMENTS:
-Page 54 – Peasant Bowmen, Defensive Stakes.
-Ignore “[...] turning [...]” in the second paragraph.
-Page 54 – Peasant Bowmen, Defensive Stakes.
-Replace the last two paragraphs with “Defensive stakes are
-Obstacles, Fences.”</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4c5b85f9-3589-e512-3961-b32a32f9b176" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="e43700f6-0ac0-f61e-c2aa-06194700e4a8" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c0c582c3-3645-9ef6-feef-f657eed5bbe3" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
                 <cost name="pts" typeId="points" value="10"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4dae2709-fe93-96ca-8211-b50fcc73e772" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="547d1102-edb3-d10c-e25f-dea596e4d78d" name="Villein" publicationId="3a81ff07--pubN66518" page="54" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                    <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                    <characteristic name="BS" typeId="4.2532323234441546e+23">4</characteristic>
-                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                    <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f9fc96ff-22d2-a3d7-ac59-4431598a34c6" name="Peasant Bowmen (Skirmishers)" page="0" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a52d42e8-6868-4a1f-98a5-194ba67e0823" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="3456e153-a16e-b5ad-f75c-180a6f22769c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
-        <infoLink id="d95e5777-c8d8-b701-a2b7-7ff705f0e14a" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
-        <infoLink id="02df7cd3-142b-4fe0-d08e-b6e63ba06042" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
-        <infoLink id="b6e5b6e4-6ea8-9db1-23b0-d028f565d944" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f9fc96ff-22d2-a3d7-ac59-4431598a34c6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d1ee1745-8efc-2126-bd36-1b2e5f884a44" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="7ca37559-5bba-ded8-f392-cfb5e7763580" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="54" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntries>
-            <selectionEntry id="0a33620a-07b6-4df5-cc8f-7af44244e513" name="Light Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="69e07944-866e-fd3d-dd60-56c01f760d87" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="1"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="7"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="732f71e9-73af-2660-d11e-e7ea43bb83b4" name="Braziers" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="285aa69c-a348-1edf-aaa0-2472e7388185" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="20f6d630-0133-4aa9-7671-d0c1dc2f20de" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="6c86d7ab-3e95-5508-768e-16c7134f59e2" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="440181dd-bbeb-5f38-5ced-bd6a403c3fa1" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="10"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3e0e9ce0-d0d6-b3a5-60a5-0204bc9d942c" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3744db9b-64ac-f648-ce93-65f5993b91b9" name="Villein" publicationId="3a81ff07--pubN66518" page="54" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                    <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                    <characteristic name="BS" typeId="4.2532323234441546e+23">4</characteristic>
-                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                    <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e9503594-7d8f-12a5-1da9-03812d63144e" name="Peasant Bowmen (Skirmishers) (King&apos;s Army)" page="0" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="maxInRoster" value="3">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9e52978-fc66-4a5d-9761-d2eb93a24920" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="6877c935-e48f-094e-b266-47b95a14c5ac" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
-        <infoLink id="68f87d93-2993-b53a-03e1-5cfe746a1564" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
-        <infoLink id="c606f5b7-9887-8fc1-8812-c89f7b13b2d1" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
-        <infoLink id="69220d4d-1736-8605-1e15-a46b86c2f074" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e9503594-7d8f-12a5-1da9-03812d63144e-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ba9f8ffa-6c5e-5603-c9d9-ab8dfd6540f8" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="3947cec8-4302-f4a8-d13c-59f3cf917a06" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="54" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntries>
-            <selectionEntry id="37813131-e684-fc35-75b3-e3d8684c2ae9" name="Light Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="45362d0c-e1e7-2945-055e-e08b569d1e63" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="1"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="7"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0bd90377-064d-c447-830d-6b39716b1590" name="Braziers" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="51430d1a-120c-423b-e1f9-2f81703a9c60" hidden="false" targetId="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" type="rule" name="Flaming Attacks"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="9ea748b2-6fd5-cb81-0d96-ac4f6c7a98f7" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="49d773ce-af20-e0ef-ab4e-90ac2f72c9ae" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6645dfc5-7f52-0c90-cf8e-cea5b5879052" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="10"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="22f86e00-bad9-2009-67ff-1dcdc98ddacb" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="15b89b88-5ee7-b48c-0fff-2b32a71f157b" name="Villein" publicationId="3a81ff07--pubN66518" page="54" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                    <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
-                    <characteristic name="BS" typeId="4.2532323234441546e+23">4</characteristic>
-                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
-                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
-                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
-                    <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
-                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
-                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3411,6 +2538,773 @@ Green Knight may move normally on the turn he appears.”</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="275"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7cd-24cc-c0fb-e527" name="Yeoman Guard" page="0" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="cb0c-c517-62de-add9" value="0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a52d42e8-6868-4a1f-98a5-194ba67e0823" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86e1-2f6d-698f-c34c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1e97-6f5d-a58e-7f2d" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="13de-61d8-27fe-8136" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="91c7-dc5e-300a-9bfb" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink id="1b23-de43-8ee6-6a68" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca89-9fb3-b141-7830" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6b8e-029a-308f-50af" name="Yeoman Guard" publicationId="3a81ff07--pubN66518" page="52" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="649a-5653-e836-c6fc" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a1a2-19e8-68d7-8798" name="Yeoman Guard" publicationId="3a81ff07--pubN66518" page="53" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                <characteristic name="WS" typeId="5.753232323444154e+23">3</characteristic>
+                <characteristic name="BS" typeId="4.2532323234441546e+23">2</characteristic>
+                <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+                <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+                <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
+                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+                <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d810-637f-a7a0-1912" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="461b-894c-d380-eee3" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb0c-c517-62de-add9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="133b-6170-d14e-a832" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="357c-9f70-3922-2b26" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bfe9-57ee-f387-06a1" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="253f-c4e2-7326-2b4c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0ccd-cd3b-32ea-e198" name="Yeoman Warden" publicationId="3a81ff07--pubN66518" page="53" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                    <characteristic name="WS" typeId="5.753232323444154e+23">3</characteristic>
+                    <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
+                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+                    <characteristic name="A" typeId="4.123232344415441e+21">2</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                    <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="12"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="abe2-6283-5e87-fd1a" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="86b83ae0-bb87-9b60-a1f4-5115de2516bb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5dd2-226b-72b2-ad2b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="95ce-6597-49c0-144a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="278d-638a-4f17-19d4" name="Pole-arm" page="0" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8992-c492-1f27-bdfd" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="aa8b-e6bd-03c6-2229" hidden="false" targetId="ca2f4eb1-b7db-4b53-b54f-d1fb6d47d08c" type="profile" name="Halberd"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8582-9ab2-8c18-a7a3" name="Spear" page="0" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1a4-92f8-9997-83ed" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="95fd-d5e1-c0c0-a092" hidden="false" targetId="8387dc6f-67db-d567-90e4-5c7847d60d90" type="profile" name="Spear (Foot)"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42af-fd46-be33-c8e9" name="Outcast Wizard" page="0" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="60a0-0088-964b-f3c9" name="Outcast Wizard" publicationId="3a81ff07--pubN66518" page="47" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">3</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">2</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">7</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="241f-ebe6-c5b6-30a4" hidden="false" targetId="16da-0e9a-0376-b6c8" type="rule" name="Untutored Arcanist"/>
+        <infoLink id="6254-091d-09a3-4b38" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink name="Magic Resistance (*)" id="f42c-372c-1961-bfab" hidden="false" type="rule" targetId="295dbafa-e830-d618-d50f-475d11eada72">
+          <modifiers>
+            <modifier type="set" value="Magic Resistance (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="312d-f1ec-da33-a4c7" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="10f2-b22c-874e-1936" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bd00-c1ee-6727-f846" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c5f4-f332-a245-ea8c" name="Magic Items" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bab8-1eff-0f6c-2078" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="aa6d-d460-24f0-68f4" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="7b73-a7f8-bb66-ed45" hidden="false" collective="false" import="true" targetId="549ecbb0-2b98-5965-d2be-e3c6bec791b9" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="1ca3-4efc-1bf6-a1e2" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="43d3-7b7a-2b79-170b" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc5c-42c3-a359-5b91" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2e06-296f-f811-b8e6" name="Bretonnian Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8e0-2fbc-bc0a-3be5" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1b9e-91f4-fcd4-8dc1" hidden="false" collective="false" import="true" targetId="2d759d58-081e-4072-22f3-de8e4cd15a6c" type="selectionEntry" name="Bretonnian Warhorse"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a65d-11d6-45a0-61b8" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="0bd70e53-21ac-2f19-9c45-4b8e4fefd848">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09f5-b2f1-0b37-d130" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38ac-8906-1e83-a6bf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1a64-d2ff-600d-a2fd" name="Wizard Level 1" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6bf4-03b5-cc66-9e14" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ecc8-e594-01a0-c411" name="Wizard Level 2" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee11-1e80-23b4-9f07" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="35"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7dc9-085f-5bf9-6e1b" name="Lore" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52c9-98b8-4c82-f007" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e94-a498-c3dc-cfeb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="16ab-4816-ca5f-bcae" name="Lore of Life" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5dc1-7434-748f-b928" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4edd-dfc3-25cb-61b8" name="Lore of Beasts" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de44-04c0-c4ff-b85f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7397-3410-ad4c-2d7a" name="Lore of Undeath" publicationId="3a81ff07--pubN67095" page="15" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a893-2540-d9af-40f9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c7bd-de77-c788-e6de" name="Lore of Death" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c4f-a8c6-6e12-e203" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="85b4-86c7-b421-aa76" name="Lore of Fire" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0309-1e38-3048-aecf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="05ad-a903-f0b7-ba48" name="Lore of Light" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51e6-aa92-1b44-3990" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df6a-455a-84ac-b255" name="Lore of Heavens" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f4e9-0621-298f-2986" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8fa4-ceb0-48a8-e5c2" name="Lore of Shadow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77e5-a230-1fc9-aadb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dcd7-a75f-44ae-2404" name="Lore of Metal" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3704-1b26-d505-410d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4d0-835c-7b9f-fa6c" name="Paladin" page="0" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e0e9-237b-c412-8e3c" name="Paladin" publicationId="3a81ff07--pubN66518" page="47" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">5</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">4</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">4</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">2</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">3</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="415d-b9b4-906c-613a" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="2c64-767c-18cf-237d" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dae6-526f-5be8-881c" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="69e7-ef6c-0440-b99d" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab92-dba8-475c-e6c0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9b78-9b16-946b-4c93" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8215-2e1a-15c6-32a5" name="Magic Items and Virtues" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26e1-4291-8372-23fc" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="12d4-8a2b-de55-da26" name="Magic Items and Virtues" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6a6b-0705-383a-c114" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ce6a-ad96-6775-7dca" hidden="false" collective="false" import="true" targetId="1d990587-5ce7-e89e-ee33-a6c1c06dad72" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="a887-33bf-ec74-bf6d" hidden="false" collective="false" import="true" targetId="fb4fc5e4-145b-3ed7-56a0-9199b5b2ff84" type="selectionEntryGroup" name="Magic Armour"/>
+                <entryLink id="5871-dbee-ab55-cfed" hidden="false" collective="false" import="true" targetId="7f625cd7-4a12-7f64-2446-a1f79fc7527d" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="ae4f-11f4-2b3b-d61b" hidden="false" collective="false" import="true" targetId="e6bc392d-b5cc-5e33-0994-d01952022b40" type="selectionEntryGroup" name="Talismans"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Virtues" hidden="false" id="7a02-10b8-e14f-790f" page="0">
+          <entryLinks>
+            <entryLink import="true" name="Virtues of the Chivalric Knight" hidden="false" id="89b9-c4b7-89a5-3aa5" collective="false" targetId="58c16314-414a-70f1-da7e-60bfd17ffc1f" type="selectionEntryGroup"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd17-3e35-cc04-6550" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battle Standard Bearer" hidden="false" id="f8fe5f17-44b7-fd18-da51-97b04a770127" page="0" collective="false" defaultAmount="0">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="roster" shared="false" id="1adb-2932-9942-3ae2" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="false" id="d994-d1dd-e5ad-cde2" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Magic Standards" hidden="false" id="93658d00-4e79-8f42-c1f4-33bc746b4a57" collective="false" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="false" id="393e-576e-df3d-cc9b" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e9a0-839a-b2ea-f45e" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a3f38f4-86af-8fb8-fb91-0e45727d774b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fbd-dadd-9432-9b90" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ccc2-037b-a404-86a9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7047-ea8b-e08f-7c52" name="Royal Pegasus" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cfcb-9795-2947-7e6f" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="cdfb-28e5-edec-bc0c" hidden="false" collective="false" import="true" targetId="b14269fc-3201-ef5d-0fa8-81a89f2a6795" type="selectionEntry" name="Royal Pegasus"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7392-df36-5584-1d08" name="Barded Bretonnian Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="361e-d6cb-f26b-713b" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="257e-b040-5655-4eef" hidden="false" collective="false" import="true" targetId="1f04c8c0-7ad7-2abb-b497-a957c995857b" type="selectionEntry" name="Barded Bretonnian Warhorse"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="14"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ce02-d789-4e9a-9a9c" name="Vow" hidden="false" collective="false" import="true" defaultSelectionEntryId="aea79bf1-d924-31d2-4912-39474b559d15">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="891b-cd29-036d-490a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="616f-16fd-2fff-9b07" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="653e-c450-5403-40c8" name="Knights Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3dff-d4ff-4324-c809" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ed06-29c5-29e9-5f5c" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="25e9-dc6c-850c-8386" name="Questing Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d0cd-e6f8-12c8-c08b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7b5e-36ce-df85-8d8e" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="8"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d29a-61cc-6e3b-a73e" name="Grail Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f500-767d-ed62-32ab" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c9c2-c7cd-2e59-3dfa" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="21"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fac2-28c9-638d-721d" name="Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f62a-95f2-05bf-a151" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="af05-2eaa-6e42-0485" name="Morning Star" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de64-10f4-b10e-8cef" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="102b-a205-d3b0-6a6c" hidden="false" targetId="7ac5ae16-5e40-e60d-9814-1681f73ee48e" type="profile" name="Morning Star"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a963-32f8-ef70-a2dd" name="Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ab92-dba8-475c-e6c0" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d29a-61cc-6e3b-a73e" type="equalTo"/>
+                        <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="653e-c450-5403-40c8" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0b40-fbfd-7651-339c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="149f-46ca-6000-bb6e" hidden="false" targetId="3f81c701-faad-4585-b650-0502213013ac" type="profile" name="Lance (mounted models only)"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c2cb-1415-a36b-f2e2" name="Great Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ab92-dba8-475c-e6c0" value="1">
+                  <conditions>
+                    <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25e9-dc6c-850c-8386" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77ae-f418-578b-ce99" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="25f7-6097-2943-109a" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d49a-6944-6b21-1d48" name="Knights of the Realm on Foot" page="0" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3d27-25fc-b0e3-2f28" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
+        <infoLink id="771a-7d28-84d8-1898" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
+        <infoLink id="f7c1-5fe9-86a0-31da" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
+        <infoLink id="fa3e-a7eb-d4dc-6d0f" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
+        <infoLink id="320f-deca-9b90-3556" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
+        <infoLink name="Devastating Charge" id="4b1c-5723-89f4-f32f" hidden="false" type="rule" targetId="8b20d293-d13c-01ea-cb00-04e49dd4665b"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="da58-3c21-6565-b741" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="42b3-841b-d62d-5ec0" name="Knight of the Realm" publicationId="3a81ff07--pubN66518" page="49" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8744-59c4-79e0-4cb6" type="min"/>
+            <constraint field="selections" scope="parent" value="15" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fa5-5849-8c68-497f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="980b-09a3-bf1d-991f" name="Knight of the Realm" publicationId="3a81ff07--pubN66518" page="49" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                <characteristic name="WS" typeId="5.753232323444154e+23">4</characteristic>
+                <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+                <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+                <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+                <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
+                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+                <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5.479706523232345e+27">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="11"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="71a3-f440-6698-d7e5" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1811-72cd-cd61-4811" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c8f2-80b5-f848-067f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bbde-2e39-f60f-b9e5" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0805-3248-bc2d-a988" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c18f-b64d-b46c-1e4c" name="Magic Items" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="points" scope="parent" value="25" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cb7b-20b4-ddbd-c97f" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="90b1-a69d-1662-0425" hidden="false" collective="false" import="true" targetId="ae447971-6237-718a-29fd-6396868c5aa5" type="selectionEntryGroup" name="Magic Standards"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14cb-c6c1-8577-eca7" name="Champion" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ca6-4c26-ffa3-0693" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a6f-4676-ec60-45df" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="96dc-a58f-f0a2-b0e0" name="Gallant" publicationId="3a81ff07--pubN66518" page="49" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                    <characteristic name="WS" typeId="5.753232323444154e+23">4</characteristic>
+                    <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
+                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+                    <characteristic name="A" typeId="4.123232344415441e+21">2</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                    <characteristic name="Type" typeId="5.479706523232345e+27">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="289e-01f9-0b25-a647" name="Border Princes Bombard" publicationId="3a81ff07--pubN66518" page="56" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="52f9-4c2c-d1f7-a428" value="2">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9e52978-fc66-4a5d-9761-d2eb93a24920" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="52f9-4c2c-d1f7-a428" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c4d2-ac85-c4c3-e920" name="Border Princes Bombard" publicationId="3a81ff07--pubN66518" page="57" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">-</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">-</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">-</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">7</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">3</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">-</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5.479706523232345e+27">Warmachine (Cannon)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="734b-ec36-44d0-0b99" name="Bombard" page="0" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">60&quot;</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4 (8)</characteristic>
+            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Black Powder, Armour Piercing, Multiple Wounds (D3+1) (BRB-73)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4f73-53fd-8b56-0ba7" name="Grape Shot" page="0" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
+            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Armour Piercing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="29df-3256-c655-92fe" name="Border Princes Bombard" publicationId="3a81ff07--pubN66518" page="57" hidden="false">
+          <description>.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5aef-9894-1aca-008f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c1d3-4b0f-dd88-4217" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="84c5-6eb0-8350-b5e0" name="Crew" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0abf-2e00-52c4-5dc7" name="Peasant" publicationId="3a81ff07--pubN66518" page="57" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26ba-13ad-10b9-203b" type="min"/>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e0a-718d-a321-fe6e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4ace-3e39-0225-c84f" name="Peasant" publicationId="3a81ff07--pubN66518" page="57" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                    <characteristic name="WS" typeId="5.753232323444154e+23">2</characteristic>
+                    <characteristic name="BS" typeId="4.2532323234441546e+23">2</characteristic>
+                    <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+                    <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+                    <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
+                    <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+                    <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
+                    <characteristic name="LD" typeId="4c4423232344415441232323">5</characteristic>
+                    <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+                    <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                    <characteristic name="Type" typeId="5.479706523232345e+27">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3dfb-f5b1-56c7-75e1" name="Options" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="a2db-eaf8-1fa1-039e" name="Yeoman Craftsman" publicationId="3a81ff07--pubN66518" page="57" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2322-73f2-dc70-6436" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a0dd-5698-87a5-baa4" name="Yeoman Craftsman" publicationId="3a81ff07--pubN66518" page="57" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+                          <characteristics>
+                            <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                            <characteristic name="WS" typeId="5.753232323444154e+23">3</characteristic>
+                            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+                            <characteristic name="S" typeId="5.323232344415441e+21">3</characteristic>
+                            <characteristic name="T" typeId="5.423232344415441e+21">3</characteristic>
+                            <characteristic name="W" typeId="5.723232344415441e+21">1</characteristic>
+                            <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+                            <characteristic name="A" typeId="4.123232344415441e+21">1</characteristic>
+                            <characteristic name="LD" typeId="4c4423232344415441232323">6</characteristic>
+                            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                            <characteristic name="WardSave" typeId="5.761726453617665e+35"/>
+                            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                            <characteristic name="Type" typeId="5.479706523232345e+27">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -6251,6 +6145,57 @@ rule.”</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Chivalric Vows" id="b199-a313-6e54-e715" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Grail Vow" hidden="false" id="7d19-e9f0-baf7-aecd" page="0" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="09b9-d3b6-118d-cd6e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="The Grail Vow" id="0c90-2ea4-ad54-7092" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Knights Vow" hidden="false" id="f35a-4471-238a-dbcc" page="0" collective="false" defaultAmount="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6c6e-b14f-5117-8cf3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="The Knight&apos;s Vow" id="86cf-ab0f-c189-abde" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Questing Vow" hidden="false" id="2ac7-0d9c-5b60-1897" page="0" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f6cf-a239-0cf6-022c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="The Questing Vow (FAQ&apos;ed)" id="72ce-7af5-b672-10c1" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Exiles Vow" hidden="false" id="917f-e631-9ba5-de0e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="847a-3dbe-59fa-4dff"/>
+          </constraints>
+          <rules>
+            <rule name="Exiles Vow" id="ca0d-0e86-e8dd-0738" hidden="false">
+              <description>A model with this Chivalrous Vow has the Stubborn and may re-roll any failed Leadership test. In addition, a model with this Chivalrous Vow does not have to make a Panic test when a friendly Peasantry unit destroyed whilst within 6&quot; of it, or when it is fled through by a friendly Peasantry unit.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="829c-20a3-6374-deaa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3cc1-d254-d60f-6a22" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="66" hidden="false">
@@ -6342,7 +6287,7 @@ Add the following sentence to the end of the third paragraph:
       <description>.</description>
     </rule>
     <rule id="295dbafa-e830-d618-d50f-475d11eada72" name="Magic Resistance (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="00a59623-f578-195e-fda9-e41593e64320" name="Monster and Handlers" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>.</description>
@@ -6462,6 +6407,12 @@ up to 12&quot;[...]”.</description>
     </rule>
     <rule id="8862c837-1068-e6fb-3ab7-67daeabecad8" name="Ward Save (*)" publicationId="3a81ff07--pubN92715" page="44" hidden="false">
       <description>.</description>
+    </rule>
+    <rule name="Untutored Arcanist" id="16da-0e9a-0376-b6c8" hidden="false">
+      <description>When required to roll on the Miscast table, a Wizard with this special rule must roll an extra D6 and discard the highest result.</description>
+    </rule>
+    <rule name="Hold Your Ground" id="5286-0f9b-9755-3c75" hidden="false">
+      <description>This character and any unit they have joined is Unbreakable the first time it is required to make a break test and does not have to make a Panic test when a friendly unit of Peasantry Breaks and flees from combat whilst within 6&quot; of it. Additionally, unless this character is fleeing, any friendly Peasantry unit that is within their Command range may re-roll a failed Panic test.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
