@@ -5940,7 +5940,7 @@ rule.”</description>
           </constraints>
           <rules>
             <rule id="4fc4954b-2baa-eb65-64e6-4399b41fe4ac" name="Virtue of Confidence" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+              <description>The Knight must always issue challenges and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls To Hit and To Wound.</description>
             </rule>
           </rules>
           <costs>
