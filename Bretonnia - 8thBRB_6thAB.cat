@@ -6163,21 +6163,19 @@ rule.”</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="66" hidden="false">
-      <description>ERRATA
-Change “[...]re-roll failed misses[...]” to “[...]re-roll
-misses[...]” in the first sentence of the third paragraph.</description>
+    <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First" publicationId="3a81ff07--pubN92715" page="66" hidden="false">
+      <description/>
     </rule>
     <rule id="506ef23a-4045-db8d-e93a-0ce58786a1d0" name="Always Strikes Last" publicationId="3a81ff07--pubN92715" page="66" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
-    <rule id="51bc8283-c9af-58da-7fb6-26db57953123" name="Ambushers (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
+    <rule id="51bc8283-c9af-58da-7fb6-26db57953123" name="Ambushers" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
 turn[...]” in the second paragraph</description>
     </rule>
     <rule id="7ce3bf68-3662-ffd5-80f4-6e351a0e27c8" name="Armour Piercing" publicationId="3a81ff07--pubN92715" page="67" hidden="false">
-      <description>.</description>
+      <description>Inflict a further -1 armour save modifier.</description>
     </rule>
     <rule id="1878ae8d-9dc2-c4cf-40a2-5658894ecd5a" name="Aura of the Lady" publicationId="3a81ff07--pubN66518" page="47" hidden="false">
       <description>.</description>
@@ -6186,89 +6184,82 @@ turn[...]” in the second paragraph</description>
       <description>.</description>
     </rule>
     <rule id="8b20d293-d13c-01ea-cb00-04e49dd4665b" name="Devastating Charge" publicationId="3a81ff07--pubN92715" page="68" hidden="false">
-      <description>.</description>
+      <description>Models with this special rule have +1 Attack during a turn in which they charge into combat.</description>
     </rule>
     <rule id="1a89177c-b959-d231-39c0-5279109805d2" name="Ethereal" publicationId="3a81ff07--pubN92715" page="68" hidden="false">
       <description>.</description>
     </rule>
-    <rule id="339e1112-3ae9-9a19-cf25-9630a0f418b0" name="Extra Attack (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description>ERRATA:
-Add “Unlike most special rules, the effects of multiple Extra
-Attack special rules are cumulative.”</description>
+    <rule id="339e1112-3ae9-9a19-cf25-9630a0f418b0" name="Extra Attack" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
+      <description/>
     </rule>
     <rule id="c4e647a6-6c36-9f0b-49dd-ce8010420e45" name="Fast Cavalry" publicationId="3a81ff07--pubN92715" page="68" hidden="false">
-      <description>.</description>
+      <description>Vanguard, Free Reform, Feigned Flight, Fire on the March</description>
     </rule>
     <rule id="72e3f8b1-da84-f90c-e896-e28252f6d164" name="Fear" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description>.</description>
+      <description>Ld test or WS1.</description>
     </rule>
-    <rule id="89030c82-ff54-718d-7b50-0f6082aab34a" name="Fight in Extra Ranks (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description>ERRATA
-Add “Unlike most special rules, the effects of multiple Fight
-In Extra Ranks special rules are cumulative.”</description>
+    <rule id="89030c82-ff54-718d-7b50-0f6082aab34a" name="Fight in Extra Ranks" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
+      <description>Supporting attacks can be made by an extra rank than normal on a turn in which the unit did not charge. </description>
     </rule>
     <rule id="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" name="Flaming Attacks" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="6703c2f1-81d5-99f6-12ab-ed33586ed9d6" name="Flammable" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
       <description>.</description>
     </rule>
     <rule id="725153c1-7674-1ce7-c441-699126b522ce" name="Fly" publicationId="3a81ff07--pubN92715" page="70" hidden="false">
-      <description>.</description>
+      <description>All flyers have the Swiftstride special rule. In addition, because of their loose fighting style, flying units consisting of more than one model have the Skirmishers special rule.</description>
     </rule>
     <rule id="af03fac0-955d-1daf-56b1-800286437886" name="Frenzy" publicationId="3a81ff07--pubN92715" page="70" hidden="false">
-      <description>.</description>
+      <description>Frenzied troops have the Extra Attack and Immune to Psychology special rules. Ld or must charge if possible. Frenzied models cannot parry.</description>
     </rule>
     <rule id="bcef5af7-2c9f-7b48-645a-f46d1feae6a9" name="Hatred" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
-      <description>.</description>
+      <description>A model striking a hated foe in close combat re-rolls all misses during the first round of combat.</description>
     </rule>
     <rule id="64b58a13-462b-9a11-feca-356b29d99611" name="Heroic Killing Blow" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
-      <description>.</description>
+      <description>6 to wound in close combat automatically slays his opponent. Ward save allowed.</description>
     </rule>
     <rule id="30541fc5-105f-0ad1-2cca-e0f74a6cef30" name="Hover" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
-      <description>.</description>
+      <description>Models with the Hover special rule follow all the rules for Flyers, but cannot march.</description>
     </rule>
     <rule id="3bd8fe18-23cc-055e-5729-c52fbff89b18" name="Ignores Cover" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
-      <description>.</description>
+      <description>Ignore To Hit penalties imposed by soft cover, hard cover and obstacles.</description>
     </rule>
     <rule id="2ec5a4fd-6baa-1a3b-63ab-cc491196ab6d" name="Immune to Psychology" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
-      <description>.</description>
+      <description>Automatically passes all Panic, Fear and Terror tests.</description>
     </rule>
-    <rule id="2ae965fd-cad2-7c59-87f6-3aebac1ca166" name="Impact Hits (xx) (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
-      <description>ERRATA:
-Change “[...]this rule has no effect.” to “[...]no Impact Hits
-are inflicted.”
-
-Add the following sentence to the end of the third paragraph:
-‘“Look Out Sir!” rolls cannot be taken against Impact Hits.’</description>
+    <rule id="2ae965fd-cad2-7c59-87f6-3aebac1ca166" name="Impact Hits (*)" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
+      <description/>
     </rule>
     <rule id="18f1fdf8-904b-4bd9-70ca-076d059a93b4" name="Killing Blow" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
-      <description>.</description>
+      <description>6 to wound in close combat automatically slays his opponent. Ward save allowed. Killing Blow is only effective against infantry, cavalry and war beasts.</description>
     </rule>
     <rule id="f452cf33-7bcc-dab2-ae72-a58154328d14" name="Large Target" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
-      <description>.</description>
+      <description>Large Targets cannot claim cover modifiers for obstacles. 18&quot; Ld bubble.</description>
     </rule>
     <rule id="5b45d601-c566-a78f-6603-7d165fa3924f" name="Loremaster (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
-      <description>.</description>
+      <description>A Wizard with the Loremaster special rule knows all the spells from his chosen lore.</description>
     </rule>
-    <rule id="295dbafa-e830-d618-d50f-475d11eada72" name="Magic Resistance (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false"/>
+    <rule id="295dbafa-e830-d618-d50f-475d11eada72" name="Magic Resistance (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
+      <description>Bonus to its ward saves when saving against damage caused by spells.</description>
+    </rule>
     <rule id="00a59623-f578-195e-fda9-e41593e64320" name="Monster and Handlers" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>.</description>
     </rule>
     <rule id="31fc16e6-e064-bd5e-f7f5-362426a1f032" name="Move or Fire" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="9f6ee11a-4485-fde1-27b3-db8cbd3ca37d" name="Multiple Shots" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>.</description>
     </rule>
     <rule id="dda6390b-d475-5ed6-efef-e5b09e505cc7" name="Multiple Wounds" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="40e12001-6361-bf57-601e-950b784768e8" name="Poisoned Attacks" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="f9b16f9c-a7ca-4c5a-c757-8c0209d64d29" name="Quick to Fire" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description>.</description>
+      <description>Do not suffer the usual -1 To Hit penalty for moving and shooting. Quick to Fire weapons can always be used to Stand and Shoot against a charging enemy.</description>
     </rule>
     <rule id="dbac061e-a777-5db9-f438-e21d8576b233" name="Random Attacks" publicationId="3a81ff07--pubN92715" page="74" hidden="false">
       <description>.</description>
@@ -6281,13 +6272,13 @@ then the Swiftstride special rule is not used.” to the end of the
 first paragraph.</description>
     </rule>
     <rule id="a88b281a-8c08-d36a-66f2-e38c579be244" name="Regeneration" publicationId="3a81ff07--pubN92715" page="74" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="01aedf4c-20ca-95e4-5f99-5fa56de78795" name="Requires Two Hands" publicationId="3a81ff07--pubN92715" page="75" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="30aa0bb8-bb94-7b5b-d1ba-a88f7b06c229" name="Scaly Skin (*)" publicationId="3a81ff07--pubN92715" page="75" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="fb5b0f7e-a4da-28ab-3e3b-5124ba1ff3bd" name="Scouts" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
       <description>.</description>
@@ -6307,7 +6298,7 @@ Change “[...]zero ranks[...]” to “[...]zero ranks in
 combat[...]”.</description>
     </rule>
     <rule id="107964da-8090-c90b-337f-0c679dcc9244" name="Slow to Fire" publicationId="3a81ff07--pubN92715" page="75" hidden="false">
-      <description>.</description>
+      <description>Weapons with the Slow to Fire special rule cannot be used to Stand and Shoot.</description>
     </rule>
     <rule id="7f959639-6572-032d-d6d5-330f8499c3ef" name="Sniper (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="75" hidden="false">
       <description>ERRATA:
@@ -6316,19 +6307,19 @@ and Shoot charge reaction, a model making a[...]” at the start
 of the third paragraph.</description>
     </rule>
     <rule id="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" name="Stomp" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
-      <description>.</description>
+      <description>A Stomp has the Always Strikes Last special rule, and inflicts 1 automatic hit, at the model&apos;s Strength, on one enemy infantry, war beasts or swarm unit in base contact with the model. </description>
     </rule>
     <rule id="c70d941b-4092-4d1a-6109-7c9333bb2d64" name="Strider (xxx)" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
       <description>.</description>
     </rule>
     <rule id="42c9b57e-783d-866b-d670-d74b42ce663f" name="Stubborn" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
-      <description>.</description>
+      <description>Stubborn units are always steadfast.</description>
     </rule>
     <rule id="3bf43825-824a-2c69-9e47-55ed7a6c891e" name="Stupidity" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
       <description>.</description>
     </rule>
     <rule id="f7979fa6-7117-4457-4f53-b12894c14526" name="Swiftstride" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
-      <description>.</description>
+      <description>When charging, units entirely made of models with the Swiftstride special rule roll 3D6, discard the lowest result, and add the result to their Move value. When fleeing and pursuing, units entirely made of models with the Swiftstride special rule roll 3D6 and discard the lowest result.</description>
     </rule>
     <rule id="1244f5c7-fd90-598d-2908-d0b39f90d3cf" name="Terror" publicationId="3a81ff07--pubN92715" page="78" hidden="false">
       <description>.</description>
@@ -6352,24 +6343,22 @@ Change “[...] failed Psychology tests [...]” to “[...] failed Fear
 and Terror tests [...]”.</description>
     </rule>
     <rule id="1998cd9c-3a23-474d-a0b4-20830bf908f9" name="Thunderstomp" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
-      <description>.</description>
+      <description>A Thunderstomp makes D6 hits on the target unit, rather than the single hit for a normal Stomp. It is otherwise treated exactly like a normal Stomp.</description>
     </rule>
     <rule id="08ef7313-4fa1-a59c-c23c-720c924ea55d" name="Unbreakable" publicationId="3a81ff07--pubN92715" page="78" hidden="false">
-      <description>.</description>
+      <description>A unit composed entirely of Unbreakable models is Immune to Psychology and passes Break tests automatically, no matter the odds!</description>
     </rule>
     <rule id="ae64f9ca-b1d0-a0bc-6066-8f072802733f" name="Unstable" publicationId="3a81ff07--pubN92715" page="78" hidden="false">
       <description>.</description>
     </rule>
-    <rule id="923ffa4c-0e4a-2519-75cc-24414fe9744b" name="Vanguard (FAQ&apos;ed)" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
-      <description>ERRATA:
-Change “[...]make a 12&quot; move[...]” to “[...]make a move of
-up to 12&quot;[...]”.</description>
+    <rule id="923ffa4c-0e4a-2519-75cc-24414fe9744b" name="Vanguard" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
+      <description>After both sides have deployed all their other forces (including Scouts), but before either side has taken a turn, units with the Vanguard special rule can immediately make a 12&quot; move.</description>
     </rule>
     <rule id="ba4f0bef-d731-3f34-7261-466b3c4f850f" name="Volley Fire" publicationId="3a81ff07--pubN92715" page="78" hidden="false">
-      <description>.</description>
+      <description>Half the models in the third and any subsequent ranks, rounding up, are allowed to shoot. Cannot move.</description>
     </rule>
     <rule id="8862c837-1068-e6fb-3ab7-67daeabecad8" name="Ward Save (*)" publicationId="3a81ff07--pubN92715" page="44" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule name="Untutored Arcanist" id="16da-0e9a-0376-b6c8" hidden="false">
       <description>When required to roll on the Miscast table, a Wizard with this special rule must roll an extra D6 and discard the highest result.</description>
