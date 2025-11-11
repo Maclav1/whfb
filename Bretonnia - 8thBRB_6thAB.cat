@@ -2972,47 +2972,6 @@ Green Knight may move normally on the turn he appears.”</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ce02-d789-4e9a-9a9c" name="Vow" hidden="false" collective="false" import="true" defaultSelectionEntryId="aea79bf1-d924-31d2-4912-39474b559d15">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="891b-cd29-036d-490a" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="616f-16fd-2fff-9b07" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="653e-c450-5403-40c8" name="Knights Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3dff-d4ff-4324-c809" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="ed06-29c5-29e9-5f5c" hidden="false" targetId="6f0d6579-84ef-a434-aad0-033cdc23d04d" type="rule" name="The Knight&apos;s Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="25e9-dc6c-850c-8386" name="Questing Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d0cd-e6f8-12c8-c08b" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7b5e-36ce-df85-8d8e" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="8"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d29a-61cc-6e3b-a73e" name="Grail Vow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f500-767d-ed62-32ab" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c9c2-c7cd-2e59-3dfa" hidden="false" targetId="ff8f06ad-533f-431b-63fc-06305551973c" type="rule" name="The Grail Vow"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="21"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="fac2-28c9-638d-721d" name="Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f62a-95f2-05bf-a151" type="max"/>
@@ -3077,6 +3036,9 @@ Green Knight may move normally on the turn he appears.”</description>
       <costs>
         <cost name="pts" typeId="points" value="60"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Chivalric Vows" hidden="false" id="ac62-c601-e992-ab44" type="selectionEntryGroup" targetId="b199-a313-6e54-e715"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="d49a-6944-6b21-1d48" name="Knights of the Realm on Foot" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
