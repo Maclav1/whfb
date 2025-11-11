@@ -174,8 +174,9 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbe73d3f-ffc0-2c73-b302-9742334adae8" type="equalTo"/>
-                        <condition field="selections" scope="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baa80ee-d959-1016-4da7-ebb5da9d9781" type="equalTo"/>
+                        <condition field="selections" scope="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f35a-4471-238a-dbcc" type="equalTo"/>
+                        <condition field="selections" scope="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d19-e9f0-baf7-aecd" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="917f-e631-9ba5-de0e" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -195,7 +196,7 @@
               <modifiers>
                 <modifier type="increment" field="maxSelections" value="1">
                   <conditions>
-                    <condition field="selections" scope="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="04e9b977-11c5-5fe8-b354-45f094a02d65" type="equalTo"/>
+                    <condition field="selections" scope="e54dcf7a-5498-6ff7-ae28-3c1a21ff2541" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac7-0d9c-5b60-1897" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1580,7 +1581,7 @@ Ignore “even if normally immune to psychology.”</description>
         <categoryLink id="dd90cf2d-9a0c-3931-de7b-c8efcefeffdf-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3bb53cb6-235b-aefb-1997-f4c25491822a" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3bb53cb6-235b-aefb-1997-f4c25491822a" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
           </constraints>
@@ -1604,18 +1605,18 @@ Ignore “even if normally immune to psychology.”</description>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="cce7b2e7-b5ea-dff0-36af-12f6bd1702a2" name="Light Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry type="upgrade" import="true" name="Light Armour" hidden="false" id="5e30-6fe5-85ef-be3c" page="0" collective="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7f2e-a6c2-5ce2-9621" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <infoLinks>
-                <infoLink id="82d6f8de-855c-92dc-24da-3040cc822ec2" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
+                <infoLink name="Light Armour" id="ce8d-1a4f-d5cb-1748" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="fbc4-9674-3f5a-4dff">
+            <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="fbc4-9674-3f5a-4dff" collective="true">
               <infoLinks>
                 <infoLink name="Skirmishers (FAQ&apos;ed)" id="519f-8b09-befb-76ff" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule"/>
               </infoLinks>
@@ -1644,7 +1645,7 @@ Ignore “even if normally immune to psychology.”</description>
         </selectionEntry>
         <selectionEntry id="fe41bb12-e063-e93f-4f96-210f4f09b6a7" name="Defensive Stakes" page="0" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <rules>
@@ -1710,6 +1711,7 @@ Obstacles, Fences.”</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Peasant Bowman" id="1ae6-86b3-7ddf-36af" hidden="false"/>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -2597,7 +2599,7 @@ Green Knight may move normally on the turn he appears.”</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb0c-c517-62de-add9" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="5"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="133b-6170-d14e-a832" name="Standard Bearer" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2632,7 +2634,7 @@ Green Knight may move normally on the turn he appears.”</description>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="12"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3029,12 +3031,13 @@ Green Knight may move normally on the turn he appears.”</description>
             </selectionEntry>
             <selectionEntry id="a963-32f8-ef70-a2dd" name="Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="ab92-dba8-475c-e6c0" value="1">
+                <modifier type="increment" field="0b40-fbfd-7651-339c" value="1">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d29a-61cc-6e3b-a73e" type="equalTo"/>
-                        <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="653e-c450-5403-40c8" type="equalTo"/>
+                        <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d19-e9f0-baf7-aecd" type="equalTo"/>
+                        <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f35a-4471-238a-dbcc" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="917f-e631-9ba5-de0e" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -3052,9 +3055,9 @@ Green Knight may move normally on the turn he appears.”</description>
             </selectionEntry>
             <selectionEntry id="c2cb-1415-a36b-f2e2" name="Great Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="ab92-dba8-475c-e6c0" value="1">
+                <modifier type="increment" field="77ae-f418-578b-ce99" value="1">
                   <conditions>
-                    <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25e9-dc6c-850c-8386" type="equalTo"/>
+                    <condition field="selections" scope="e4d0-835c-7b9f-fa6c" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac7-0d9c-5b60-1897" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6286,9 +6289,7 @@ Add the following sentence to the end of the third paragraph:
     <rule id="5b45d601-c566-a78f-6603-7d165fa3924f" name="Loremaster (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
       <description>.</description>
     </rule>
-    <rule id="295dbafa-e830-d618-d50f-475d11eada72" name="Magic Resistance (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
-      <description/>
-    </rule>
+    <rule id="295dbafa-e830-d618-d50f-475d11eada72" name="Magic Resistance (*)" publicationId="3a81ff07--pubN92715" page="72" hidden="false"/>
     <rule id="00a59623-f578-195e-fda9-e41593e64320" name="Monster and Handlers" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>.</description>
     </rule>
