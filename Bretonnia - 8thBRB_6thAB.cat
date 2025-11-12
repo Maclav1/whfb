@@ -405,7 +405,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="bc8f5051-f902-5a04-5454-d6b338b54dc4" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="bc8f5051-f902-5a04-5454-d6b338b54dc4" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1441d8c5-6685-4017-d716-82efbf4da51c-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
@@ -726,7 +726,7 @@ third paragraph.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7889765b-018a-d99d-eeff-61d24f7b692c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="7889765b-018a-d99d-eeff-61d24f7b692c" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
         <infoLink id="d67cd9dd-f735-545a-4541-4e0cee3d4e9a" hidden="false" targetId="bcef5af7-2c9f-7b48-645a-f46d1feae6a9" type="rule" name="Hatred"/>
         <infoLink id="8f7d34d0-3464-6bd4-4ccc-9dde3f114a32" hidden="false" targetId="42c9b57e-783d-866b-d670-d74b42ce663f" type="rule" name="Stubborn"/>
         <infoLink id="ef06c59d-d39f-7fc7-a206-8edb19cbc49d" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
@@ -1179,7 +1179,7 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="5a85b0cd-2fbe-095e-307a-3a4da315f42a" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="5a85b0cd-2fbe-095e-307a-3a4da315f42a" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
         <infoLink id="fe2ed6a7-ae6d-c553-c2c1-b4e650a64125" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
         <infoLink id="4ae117d3-5b60-5955-d4d4-537b5fb77e5d" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
         <infoLink id="435c05ea-900f-2a92-3f25-aeb89cdeb639" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
@@ -1320,7 +1320,7 @@ Ignore “even if normally immune to psychology.”</description>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="fa409efe-a4fc-c605-be14-9e1d22a97e00" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="fa409efe-a4fc-c605-be14-9e1d22a97e00" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9edcb2f7-e506-f5e3-ee32-2f0b2ca8df59-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
@@ -1573,7 +1573,7 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="eb0eccc7-65ad-168d-f3b0-b2c70c5dd09f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="eb0eccc7-65ad-168d-f3b0-b2c70c5dd09f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
         <infoLink id="4b91c48a-d765-3345-a275-0135880d6b85" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
         <infoLink id="b37cbc60-af33-8590-5fce-553a77a204ef" hidden="false" targetId="7196794c-e173-25c4-bbec-c37582cce0ac" type="profile" name="Longbow"/>
       </infoLinks>
@@ -2018,7 +2018,7 @@ Ignore “even if normally immune to psychology.”</description>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="38571e13-86aa-dcf0-1d74-a9b1ff7aa9c2" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow (FAQ&apos;ed)"/>
+        <infoLink id="38571e13-86aa-dcf0-1d74-a9b1ff7aa9c2" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule" name="The Questing Vow"/>
         <infoLink id="845b4a8a-614b-ec47-2bb0-470630c09414" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
         <infoLink id="3cb424ba-96b9-08b6-d333-f8253ee71fa8" hidden="false" targetId="67d33b9a-28c8-3a33-3797-812d693a0c22" type="profile" name="Great Weapon"/>
         <infoLink id="dce5b967-587b-684a-fbe6-b162aa973f40" hidden="false" targetId="66bff8d5-2b27-ae9a-6894-e8f6b2ab1292" type="profile" name="Heavy Armour"/>
@@ -2550,7 +2550,7 @@ Green Knight may move normally on the turn he appears.”</description>
         <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86e1-2f6d-698f-c34c" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="1e97-6f5d-a58e-7f2d" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="1e97-6f5d-a58e-7f2d" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
         <infoLink id="13de-61d8-27fe-8136" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
         <infoLink id="91c7-dc5e-300a-9bfb" hidden="false" targetId="93b062f3-52ff-91d3-e579-fb59001ae0ec" type="profile" name="Shield"/>
         <infoLink id="1b23-de43-8ee6-6a68" hidden="false" targetId="8d3aea16-0698-b516-b201-cbf9b62635ee" type="profile" name="Light Armour"/>
@@ -3192,7 +3192,7 @@ Green Knight may move normally on the turn he appears.”</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5aef-9894-1aca-008f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty (FAQ&apos;ed)"/>
+        <infoLink id="5aef-9894-1aca-008f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c1d3-4b0f-dd88-4217" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
@@ -5634,309 +5634,133 @@ Green Knight may move normally on the turn he appears.”</description>
         <constraint field="points" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="8d1c94f9-2087-cc78-3f15-17fae6a688a4" name="Virtue of the Penitent (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8d1c94f9-2087-cc78-3f15-17fae6a688a4" name="Virtue of the Penitent" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="f3878f17-081e-f729-6492-b9700231378e" name="Virtue of the Penitent" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
+              <description>The Knight is Stubborn, though he may never join any friendly units. He may not take any magic items, nor may he ride a Hippogryph or a Royal Pegasus.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="40"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="32ac25be-3932-9b47-ae37-b43a1f8259d9" name="Virtue of the Penitent (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="cbe0e2d8-e883-2b1c-679d-3d24bf25387f" name="Virtue of the Penitent" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="80"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9991daa9-dd68-4eb4-2cbe-6bc1d59d9361" name="Virtue of Knightly Temper (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="62f3dc61-132d-699f-7b61-5f655c5da02e" name="Virtue of Knightly Temper" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="40"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="07fa536f-7b9e-550d-31e5-0aac3fb94fd9" name="Virtue of Knightly Temper (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="07fa536f-7b9e-550d-31e5-0aac3fb94fd9" name="Virtue of Knightly Temper" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="266ad644-d860-eaae-6366-47f2035eec99" name="Virtue of Knightly Temper" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
+              <description>For each attack that the Knight hits and wounds with on the charge (before saves etc.), he may make an additional attack. Extra attacks are not generated if these additional attacks also hit and wound. A character with this Virtue may not use magic weapons.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="80"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="44ac46ad-4126-4615-d9da-c7e563785ff8" name="Virtue of Heroism (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="44ac46ad-4126-4615-d9da-c7e563785ff8" name="Virtue of Heroism" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
-            <rule id="46b07eba-d7da-517a-2b46-4cb4b545e5b0" name="Virtue of Heroism (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>AMENDMENTS:
-Page 58 – Virtues of the Chvalric Knights, Virtue of
-Heroism.
-Change to “The Knight has the Heroic Killing Blow special
-rule.”</description>
+            <rule id="46b07eba-d7da-517a-2b46-4cb4b545e5b0" name="Virtue of Heroism" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
+              <description>The Knight has the Heroic Killing Blow special rule.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="40"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b45b7681-8d37-1d9f-befa-2f9908847cef" name="Virtue of Heroism (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="8ecac8eb-01c4-cb22-a3b0-3e9fc7eba0bf" name="Virtue of Heroism (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>AMENDMENTS:
-Page 58 – Virtues of the Chvalric Knights, Virtue of
-Heroism.
-Change to “The Knight has the Heroic Killing Blow special
-rule.”</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="80"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f0752638-cac0-d6ac-6c6b-d14c7288eb38" name="Virtue of Stoicism (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f0752638-cac0-d6ac-6c6b-d14c7288eb38" name="Virtue of Stoicism" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="a6b4d447-8eee-1073-f338-922e344c195d" name="Virtue of Stoicism" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
+              <description>The Knight (and any unit he has joined) may re-roll failed Break tests.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="35"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7e9c85fc-4a1a-f8f3-f824-d762dea0f0ce" name="Virtue of Stoicism (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="6348fa0d-9611-b0e5-6204-74fdb99c7710" name="Virtue of Stoicism" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="70"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b4581a03-a907-2bb3-16b7-feec6818d574" name="Virtue of the Ideal (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b4581a03-a907-2bb3-16b7-feec6818d574" name="Virtue of the Ideal" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="9f52e0e5-e192-d54d-9617-60969b71418e" name="Virtue of the Ideal" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
+              <description>The Knight gains the following bonuses to his profile: +2 Weapon Skill, +1 Initiative, +1 Attack. He may not be the army’s General (even if he has the highest Leadership) and any friendly unit (including other Knightly characters, or units using a Knight’s Leadership) taking any form of Leadership test within 6″ of this model suffers a -1 penalty to their Leadership.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="35"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f154c0a1-b548-8c8a-439c-46b934621ca2" name="Virtue of the Ideal (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="7f5e315a-45c0-06ad-50d4-7c77b4eab968" name="Virtue of the Ideal" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="70"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9c282060-0745-3386-58c8-d9d931cf8c8a" name="Virtue of the Impetuous Knight (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9c282060-0745-3386-58c8-d9d931cf8c8a" name="Virtue of the Impetuous Knight" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="985e1a8f-dbe9-ba51-f06c-ab0074be087d" name="Virtue of the Impetuous Knight" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
+              <description>The Knight, and any mounted unit he is with, adds +D6&quot; for the first charge that they declare (roll after declaring the charge). If the charge is failed the unit will not add the extra D6&quot; to their failed charge movement.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="35"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="41824cc0-267d-b1d9-a651-3bec966c13fe" name="Virtue of the Impetuous Knight (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="df469cca-c6fe-311f-e798-c386c631cac7" name="Virtue of the Impetuous Knight" publicationId="3a81ff07--pubN66518" page="58" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="70"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="65859694-7517-3ce8-6757-d8b9aa80b090" name="Virtue of Audacity (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="65859694-7517-3ce8-6757-d8b9aa80b090" name="Virtue of Audacity" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="c237cdf1-7cde-c04d-b6e1-c47b1c29d584" name="Virtue of Audacity" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+              <description>Against enemies with a higher Strength than himself (before modifications from weapons etc.), the Knight may re-roll any failed rolls To Hit and To Wound.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="30"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b83e1ccf-dda6-e1c5-1a46-fe7baeafef79" name="Virtue of Audacity (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="2b78939b-a52e-595f-8630-20bffa561c1f" name="Virtue of Audacity" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="60"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e54e499f-2c86-e179-dcb0-2d357a803762" name="Virtue of Audacity (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="90a44539-03a3-aba9-917f-9ab5f0776931" name="Virtue of Audacity" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="90"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b0d385e1-dba0-0413-b58a-8b2916afdfa8" name="Virtue of Duty (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b0d385e1-dba0-0413-b58a-8b2916afdfa8" name="Virtue of Duty" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="833401f3-c415-e9ee-9b93-4ec16fd5364e" name="Virtue of Duty" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+              <description>One per army. May not be taken by the General. For as long as the General is alive, the model with this Virtue adds +1 to the combat resolution of any fight of which he is part.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="30"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="46606161-d1c4-8dd5-455b-88ced478af2d" name="Virtue of Duty (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="59e99d61-d171-384b-ac5b-d5d5ff1f92f1" name="Virtue of Duty" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="60"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="65f50cc9-cfa7-6f93-52e0-228be2169482" name="Virtue of Duty (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="d0bee343-f369-e375-3123-00ce3e252e4b" name="Virtue of Duty" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="90"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f870b0dc-bbc2-2c05-e62a-18d67790c24a" name="Virtue of the Joust (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f870b0dc-bbc2-2c05-e62a-18d67790c24a" name="Virtue of the Joust" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="ed3d2690-d335-54d6-80ba-04b443be5d6d" name="Virtue of the Joust" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+              <description>The Knight may re-roll failed rolls to hit when charging and using a lance (including magical lances).</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="25"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bd0211dc-cb7d-015a-ebbe-f85d26f69470" name="Virtue of the Joust (2ndt)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="0917925c-d299-22ad-41e3-4277ce452703" name="Virtue of the Joust" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="50"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="029a8f58-dae4-ebb0-2b9e-4cd4bd618cfa" name="Virtue of the Joust (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="ed1b82b9-789d-85cd-086e-ca3b279ebb8a" name="Virtue of the Joust" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="75"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="10d6f281-a58f-18fe-5651-b6e2772015e0" name="Virtue of Confidence (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10d6f281-a58f-18fe-5651-b6e2772015e0" name="Virtue of Confidence" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -5950,158 +5774,46 @@ rule.”</description>
             <cost name="pts" typeId="points" value="25"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f01fb402-e18f-e275-39f8-3fd47dc88d53" name="Virtue of Confidence (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="84b10331-c06c-c617-0ee6-7da336aa273e" name="Virtue of Noble Disdain" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
-            <rule id="48c0c811-f590-948e-7caa-9578a9f9a52d" name="Virtue of Confidence" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="50"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a4611a19-0bf0-4d4e-ad14-0bb9bbf0095d" name="Virtue of Confidence (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="b1d2ce9e-13da-b298-5824-b073e1cc8a5d" name="Virtue of Confidence" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="75"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="84b10331-c06c-c617-0ee6-7da336aa273e" name="Virtue of Noble Disdain (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="7397ac94-1342-b848-63e1-12fd76195324" name="Virtue of Noble Disdain)" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+            <rule id="7397ac94-1342-b848-63e1-12fd76195324" name="Virtue of Noble Disdain" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
+              <description>The Knight hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties (e.g., shooting, magic, etc.).</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3726ad1b-8970-dde6-32dc-5b97ac7154f7" name="Virtue of Noble Disdain (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="8c109f42-c6ad-1e1e-ccb1-c5efc95c8484" name="Virtue of Noble Disdain)" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="40"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4a2a7ed9-78a2-87e2-65d7-fb0907875e3b" name="Virtue of Noble Disdain (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="525a034c-ef95-0e3f-5de5-30361e8e527a" name="Virtue of Noble Disdain)" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="60"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="50df9466-9ae5-787b-5fb6-3b289bf1d6a9" name="Virtue of Purity (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="50df9466-9ae5-787b-5fb6-3b289bf1d6a9" name="Virtue of Purity" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="8879e414-fe01-dad9-38a3-c993b2f2e6eb" name="Virtue of Purity" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+              <description>The Knight will always start the game with The Blessing of the Lady, even if the army did not pray. In addition, the Ward save which the Knight gains from the Blessing will always be 5+, regardless of the Strength of the attack.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="891e6f61-398a-cd99-8981-e4794c1231b0" name="Virtue of Purity (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="9d5ad731-157c-c656-8249-3e460989ece1" name="Virtue of Purity" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="40"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="15521f74-0344-0621-dac0-8014448bd411" name="Virtue of Purity (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="ede1e503-660e-90cb-f722-b937b1e243d5" name="Virtue of Purity" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="60"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7ddf6e3f-547d-6e45-3906-cf0207a63aba" name="Virtue of Empathy (1st)" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7ddf6e3f-547d-6e45-3906-cf0207a63aba" name="Virtue of Empathy" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <rules>
             <rule id="30cae03e-0221-497c-d39d-50a81b859b15" name="Virtue of Empathy" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
+              <description>The Knight may be fielded on foot. In addition, if he is not the army’s General, Peasant units within 12&quot; of him may use his Leadership, rather than the normal distance of 6&quot;.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="10"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ec7b1f8c-e418-4d86-ca29-84a8b27a4fb9" name="Virtue of Empathy (2nd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="964b7efa-4e55-c840-1b70-0355366c19fe" name="Virtue of Empathy" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="24daa548-f0a1-bc92-87b9-52d5e3c9bf5e" name="Virtue of Empathy (3rd)" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="e343f826-f916-7eeb-4863-4d339fa95277" name="Virtue of Empathy" publicationId="3a81ff07--pubN66518" page="59" hidden="false">
-              <description>.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="30"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6137,7 +5849,7 @@ rule.”</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f6cf-a239-0cf6-022c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="The Questing Vow (FAQ&apos;ed)" id="72ce-7af5-b672-10c1" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
+            <infoLink name="The Questing Vow" id="72ce-7af5-b672-10c1" hidden="false" targetId="88e15dd5-8875-2e97-8d7a-395ca9babc0f" type="rule"/>
             <infoLink name="The Blessing of the Lady" id="ba16-4863-bb74-8995" hidden="false" type="rule" targetId="06d8-0c6d-2668-c0ba"/>
           </infoLinks>
           <costs>
@@ -6162,12 +5874,8 @@ rule.”</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First" publicationId="3a81ff07--pubN92715" page="66" hidden="false">
-      <description/>
-    </rule>
-    <rule id="506ef23a-4045-db8d-e93a-0ce58786a1d0" name="Always Strikes Last" publicationId="3a81ff07--pubN92715" page="66" hidden="false">
-      <description/>
-    </rule>
+    <rule id="2cf122c5-f5ae-9572-0f96-38f085c2a484" name="Always Strikes First" publicationId="3a81ff07--pubN92715" page="66" hidden="false"/>
+    <rule id="506ef23a-4045-db8d-e93a-0ce58786a1d0" name="Always Strikes Last" publicationId="3a81ff07--pubN92715" page="66" hidden="false"/>
     <rule id="51bc8283-c9af-58da-7fb6-26db57953123" name="Ambushers" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
@@ -6188,9 +5896,7 @@ turn[...]” in the second paragraph</description>
     <rule id="1a89177c-b959-d231-39c0-5279109805d2" name="Ethereal" publicationId="3a81ff07--pubN92715" page="68" hidden="false">
       <description>.</description>
     </rule>
-    <rule id="339e1112-3ae9-9a19-cf25-9630a0f418b0" name="Extra Attack" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description/>
-    </rule>
+    <rule id="339e1112-3ae9-9a19-cf25-9630a0f418b0" name="Extra Attack" publicationId="3a81ff07--pubN92715" page="69" hidden="false"/>
     <rule id="c4e647a6-6c36-9f0b-49dd-ce8010420e45" name="Fast Cavalry" publicationId="3a81ff07--pubN92715" page="68" hidden="false">
       <description>Vanguard, Free Reform, Feigned Flight, Fire on the March</description>
     </rule>
@@ -6198,11 +5904,9 @@ turn[...]” in the second paragraph</description>
       <description>Ld test or WS1.</description>
     </rule>
     <rule id="89030c82-ff54-718d-7b50-0f6082aab34a" name="Fight in Extra Ranks" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description>Supporting attacks can be made by an extra rank than normal on a turn in which the unit did not charge. </description>
+      <description>Supporting attacks can be made by an extra rank than normal on a turn in which the unit did not charge.</description>
     </rule>
-    <rule id="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" name="Flaming Attacks" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
-      <description/>
-    </rule>
+    <rule id="3dd24ff3-c8ef-a4b3-6d57-da0c05c175cb" name="Flaming Attacks" publicationId="3a81ff07--pubN92715" page="69" hidden="false"/>
     <rule id="6703c2f1-81d5-99f6-12ab-ed33586ed9d6" name="Flammable" publicationId="3a81ff07--pubN92715" page="69" hidden="false">
       <description>.</description>
     </rule>
@@ -6227,9 +5931,7 @@ turn[...]” in the second paragraph</description>
     <rule id="2ec5a4fd-6baa-1a3b-63ab-cc491196ab6d" name="Immune to Psychology" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
       <description>Automatically passes all Panic, Fear and Terror tests.</description>
     </rule>
-    <rule id="2ae965fd-cad2-7c59-87f6-3aebac1ca166" name="Impact Hits (*)" publicationId="3a81ff07--pubN92715" page="71" hidden="false">
-      <description/>
-    </rule>
+    <rule id="2ae965fd-cad2-7c59-87f6-3aebac1ca166" name="Impact Hits (*)" publicationId="3a81ff07--pubN92715" page="71" hidden="false"/>
     <rule id="18f1fdf8-904b-4bd9-70ca-076d059a93b4" name="Killing Blow" publicationId="3a81ff07--pubN92715" page="72" hidden="false">
       <description>6 to wound in close combat automatically slays his opponent. Ward save allowed. Killing Blow is only effective against infantry, cavalry and war beasts.</description>
     </rule>
@@ -6245,18 +5947,12 @@ turn[...]” in the second paragraph</description>
     <rule id="00a59623-f578-195e-fda9-e41593e64320" name="Monster and Handlers" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>.</description>
     </rule>
-    <rule id="31fc16e6-e064-bd5e-f7f5-362426a1f032" name="Move or Fire" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description/>
-    </rule>
+    <rule id="31fc16e6-e064-bd5e-f7f5-362426a1f032" name="Move or Fire" publicationId="3a81ff07--pubN92715" page="73" hidden="false"/>
     <rule id="9f6ee11a-4485-fde1-27b3-db8cbd3ca37d" name="Multiple Shots" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>.</description>
     </rule>
-    <rule id="dda6390b-d475-5ed6-efef-e5b09e505cc7" name="Multiple Wounds" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description/>
-    </rule>
-    <rule id="40e12001-6361-bf57-601e-950b784768e8" name="Poisoned Attacks" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
-      <description/>
-    </rule>
+    <rule id="dda6390b-d475-5ed6-efef-e5b09e505cc7" name="Multiple Wounds" publicationId="3a81ff07--pubN92715" page="73" hidden="false"/>
+    <rule id="40e12001-6361-bf57-601e-950b784768e8" name="Poisoned Attacks" publicationId="3a81ff07--pubN92715" page="73" hidden="false"/>
     <rule id="f9b16f9c-a7ca-4c5a-c757-8c0209d64d29" name="Quick to Fire" publicationId="3a81ff07--pubN92715" page="73" hidden="false">
       <description>Do not suffer the usual -1 To Hit penalty for moving and shooting. Quick to Fire weapons can always be used to Stand and Shoot against a charging enemy.</description>
     </rule>
@@ -6270,15 +5966,9 @@ special rules (a chariot with Random Movement, for example),
 then the Swiftstride special rule is not used.” to the end of the
 first paragraph.</description>
     </rule>
-    <rule id="a88b281a-8c08-d36a-66f2-e38c579be244" name="Regeneration" publicationId="3a81ff07--pubN92715" page="74" hidden="false">
-      <description/>
-    </rule>
-    <rule id="01aedf4c-20ca-95e4-5f99-5fa56de78795" name="Requires Two Hands" publicationId="3a81ff07--pubN92715" page="75" hidden="false">
-      <description/>
-    </rule>
-    <rule id="30aa0bb8-bb94-7b5b-d1ba-a88f7b06c229" name="Scaly Skin (*)" publicationId="3a81ff07--pubN92715" page="75" hidden="false">
-      <description/>
-    </rule>
+    <rule id="a88b281a-8c08-d36a-66f2-e38c579be244" name="Regeneration" publicationId="3a81ff07--pubN92715" page="74" hidden="false"/>
+    <rule id="01aedf4c-20ca-95e4-5f99-5fa56de78795" name="Requires Two Hands" publicationId="3a81ff07--pubN92715" page="75" hidden="false"/>
+    <rule id="30aa0bb8-bb94-7b5b-d1ba-a88f7b06c229" name="Scaly Skin (*)" publicationId="3a81ff07--pubN92715" page="75" hidden="false"/>
     <rule id="fb5b0f7e-a4da-28ab-3e3b-5124ba1ff3bd" name="Scouts" publicationId="3a81ff07--pubN92715" page="79" hidden="false">
       <description>.</description>
     </rule>
@@ -6306,7 +5996,7 @@ and Shoot charge reaction, a model making a[...]” at the start
 of the third paragraph.</description>
     </rule>
     <rule id="c3fb3af8-3ba7-f9ec-f9a0-c62f77725b9d" name="Stomp" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
-      <description>A Stomp has the Always Strikes Last special rule, and inflicts 1 automatic hit, at the model&apos;s Strength, on one enemy infantry, war beasts or swarm unit in base contact with the model. </description>
+      <description>A Stomp has the Always Strikes Last special rule, and inflicts 1 automatic hit, at the model&apos;s Strength, on one enemy infantry, war beasts or swarm unit in base contact with the model.</description>
     </rule>
     <rule id="c70d941b-4092-4d1a-6109-7c9333bb2d64" name="Strider (xxx)" publicationId="3a81ff07--pubN92715" page="76" hidden="false">
       <description>.</description>
@@ -6350,9 +6040,7 @@ of the third paragraph.</description>
     <rule id="ba4f0bef-d731-3f34-7261-466b3c4f850f" name="Volley Fire" publicationId="3a81ff07--pubN92715" page="78" hidden="false">
       <description>Half the models in the third and any subsequent ranks, rounding up, are allowed to shoot. Cannot move.</description>
     </rule>
-    <rule id="8862c837-1068-e6fb-3ab7-67daeabecad8" name="Ward Save (*)" publicationId="3a81ff07--pubN92715" page="44" hidden="false">
-      <description/>
-    </rule>
+    <rule id="8862c837-1068-e6fb-3ab7-67daeabecad8" name="Ward Save (*)" publicationId="3a81ff07--pubN92715" page="44" hidden="false"/>
     <rule name="Untutored Arcanist" id="16da-0e9a-0376-b6c8" hidden="false">
       <description>When required to roll on the Miscast table, a Wizard with this special rule must roll an extra D6 and discard the highest result.</description>
     </rule>
