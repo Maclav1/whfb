@@ -1616,21 +1616,38 @@ Ignore “even if normally immune to psychology.”</description>
                 <cost name="pts" typeId="points" value="1"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="fbc4-9674-3f5a-4dff" collective="true">
-              <infoLinks>
-                <infoLink name="Skirmishers (FAQ&apos;ed)" id="519f-8b09-befb-76ff" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="1"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c4d-4c6a-59d4-a303" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="6"/>
           </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Option" id="8446-dad7-20cc-03b7" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Skirmish" hidden="false" id="fbc4-9674-3f5a-4dff" collective="true">
+                  <infoLinks>
+                    <infoLink name="Skirmishers (FAQ&apos;ed)" id="519f-8b09-befb-76ff" hidden="false" targetId="bca315e8-9608-a292-10d8-4cc24530d609" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Defensive Stakes" hidden="false" id="fe41bb12-e063-e93f-4f96-210f4f09b6a7" page="0" collective="false" defaultAmount="1">
+                  <rules>
+                    <rule name="Defensive Stakes (FAQ&apos;ed)" id="c962f461-6fa8-fbfb-2f29-b33e6b60c5e7" hidden="false" publicationId="3a81ff07--pubN66518" page="54">
+                      <description>Defensive stakes are Obstacles, Fences.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93cc-465c-5665-eaec"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d92f-2dd9-8dbd-1f7a"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry id="5dbe4d88-b488-c37c-4fee-b9f581da314e" name="Braziers" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1641,20 +1658,6 @@ Ignore “even if normally immune to psychology.”</description>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fe41bb12-e063-e93f-4f96-210f4f09b6a7" name="Defensive Stakes" page="0" hidden="false" collective="false" import="true" type="upgrade" defaultAmount="1">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="c962f461-6fa8-fbfb-2f29-b33e6b60c5e7" name="Defensive Stakes (FAQ&apos;ed)" publicationId="3a81ff07--pubN66518" page="54" hidden="false">
-              <description>Defensive stakes are Obstacles, Fences.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
