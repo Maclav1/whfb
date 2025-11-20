@@ -3322,7 +3322,7 @@ Should the artillery dice roll a misfire, roll a D6 and consult the Doom Diver M
       </rules>
       <infoLinks>
         <infoLink id="50115921-4c8f-fc53-16ea-9109582444b5" hidden="false" targetId="eb60454d-e85e-d616-a0b1-3e120f1533a0" type="profile" name="Light Armour"/>
-        <infoLink id="6084df0c-2736-4c38-9180-80402baebc61" hidden="false" targetId="53ae-f9b5-38e2-0fb6" type="rule" name="Regeneration"/>
+        <infoLink id="6084df0c-2736-4c38-9180-80402baebc61" hidden="false" targetId="53ae-f9b5-38e2-0fb6" type="rule" name="Regeneration (*)"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e1a0e0e9-5f28-44af-9a90-d30041670770-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
@@ -5904,7 +5904,7 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a2539c9b-6e33-a6f6-fc1c-f5f93ea4ba62" hidden="false" targetId="53ae-f9b5-38e2-0fb6" type="rule" name="Regeneration"/>
+        <infoLink id="a2539c9b-6e33-a6f6-fc1c-f5f93ea4ba62" hidden="false" targetId="53ae-f9b5-38e2-0fb6" type="rule" name="Regeneration (*)"/>
         <infoLink id="31659c59-ac35-dbb5-d685-970d7c617f59" hidden="false" targetId="cee1-94a2-de84-4989" type="rule" name="Fear"/>
         <infoLink id="e9a6490f-7ae6-aa6f-8a85-212d550634fc" hidden="false" targetId="4a2e-f169-d69b-d6b0" type="rule" name="Stomp"/>
         <infoLink id="b1eb9570-6bd3-4655-233d-c5e23bf42653" hidden="false" targetId="d6277724-0836-296a-43f7-96d17918848f" type="rule" name="Troll Vomit"/>
@@ -10066,14 +10066,12 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="bffc009c-d3e7-9a65-6679-69a7548fefbd" name="Animosity" publicationId="f7b9cf3d--pubd1e140" page="32" hidden="false">
-      <description/>
-    </rule>
+    <rule id="bffc009c-d3e7-9a65-6679-69a7548fefbd" name="Animosity" publicationId="f7b9cf3d--pubd1e140" page="32" hidden="false"/>
     <rule id="7171a0fc-a919-6f40-3257-ea9161895241" name="Armed to da Teef" publicationId="f7b9cf3d--pubd1e140" page="39" hidden="false">
       <description>Black Orcs can choose to fight either with a single hand weapon (in case they have shields), two hand weapons, or with a great weapon. If a Black Orc character has a magic weapon, he loses the benefit of this special rule.</description>
     </rule>
     <rule id="bbe1626f-22db-e888-508c-185c61a0fde1" name="Big &apos;Uns" publicationId="f7b9cf3d--pubd1e140" page="33" hidden="false">
-      <description/>
+      <description>Several units in the Orcs &amp; Goblins army have the option to be upgraded to Big &apos;Uns. However, you may never have more than one unit of Big &apos;Uns in the entire army.</description>
     </rule>
     <rule id="5bc957bc-0aab-fe27-2584-6f7f90dbda41" name="Choppas" publicationId="f7b9cf3d--pubd1e140" page="33" hidden="false">
       <description>Models with the Choppas special rule gain +1 Strength in the first round of each combat.</description>
@@ -10148,23 +10146,23 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
       <description>Any Savage Orc on a war boar, except for Savage Orc Shamans and Great Shamans, can benefit from having two hand weapons despite being mounted. If so equipped, they must deduct -1 from the dice score (to a minimum of 1) whenever they take a Dangerous Terrain test.</description>
     </rule>
     <rule name="Always Strikes First" id="417f-eb5c-40d5-1c99" hidden="false" publicationId="3a81ff07--pubN92715" page="66"/>
-    <rule name="Always Strikes Last" id="f5d6-a26e-bb89-363d" hidden="false" publicationId="3a81ff07--pubN92715" page="66"/>
     <rule name="Ambushers" id="1ee8-559e-844e-f548" hidden="false" publicationId="3a81ff07--pubN92715" page="79">
-      <description>ERRATA:
-Change “[...]start of the turn[...]” to “[...]start of his
-turn[...]” in the second paragraph</description>
+      <description>A unit with the Ambushers rule does not deploy at the start of the battle. Instead, from Turn 2 onwards, the controlling player rolls a dice at the start of their turn for each unit of his Ambushers that have yet to arrive. On a 1 or 2, the Ambushers have been delayed – but you&apos;ll be able to roll for them again next turn. On a 3 or more, the unit of Ambushers arrives, and will enter the board during the Remaining Moves sub-phase. If the Ambushers do not turn up for the entire game, they are assumed to have got lost, and are treated as having fled the battle for the purposes of determining the victor.
+
+
+Arriving Ambushers enter the battlefield from any point on any battlefield edge, and move on using the rules for reinforcements (see the Movement).</description>
     </rule>
     <rule name="Armour Piercing" id="aa57-d55f-2159-e32b" hidden="false" publicationId="3a81ff07--pubN92715" page="67">
       <description>Inflict a further -1 armour save modifier.</description>
     </rule>
     <rule name="Breath Weapons" id="afd2-25df-ea82-bea8" hidden="false" publicationId="3a81ff07--pubN92715" page="67">
-      <description>.</description>
+      <description/>
     </rule>
     <rule name="Devastating Charge" id="efcb-b6d4-6475-5e00" hidden="false" publicationId="3a81ff07--pubN92715" page="68">
       <description>Models with this special rule have +1 Attack during a turn in which they charge into combat.</description>
     </rule>
     <rule name="Ethereal" id="2039-e86b-f637-d2a1" hidden="false" publicationId="3a81ff07--pubN92715" page="68">
-      <description>.</description>
+      <description/>
     </rule>
     <rule name="Extra Attack" id="9913-5bac-15c4-fe7f" hidden="false" publicationId="3a81ff07--pubN92715" page="69"/>
     <rule name="Fast Cavalry" id="fd7e-3bbd-1723-dc94" hidden="false" publicationId="3a81ff07--pubN92715" page="68">
@@ -10229,9 +10227,7 @@ turn[...]” in the second paragraph</description>
     <rule name="Random Attacks" id="89a0-0e0c-704a-a169" hidden="false" publicationId="3a81ff07--pubN92715" page="74">
       <description>.</description>
     </rule>
-    <rule name="Random Movement" id="8441-51e2-f300-17a3" hidden="false" publicationId="3a81ff07--pubN92715" page="74">
-      <description/>
-    </rule>
+    <rule name="Random Movement" id="8441-51e2-f300-17a3" hidden="false" publicationId="3a81ff07--pubN92715" page="74"/>
     <rule name="Regeneration (*)" id="53ae-f9b5-38e2-0fb6" hidden="false" publicationId="3a81ff07--pubN92715" page="74"/>
     <rule name="Requires Two Hands" id="a733-46e7-6d6e-0340" hidden="false" publicationId="3a81ff07--pubN92715" page="75"/>
     <rule name="Scaly Skin (*)" id="907c-e908-c823-33be" hidden="false" publicationId="3a81ff07--pubN92715" page="75"/>

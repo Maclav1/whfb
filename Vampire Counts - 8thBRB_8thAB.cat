@@ -59,12 +59,12 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="bedb303e-2952-c815-d2f3-73783bddfda0" hidden="false" targetId="1572ae64-6ee9-0820-34f3-9f568b7c70de" type="rule"/>
-        <infoLink id="8de24557-b281-5070-d082-d115871b9d5d" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule"/>
-        <infoLink id="0509c62c-163a-0c25-39c2-1c94d847c555" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="bedb303e-2952-c815-d2f3-73783bddfda0" hidden="false" targetId="1572ae64-6ee9-0820-34f3-9f568b7c70de" type="rule" name="Hover"/>
+        <infoLink id="8de24557-b281-5070-d082-d115871b9d5d" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
+        <infoLink id="0509c62c-163a-0c25-39c2-1c94d847c555" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b79fb676-0285-41f0-941f-90230c2bbcd7-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="b79fb676-0285-41f0-941f-90230c2bbcd7-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1f49f070-7059-412c-97e8-120ead4f7b4b" name="Bat Swarm" page="0" hidden="false" collective="false" import="true" type="model">
@@ -136,15 +136,15 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="cea7ed3c-61f4-5813-740a-f32195610fa4" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule"/>
-        <infoLink id="6c2d6995-9183-79bb-bf46-a8229a89e8f0" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
-        <infoLink id="2be90180-a124-e043-2477-56ba0cd39d9e" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="b02ced88-91ae-bf62-6970-6831e17f0b31" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="65e0f014-e6bd-1b27-353b-db5f0ced4fcc" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
-        <infoLink id="2cdc84df-ac60-66e0-56a9-159c6a23dbeb" hidden="false" targetId="18fea374-205f-ced6-bf28-68bf502bc961" type="rule"/>
+        <infoLink id="cea7ed3c-61f4-5813-740a-f32195610fa4" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="6c2d6995-9183-79bb-bf46-a8229a89e8f0" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
+        <infoLink id="2be90180-a124-e043-2477-56ba0cd39d9e" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="b02ced88-91ae-bf62-6970-6831e17f0b31" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="65e0f014-e6bd-1b27-353b-db5f0ced4fcc" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
+        <infoLink id="2cdc84df-ac60-66e0-56a9-159c6a23dbeb" hidden="false" targetId="18fea374-205f-ced6-bf28-68bf502bc961" type="rule" name="Ward Save (*)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bc97a0a8-7273-44af-b559-e10e3324e94d-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="bc97a0a8-7273-44af-b559-e10e3324e94d-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b17c807d-308a-a64e-37ba-9084beb93790" name="Crew" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -172,8 +172,8 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="bffa4b86-6fd0-7c65-6859-223ebd2f8ea0" hidden="false" targetId="20949968-72ff-de65-5c62-f774c7423018" type="rule"/>
-            <infoLink id="9523f65a-a2a1-65b5-8f05-63ab659843bc" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
+            <infoLink id="bffa4b86-6fd0-7c65-6859-223ebd2f8ea0" hidden="false" targetId="20949968-72ff-de65-5c62-f774c7423018" type="rule" name="Chill Grasp"/>
+            <infoLink id="9523f65a-a2a1-65b5-8f05-63ab659843bc" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -185,7 +185,7 @@
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="29fd7a45-4436-cb77-851e-759027adbbfd" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+            <entryLink id="29fd7a45-4436-cb77-851e-759027adbbfd" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -209,14 +209,14 @@
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="25a617ad-9214-bcdb-1c07-b79ea3526eec" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="2749e72b-a8bc-e050-326f-a4671779d76d" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="82b8deb8-db4d-637c-f577-e4407fef815e" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule"/>
-        <infoLink id="36aed6d1-db8f-edc1-50dc-407265abbba4" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
-        <infoLink id="90ed2d04-0b40-5661-2402-07934e638583" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="25a617ad-9214-bcdb-1c07-b79ea3526eec" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="2749e72b-a8bc-e050-326f-a4671779d76d" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="82b8deb8-db4d-637c-f577-e4407fef815e" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule" name="Killing Blow"/>
+        <infoLink id="36aed6d1-db8f-edc1-50dc-407265abbba4" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
+        <infoLink id="90ed2d04-0b40-5661-2402-07934e638583" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e6cdc6a7-8fbd-4bf3-91cc-43871dc28977-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="e6cdc6a7-8fbd-4bf3-91cc-43871dc28977-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9f787d59-0a8e-43bc-b00d-520b1ee8b2f5" name="Black Knight" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -248,7 +248,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="2b0386a9-3fe0-da28-71d4-b374bba0be7c" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                <infoLink id="2b0386a9-3fe0-da28-71d4-b374bba0be7c" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3"/>
@@ -259,7 +259,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7a30bd72-e7b6-4394-f3a4-9a4826f393f4" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile"/>
+                <infoLink id="7a30bd72-e7b6-4394-f3a4-9a4826f393f4" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile" name="Lance (mounted models only)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2"/>
@@ -276,7 +276,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0ee50ba8-9ad1-0b5a-b123-abe702d0270d" hidden="false" collective="false" import="true" targetId="87317591-937d-6ccc-5fee-a762d93d3712" type="selectionEntry"/>
+            <entryLink id="0ee50ba8-9ad1-0b5a-b123-abe702d0270d" hidden="false" collective="false" import="true" targetId="87317591-937d-6ccc-5fee-a762d93d3712" type="selectionEntry" name="Skeletal Steed"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -297,7 +297,7 @@
                     <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="5233919a-5a53-7949-c81e-82eb1c9e7559" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup"/>
+                    <entryLink id="5233919a-5a53-7949-c81e-82eb1c9e7559" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -365,16 +365,16 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="fcd18933-1cfa-251e-6955-86555e2ea30c" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="3fa67e26-a5dc-2a13-c74c-dcb83b3f8f15" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="d58a303c-fc61-5c91-a4a8-513f05f2b6b9" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile"/>
-        <infoLink id="f799946a-efed-38da-7c1f-b941ab979a74" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
-        <infoLink id="046e5d36-0562-5d52-f14a-d377de7f8580" hidden="false" targetId="f0c3028b-71a4-4f53-f1ca-c8e090599529" type="rule"/>
-        <infoLink id="ea285cce-e65a-7a1e-bfc5-a75de47fb208" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="a10b274f-1c9c-37cf-c77b-7aefe8e38ea4" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="fcd18933-1cfa-251e-6955-86555e2ea30c" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="3fa67e26-a5dc-2a13-c74c-dcb83b3f8f15" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="d58a303c-fc61-5c91-a4a8-513f05f2b6b9" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile" name="Lance (mounted models only)"/>
+        <infoLink id="f799946a-efed-38da-7c1f-b941ab979a74" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
+        <infoLink id="046e5d36-0562-5d52-f14a-d377de7f8580" hidden="false" targetId="f0c3028b-71a4-4f53-f1ca-c8e090599529" type="rule" name="Frenzy"/>
+        <infoLink id="ea285cce-e65a-7a1e-bfc5-a75de47fb208" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="a10b274f-1c9c-37cf-c77b-7aefe8e38ea4" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a7edc03e-d1cb-410c-9435-9b94d7af3518-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="a7edc03e-d1cb-410c-9435-9b94d7af3518-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fb57f307-dd4e-4d5b-9108-17f9a1064650" name="Blood Knight" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -406,10 +406,10 @@
         </selectionEntry>
         <selectionEntry id="43416bb0-bdef-279f-b362-502114f0118a" name="Steed" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="83de8d2a-f695-56c9-73b5-43a3edcfb3ac" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+            <infoLink id="83de8d2a-f695-56c9-73b5-43a3edcfb3ac" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
           </infoLinks>
           <entryLinks>
-            <entryLink id="e3e7fb25-cbc2-b23d-8b25-19c12dcc3b09" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+            <entryLink id="e3e7fb25-cbc2-b23d-8b25-19c12dcc3b09" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -447,7 +447,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="8dd2753d-5531-fcee-dd28-ec074671b8d5" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup"/>
+                    <entryLink id="8dd2753d-5531-fcee-dd28-ec074671b8d5" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -493,7 +493,7 @@
                     <constraint field="points" scope="parent" value="25" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="01e52b54-a6a1-3385-9d27-cd53a067132f" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
+                    <entryLink id="01e52b54-a6a1-3385-9d27-cd53a067132f" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -529,14 +529,14 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ff8f1d39-b7ad-7660-3136-8279d833bf0c" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
-        <infoLink id="037cac2f-b389-993d-526a-5c065da453cd" hidden="false" targetId="20949968-72ff-de65-5c62-f774c7423018" type="rule"/>
-        <infoLink id="c12b2b7a-464a-9e88-0357-34eb848d56ae" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule"/>
-        <infoLink id="0b530a96-23bf-d181-7d28-11bfb646fc0d" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="4ce85472-828c-233e-4f27-246cdab465f7" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="ff8f1d39-b7ad-7660-3136-8279d833bf0c" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
+        <infoLink id="037cac2f-b389-993d-526a-5c065da453cd" hidden="false" targetId="20949968-72ff-de65-5c62-f774c7423018" type="rule" name="Chill Grasp"/>
+        <infoLink id="c12b2b7a-464a-9e88-0357-34eb848d56ae" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule" name="Ethereal"/>
+        <infoLink id="0b530a96-23bf-d181-7d28-11bfb646fc0d" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="4ce85472-828c-233e-4f27-246cdab465f7" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4aa9d0d5-a89f-4a69-85fc-28ba5a86864e-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="4aa9d0d5-a89f-4a69-85fc-28ba5a86864e-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="60"/>
@@ -555,12 +555,12 @@
         <constraint field="selections" scope="roster" value="2" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="a42c6a72-0e5f-6792-41ee-e9196246c421" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule"/>
-        <infoLink id="52efe5c9-a1eb-3b17-1e5c-712c581aa0b4" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="c7da23cc-97f4-3bba-d3cc-980c2efe278b" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="a42c6a72-0e5f-6792-41ee-e9196246c421" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule" name="Ethereal"/>
+        <infoLink id="52efe5c9-a1eb-3b17-1e5c-712c581aa0b4" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="c7da23cc-97f4-3bba-d3cc-980c2efe278b" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="747cdeae-6ed3-4b5b-96fd-b844c7f9b9ac-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="747cdeae-6ed3-4b5b-96fd-b844c7f9b9ac-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="09faaff2-c421-42b7-9b8b-867c8881bd4d" name="Cairn Wraith" page="0" hidden="false" collective="false" import="true" type="model">
@@ -588,8 +588,8 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7dc6c34b-6c9a-b8ee-a8e7-086e1a152d18" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
-            <infoLink id="cff57f39-d333-ee03-951a-1a0084693b75" hidden="false" targetId="20949968-72ff-de65-5c62-f774c7423018" type="rule"/>
+            <infoLink id="7dc6c34b-6c9a-b8ee-a8e7-086e1a152d18" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
+            <infoLink id="cff57f39-d333-ee03-951a-1a0084693b75" hidden="false" targetId="20949968-72ff-de65-5c62-f774c7423018" type="rule" name="Chill Grasp"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50"/>
@@ -623,8 +623,8 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="e71d6303-d872-dff4-0d60-7badb09a5097" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-                <infoLink id="bce711bd-2ef0-fdb2-35c6-7748f6210e91" hidden="false" targetId="48eea62d-c5cf-676f-1cb3-77956b2781db" type="rule"/>
+                <infoLink id="e71d6303-d872-dff4-0d60-7badb09a5097" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+                <infoLink id="bce711bd-2ef0-fdb2-35c6-7748f6210e91" hidden="false" targetId="48eea62d-c5cf-676f-1cb3-77956b2781db" type="rule" name="Ghostly Howl"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="25"/>
@@ -669,16 +669,16 @@
       </profiles>
       <rules>
         <rule id="6d8d24e8-8d01-e80c-7ffe-db92cfabc65f" name="Vigor Mortis" publicationId="eb04bd3b--pubN65823" page="40" hidden="false">
-          <description>.</description>
+          <description>If an augment spell from the Lore of Vampires targets a Corpse Cart, and is successfully cast, then all friendly Undead units within 6&quot; of the Corpse Cart, including the Corpse Cart itself) have the Always Strikes First special rule until the start of your next Magic phase. Zombies affected by Vigour Mortis lose their Always Strikes Last special rule, and gain Always Strikes First instead.</description>
         </rule>
+        <rule name="Regeneration (4+)" id="763d-14ee-0ebe-bd87" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="ee247608-2944-38ad-52c4-6f074c92ccc9" hidden="false" targetId="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" type="rule"/>
-        <infoLink id="a742b7ff-1984-f20b-f884-bbe15131f38a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="ed246113-745f-6a4f-d14b-c86da5769dc2" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule"/>
+        <infoLink id="a742b7ff-1984-f20b-f884-bbe15131f38a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="ed246113-745f-6a4f-d14b-c86da5769dc2" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0b86d9fc-6e4a-4dee-8d03-50f4d6245c13-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="0b86d9fc-6e4a-4dee-8d03-50f4d6245c13-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e21b3b6c-9383-2c78-fc82-5efa5ad0d84b" name="Steeds" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -705,12 +705,12 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="71f9fb61-a088-5803-3944-1d7947d054ce" hidden="false" targetId="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <rules>
+            <rule name="Random Attacks (2d6)" id="7ec9-294a-cb34-94c9" hidden="false"/>
+          </rules>
         </selectionEntry>
         <selectionEntry id="d11a65b8-332e-19c3-03e9-af8bd3edd67e" name="Crew" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -742,7 +742,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="022324c1-39ef-255c-cc08-52608e673b58" hidden="false" targetId="0d731481-0eb9-f487-ff43-e5e8b5c3cd0e" type="profile"/>
+                <infoLink id="022324c1-39ef-255c-cc08-52608e673b58" hidden="false" targetId="0d731481-0eb9-f487-ff43-e5e8b5c3cd0e" type="profile" name="Spear (Mounted)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1"/>
@@ -766,7 +766,7 @@
               </constraints>
               <rules>
                 <rule id="92755cfb-9e55-60e0-e82d-3700a732e355" name="Balefire" publicationId="eb04bd3b--pubN65823" page="40" hidden="false">
-                  <description>.</description>
+                  <description>Enemy Wizards suffer a -1 modifier to their casting rolls if there is one or more units with the Balefire upgrade within 24&quot;.</description>
                 </rule>
               </rules>
               <costs>
@@ -779,7 +779,7 @@
               </constraints>
               <rules>
                 <rule id="d2a67ac3-ea8d-d939-cb2a-0aa5db588f7a" name="Unholy Lodestone" publicationId="eb04bd3b--pubN65823" page="40" hidden="false">
-                  <description>.</description>
+                  <description>When a friendly Wizard within 6&quot; of an Unholy Lodestone successfully casts Invocation of Nehek, he may re-roll a single D6 to determine how many Wounds are restored for each eligible Infantry unit.</description>
                 </rule>
               </rules>
               <costs>
@@ -825,12 +825,12 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="41f69990-578d-118b-1ca3-0abec08574a1" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="01ba36e5-b926-fa73-bcf3-98824f5d66b9" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="52aaf7d9-c91c-5c77-11db-57568aedac9d" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="41f69990-578d-118b-1ca3-0abec08574a1" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="01ba36e5-b926-fa73-bcf3-98824f5d66b9" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="52aaf7d9-c91c-5c77-11db-57568aedac9d" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fe6f8061-c1c2-4120-9350-abbef1b7cab3-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="fe6f8061-c1c2-4120-9350-abbef1b7cab3-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cab1b65c-bdcc-f5d7-e81d-94e02c321072" name="The General of Undeath" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -839,7 +839,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f0873a42-7fb4-466d-ae8b-c098a48eaf8e" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="f0873a42-7fb4-466d-ae8b-c098a48eaf8e" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -857,7 +857,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="162ca315-5c66-a5d4-0786-52503352483c" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry"/>
+                <entryLink id="162ca315-5c66-a5d4-0786-52503352483c" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry" name="Abyssal Teror"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="120"/>
@@ -868,10 +868,10 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="99b26cc5-79c0-a81b-001f-9a5196347c4b" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                <infoLink id="99b26cc5-79c0-a81b-001f-9a5196347c4b" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="b5386194-8164-a8d0-5b9c-d3d1752f93e1" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+                <entryLink id="b5386194-8164-a8d0-5b9c-d3d1752f93e1" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24"/>
@@ -882,7 +882,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="29a002a0-a076-6a16-6c9e-629c430842ae" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry"/>
+                <entryLink id="29a002a0-a076-6a16-6c9e-629c430842ae" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry" name="Hellsteed"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30"/>
@@ -1065,11 +1065,11 @@
     </selectionEntry>
     <selectionEntry id="43b021fc-f387-4744-8be0-bbcb3c62b14f" name="Crypt Ghouls" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="4aebfc11-a7fc-d7c8-2a9a-a685cd911ff6" hidden="false" targetId="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" type="rule"/>
-        <infoLink id="32161fbe-2c4e-a9ca-1eab-63b86f1d3c9d" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="4aebfc11-a7fc-d7c8-2a9a-a685cd911ff6" hidden="false" targetId="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" type="rule" name="Poisoned Attacks"/>
+        <infoLink id="32161fbe-2c4e-a9ca-1eab-63b86f1d3c9d" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="43b021fc-f387-4744-8be0-bbcb3c62b14f-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="43b021fc-f387-4744-8be0-bbcb3c62b14f-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c4f33f3e-8dae-4678-a051-b677cb326acc" name="Crypt Ghoul" page="0" hidden="false" collective="false" import="true" type="model">
@@ -1149,14 +1149,14 @@
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="38426b65-1b48-bd0a-c89b-88918ecc6d4e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="115e3a20-45a0-e519-e78b-04609d7d9e9b" hidden="false" targetId="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" type="rule"/>
-        <infoLink id="40aed003-f386-3e7d-147a-60f1a298459f" hidden="false" targetId="f59ddb4d-725a-02f3-d561-1122bddd78f3" type="rule"/>
-        <infoLink id="542ab095-e48c-6d92-feb7-f602fb7063ef" hidden="false" targetId="d9150917-e572-36a9-021d-dc5a09ac4aab" type="rule"/>
-        <infoLink id="9b356a3f-4e63-ea10-440c-40ca40a22b4a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="38426b65-1b48-bd0a-c89b-88918ecc6d4e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="115e3a20-45a0-e519-e78b-04609d7d9e9b" hidden="false" targetId="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" type="rule" name="Poisoned Attacks"/>
+        <infoLink id="40aed003-f386-3e7d-147a-60f1a298459f" hidden="false" targetId="f59ddb4d-725a-02f3-d561-1122bddd78f3" type="rule" name="Regeneration (5+)"/>
+        <infoLink id="542ab095-e48c-6d92-feb7-f602fb7063ef" hidden="false" targetId="d9150917-e572-36a9-021d-dc5a09ac4aab" type="rule" name="Stomp"/>
+        <infoLink id="9b356a3f-4e63-ea10-440c-40ca40a22b4a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e1b97def-6d94-4c50-9530-8d790731fd25-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="e1b97def-6d94-4c50-9530-8d790731fd25-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="664dc22c-836a-44c3-9076-f2968cf0d418" name="Crypt Horror" page="0" hidden="false" collective="false" import="true" type="model">
@@ -1231,12 +1231,12 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="f87294a5-6435-3d63-928b-f422fd3570f2" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
-        <infoLink id="8b8ac354-8db0-1721-0e51-cb7a829d9900" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="63b94e75-bb48-b300-723a-be06546f1a89" hidden="false" targetId="658e3120-c6b5-ca4a-c62c-487a65ce2017" type="rule"/>
+        <infoLink id="f87294a5-6435-3d63-928b-f422fd3570f2" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
+        <infoLink id="8b8ac354-8db0-1721-0e51-cb7a829d9900" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="63b94e75-bb48-b300-723a-be06546f1a89" hidden="false" targetId="658e3120-c6b5-ca4a-c62c-487a65ce2017" type="rule" name="Vanguard (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="eef00a30-30fd-4408-8161-66401f2b31e6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="eef00a30-30fd-4408-8161-66401f2b31e6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ffdbd9df-7998-4ef3-84e1-9c73563aa441" name="Dire Wolf" page="0" hidden="false" collective="false" import="true" type="model">
@@ -1318,12 +1318,12 @@
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="b2aec534-9f19-9d9c-a50c-22f26992f135" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
-        <infoLink id="9698489c-eed9-1b81-7db6-f97b960d6266" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
-        <infoLink id="c9127b37-268f-680a-4efe-f448e8ef7a2d" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="b2aec534-9f19-9d9c-a50c-22f26992f135" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
+        <infoLink id="9698489c-eed9-1b81-7db6-f97b960d6266" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
+        <infoLink id="c9127b37-268f-680a-4efe-f448e8ef7a2d" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="23b84d3b-30ff-431a-a45b-be3238f71b4c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="23b84d3b-30ff-431a-a45b-be3238f71b4c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ba426247-f69f-49a5-9438-3c1554838b9b" name="Fell Bat" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1370,13 +1370,13 @@
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f9aafdbb-a80a-532b-a9ba-ae53677b58b1" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="82161db7-0f1d-71b2-7429-2eaf8d65564f" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="2a5fd558-d08a-8f96-2c53-946b03d3fcc6" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule"/>
-        <infoLink id="d106a216-799c-b0fb-5ba4-1a5a2a09da57" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="f9aafdbb-a80a-532b-a9ba-ae53677b58b1" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="82161db7-0f1d-71b2-7429-2eaf8d65564f" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="2a5fd558-d08a-8f96-2c53-946b03d3fcc6" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule" name="Killing Blow"/>
+        <infoLink id="d106a216-799c-b0fb-5ba4-1a5a2a09da57" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="36e3305b-9079-491e-9292-414398f02683-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="36e3305b-9079-491e-9292-414398f02683-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4ce0c914-9d4a-4207-9e1a-f09e24810674" name="Grave Guard" page="0" hidden="false" collective="false" import="true" type="model">
@@ -1411,7 +1411,7 @@
               <selectionEntries>
                 <selectionEntry id="3211c6fa-d916-4754-a8a9-8aa1fe282dd0" name="Shield" page="0" hidden="false" collective="true" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="87d85021-f379-1fdc-f789-414baba1e492" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
+                    <infoLink id="87d85021-f379-1fdc-f789-414baba1e492" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
@@ -1419,7 +1419,7 @@
                 </selectionEntry>
                 <selectionEntry id="da63f690-7005-423c-87ed-48957b946932" name="Great Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="a09e9cee-c55f-1e0a-b2a4-f5fdd029db68" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
+                    <infoLink id="a09e9cee-c55f-1e0a-b2a4-f5fdd029db68" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="1"/>
@@ -1447,7 +1447,7 @@
                     <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="fbbadae6-d8d4-35b7-6bc7-4c4e01fe6e41" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup"/>
+                    <entryLink id="fbbadae6-d8d4-35b7-6bc7-4c4e01fe6e41" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1521,10 +1521,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2618a87a-52d1-2597-bbe7-468253d0aca8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="2618a87a-52d1-2597-bbe7-468253d0aca8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ff60d68f-f67c-4a72-a025-c20bf919d1f8-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="ff60d68f-f67c-4a72-a025-c20bf919d1f8-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="129f44c6-2f97-47d9-a088-27c2e749e5da" name="Master of the Dead" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1534,7 +1534,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6ed933a9-95cd-6c5a-1687-2e091b424dec" hidden="false" targetId="e6fdbe82-3fbc-d31c-c930-7ef812626c49" type="rule"/>
+            <infoLink id="6ed933a9-95cd-6c5a-1687-2e091b424dec" hidden="false" targetId="e6fdbe82-3fbc-d31c-c930-7ef812626c49" type="rule" name="Master of the Dead"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1546,7 +1546,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="202ff78f-e24b-2acc-e570-e9d372c8ecf6" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="202ff78f-e24b-2acc-e570-e9d372c8ecf6" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1693,14 +1693,14 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="2e8a8911-2f31-b66e-76e0-f37690d8d1eb" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
-        <infoLink id="b4bc9196-0be7-98c0-0d0d-007dc6b33b60" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule"/>
-        <infoLink id="37a2ea61-b683-ff2c-3f7e-f000a669d9ba" hidden="false" targetId="abd99c50-391f-00a0-acd2-b23a4f5c3c99" type="rule"/>
-        <infoLink id="f2f82e1e-c7ed-c66b-640f-fa9e9dbdd068" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="144d9b94-ab01-af87-e110-172b06ab5bbf" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="2e8a8911-2f31-b66e-76e0-f37690d8d1eb" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
+        <infoLink id="b4bc9196-0be7-98c0-0d0d-007dc6b33b60" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule" name="Ethereal"/>
+        <infoLink id="37a2ea61-b683-ff2c-3f7e-f000a669d9ba" hidden="false" targetId="abd99c50-391f-00a0-acd2-b23a4f5c3c99" type="rule" name="Fast Cavalry"/>
+        <infoLink id="f2f82e1e-c7ed-c66b-640f-fa9e9dbdd068" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="144d9b94-ab01-af87-e110-172b06ab5bbf" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4b14d528-5f34-48ea-906f-18aab8b8ec43-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="4b14d528-5f34-48ea-906f-18aab8b8ec43-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ab01533b-1f1c-4fe9-8700-8160158ed12b" name="Hexwraith" page="0" hidden="false" collective="false" import="true" type="model">
@@ -1737,7 +1737,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="bf5c8409-b1ee-6242-bc66-9502dcbd5d20" hidden="false" collective="false" import="true" targetId="87317591-937d-6ccc-5fee-a762d93d3712" type="selectionEntry"/>
+            <entryLink id="bf5c8409-b1ee-6242-bc66-9502dcbd5d20" hidden="false" collective="false" import="true" targetId="87317591-937d-6ccc-5fee-a762d93d3712" type="selectionEntry" name="Skeletal Steed"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1811,14 +1811,14 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d3d8d420-cac5-8e41-3dac-c781d133c60a" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="6188c086-5ba8-2007-246f-5e5e2b0f1beb" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="069082dd-b5be-24ea-2dd8-9b72d88a8b92" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="61a3eb14-c7cf-1685-1cac-a95fece84ba7" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="04e8c14f-ece8-f75c-5054-e012654a7f74" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="d3d8d420-cac5-8e41-3dac-c781d133c60a" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="6188c086-5ba8-2007-246f-5e5e2b0f1beb" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="069082dd-b5be-24ea-2dd8-9b72d88a8b92" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="61a3eb14-c7cf-1685-1cac-a95fece84ba7" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="04e8c14f-ece8-f75c-5054-e012654a7f74" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6cd97d60-ef9d-4262-bd6e-c89e6af59287-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="6cd97d60-ef9d-4262-bd6e-c89e6af59287-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e11fd883-b31a-9779-c55b-cd7f4422d595" name="The General of Undeath" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1827,7 +1827,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1d314aae-15b6-9a33-259b-7fdc53b994fa" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="1d314aae-15b6-9a33-259b-7fdc53b994fa" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1951,15 +1951,15 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="e2a6fc08-f8b2-d2c7-6cf5-120f77b9eedb" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="f25f1b68-17be-cdab-353b-e97a66c67a33" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="bd57b215-fbf9-acf0-d5a4-37a3d0728500" hidden="false" targetId="967ee5fe-b3a0-d20e-6e63-64d1e8aea74a" type="rule"/>
-        <infoLink id="28404b10-0060-de11-8831-302ac9ae79a8" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="d314870c-7240-f5ac-a4ef-052db30cae44" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="61f08c15-1e93-cc30-6ad5-de6464a0aa10" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="e2a6fc08-f8b2-d2c7-6cf5-120f77b9eedb" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="f25f1b68-17be-cdab-353b-e97a66c67a33" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="bd57b215-fbf9-acf0-d5a4-37a3d0728500" hidden="false" targetId="967ee5fe-b3a0-d20e-6e63-64d1e8aea74a" type="rule" name="Hatred"/>
+        <infoLink id="28404b10-0060-de11-8831-302ac9ae79a8" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="d314870c-7240-f5ac-a4ef-052db30cae44" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="61f08c15-1e93-cc30-6ad5-de6464a0aa10" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3e76a2e4-99dd-491e-905c-585459e58bc6-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="3e76a2e4-99dd-491e-905c-585459e58bc6-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="093c975e-7602-4033-958a-bfb3c5ce2bab" name="Vampiric Power" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ec9fd78-0409-489a-a4c5-bdd23d593a84">
@@ -2045,12 +2045,12 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="11bc82d9-aebd-fa4c-3118-e1166664c6f1" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule"/>
-        <infoLink id="653a8ada-c5c1-1649-f578-1274c433066b" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="110ff3c9-6a18-b9e5-7f7c-0c73619f1e84" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="11bc82d9-aebd-fa4c-3118-e1166664c6f1" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule" name="Killing Blow"/>
+        <infoLink id="653a8ada-c5c1-1649-f578-1274c433066b" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="110ff3c9-6a18-b9e5-7f7c-0c73619f1e84" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6bf68c9e-b21a-4c1c-934c-54ccc2659e5d-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="6bf68c9e-b21a-4c1c-934c-54ccc2659e5d-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="07111292-6405-41ff-a70a-0b5722cf2616" name="Magic Items: Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a47d1be-445d-4977-92bd-6e033aded73d">
@@ -2141,13 +2141,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d23df19d-2bcf-febf-50ce-cc0bc76459e3" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="e21a80ee-c4a5-f685-6615-f58fc843ac4f" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="f12ab295-1fee-71fd-3ddf-c10550509416" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="d8e1236b-aa3d-96db-7a7c-0e097b4fc04c" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="d23df19d-2bcf-febf-50ce-cc0bc76459e3" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="e21a80ee-c4a5-f685-6615-f58fc843ac4f" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="f12ab295-1fee-71fd-3ddf-c10550509416" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="d8e1236b-aa3d-96db-7a7c-0e097b4fc04c" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e73bdf8c-5cb2-42a9-839f-2c824f598aa5-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="e73bdf8c-5cb2-42a9-839f-2c824f598aa5-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9278039c-e4d6-7801-3f17-4ee42615342e" name="The General of Undeath" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2156,7 +2156,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="734fa972-37fd-a9e3-cd2c-879df62e5164" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="734fa972-37fd-a9e3-cd2c-879df62e5164" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2174,10 +2174,10 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e4a90756-634d-36ae-9559-2a896bdead04" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                <infoLink id="e4a90756-634d-36ae-9559-2a896bdead04" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="d4ecec2f-6759-5257-5255-0ff3c182a68c" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+                <entryLink id="d4ecec2f-6759-5257-5255-0ff3c182a68c" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16"/>
@@ -2188,7 +2188,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="90f9275d-68f0-f902-b139-ba581ead63a1" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry"/>
+                <entryLink id="90f9275d-68f0-f902-b139-ba581ead63a1" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry" name="Abyssal Teror"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="120"/>
@@ -2304,11 +2304,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="31c34ac7-ef49-e79a-4f66-8b964f78b874" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="fa5d44f9-e6e4-9b50-3849-14a39a43c0cf" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="31c34ac7-ef49-e79a-4f66-8b964f78b874" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="fa5d44f9-e6e4-9b50-3849-14a39a43c0cf" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="dbb1139e-e105-4cb9-a410-48cac5e12211-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="dbb1139e-e105-4cb9-a410-48cac5e12211-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="78c63170-289a-431a-a0c3-93a554902833" name="Master of the Dead" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2318,7 +2318,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="702ef4db-bbf6-a5e0-3ad0-2c0b8dac0470" hidden="false" targetId="e6fdbe82-3fbc-d31c-c930-7ef812626c49" type="rule"/>
+            <infoLink id="702ef4db-bbf6-a5e0-3ad0-2c0b8dac0470" hidden="false" targetId="e6fdbe82-3fbc-d31c-c930-7ef812626c49" type="rule" name="Master of the Dead"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
@@ -2334,11 +2334,11 @@
                 <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7352afd5-87e1-a81a-d24e-1a61ffd0a9e6" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup"/>
-                <entryLink id="245cdde5-64c3-d967-252f-d25d3298a0b3" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup"/>
-                <entryLink id="b2b8bc47-5cf7-ed07-9e08-6da6ad1fd170" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
-                <entryLink id="6f5a0b9b-c64a-05cb-adeb-052b092d2e1c" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup"/>
-                <entryLink id="200e6f70-60d7-5292-a141-f1c67643cb29" hidden="false" collective="false" import="true" targetId="5f3face9-834d-a1c3-f1d7-0dbb717edfcf" type="selectionEntryGroup"/>
+                <entryLink id="7352afd5-87e1-a81a-d24e-1a61ffd0a9e6" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="245cdde5-64c3-d967-252f-d25d3298a0b3" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="b2b8bc47-5cf7-ed07-9e08-6da6ad1fd170" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="6f5a0b9b-c64a-05cb-adeb-052b092d2e1c" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup" name="Talismans"/>
+                <entryLink id="200e6f70-60d7-5292-a141-f1c67643cb29" hidden="false" collective="false" import="true" targetId="5f3face9-834d-a1c3-f1d7-0dbb717edfcf" type="selectionEntryGroup" name="Magic Armour (Necromancers)"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2352,7 +2352,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="9e5333e7-efc6-0f70-c169-77377981028b" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="9e5333e7-efc6-0f70-c169-77377981028b" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2402,10 +2402,10 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="52dd0d59-b283-31b4-c4df-0e071ea85b03" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                <infoLink id="52dd0d59-b283-31b4-c4df-0e071ea85b03" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="6e71dc02-46bd-6581-7b38-0ad6685aa8eb" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+                <entryLink id="6e71dc02-46bd-6581-7b38-0ad6685aa8eb" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20"/>
@@ -2416,7 +2416,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="e73393fd-387a-27bf-b9d1-ad384490afd6" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry"/>
+                <entryLink id="e73393fd-387a-27bf-b9d1-ad384490afd6" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry" name="Hellsteed"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30"/>
@@ -2424,10 +2424,10 @@
             </selectionEntry>
             <selectionEntry id="99d5584f-88a8-47e4-a83d-97e8fdbe8cf6" name="Corpse Cart" page="0" hidden="false" collective="false" import="true" type="unit">
               <categoryLinks>
-                <categoryLink id="99d5584f-88a8-47e4-a83d-97e8fdbe8cf6-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+                <categoryLink id="99d5584f-88a8-47e4-a83d-97e8fdbe8cf6-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink id="2531d3f7-f765-4188-910c-fb697079acdb" hidden="false" collective="false" import="true" targetId="f1d09641-50a1-52bc-d6a0-dbf9a700969c" type="selectionEntry"/>
+                <entryLink id="2531d3f7-f765-4188-910c-fb697079acdb" hidden="false" collective="false" import="true" targetId="f1d09641-50a1-52bc-d6a0-dbf9a700969c" type="selectionEntry" name="Corpse Cart"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="90"/>
@@ -2438,7 +2438,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ef7d3b74-d82a-b3b2-9532-46de0925662a" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry"/>
+                <entryLink id="ef7d3b74-d82a-b3b2-9532-46de0925662a" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry" name="Abyssal Teror"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="120"/>
@@ -2507,18 +2507,18 @@
       </profiles>
       <rules>
         <rule id="a6332915-ecc0-e414-c58d-1c6ec927100c" name="The Reliquary" publicationId="eb04bd3b--pubN65823" page="53" hidden="false">
-          <description>.</description>
+          <description>At the start of each of your turns, roll 2D6 and add the current turn number. This is the range of the reliquary&apos;s dark aura this turn in inches. All enemy units within range of the dark aura immediately take D6 hits, with a Strength equal to the current turn number, distributed as from shooting. Also, place a marker next to all friendly Undead units that were within range of the dark aura at the start of the turn. These units improve their Regeneration saves by one point until the start of their next turn, to a maximum of 4+. If they have no Regeneration save, they are treated as having the Regeneration (6+) special rule instead. Finally, if the 2D6 result was a double, then in addition to the usual effects, the Mortis Engine takes 1 Wound with no saves of any kind allowed. When the Mortis Engine suffers its last unsaved Wound, every unit within 12 plus the turn number in inches, friend or foe, must take 2D6 hits with a Strength equal to the current turn number. These hits are distributed as shooting.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5769c5fd-a3bd-d875-d946-8b338481a11e" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule"/>
-        <infoLink id="7ea09382-e6da-1233-a731-fc0c6677c449" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule"/>
-        <infoLink id="29918295-3e3e-9bc1-959b-90854e012f66" hidden="false" targetId="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" type="rule"/>
-        <infoLink id="3229030f-f74b-9651-f996-ec09b405d587" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="bb261f64-71f4-4a10-e2b9-6ff0cbea07c1" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="5769c5fd-a3bd-d875-d946-8b338481a11e" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="7ea09382-e6da-1233-a731-fc0c6677c449" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
+        <infoLink id="29918295-3e3e-9bc1-959b-90854e012f66" hidden="false" targetId="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" type="rule" name="Regeneration (*)"/>
+        <infoLink id="3229030f-f74b-9651-f996-ec09b405d587" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="bb261f64-71f4-4a10-e2b9-6ff0cbea07c1" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="744fd11e-43fa-43e6-8b1e-4e0ac12845fd-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="744fd11e-43fa-43e6-8b1e-4e0ac12845fd-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0e3c97ae-8135-4afa-8b22-c90269842c42" name="Blasphemous Tome" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2527,7 +2527,7 @@
           </constraints>
           <rules>
             <rule id="41623573-8232-2c44-d6a9-71f086368f9a" name="Blasphemous Tome" publicationId="eb04bd3b--pubN65823" page="53" hidden="false">
-              <description>.</description>
+              <description>All Wizards (friend or foe) within 12&quot; of one or more models with a Blasphemous Tome gain +2 to their casting result when casting spells from the Lore of Vampires. If any Wizard miscasts within 12&quot; of one or more models with a Blasphemous Tome upgrade, he must roll twice on the Miscast Table. The miscasting player&apos;s opponent chooses which result applies.</description>
             </rule>
           </rules>
           <costs>
@@ -2577,11 +2577,11 @@
           </profiles>
           <rules>
             <rule id="7b952332-66e4-4c64-41e6-fa385e40c6a9" name="Banshee Swarm" publicationId="eb04bd3b--pubN65823" page="53" hidden="false">
-              <description>.</description>
+              <description>The Mortis Engine can make a Ghostly Howl attack.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="8b40c28b-a784-3112-985b-cb6b27f45390" hidden="false" targetId="48eea62d-c5cf-676f-1cb3-77956b2781db" type="rule"/>
+            <infoLink id="8b40c28b-a784-3112-985b-cb6b27f45390" hidden="false" targetId="48eea62d-c5cf-676f-1cb3-77956b2781db" type="rule" name="Ghostly Howl"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2612,12 +2612,14 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="3302099b-43b5-db8f-1584-1c560ed67e3c" hidden="false" targetId="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" type="rule"/>
-            <infoLink id="9d76a77c-ae68-f18c-1494-90d4250c3fac" hidden="false" targetId="0c4b16cc-a45d-afca-5505-a097980d1597" type="rule"/>
+            <infoLink id="9d76a77c-ae68-f18c-1494-90d4250c3fac" hidden="false" targetId="0c4b16cc-a45d-afca-5505-a097980d1597" type="rule" name="Spectral Steeds"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <rules>
+            <rule name="Random Attacks (2d6)" id="8279-c237-8139-968a" hidden="false"/>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2645,11 +2647,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4e4dcb15-099c-f1f1-b7d9-fe66f3f21289" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="2607fe0c-9d3c-ad63-3aa3-81f080dcc4c5" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="4e4dcb15-099c-f1f1-b7d9-fe66f3f21289" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="2607fe0c-9d3c-ad63-3aa3-81f080dcc4c5" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4041c7fe-853b-4a5d-a70f-bb17ebfca35e-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="4041c7fe-853b-4a5d-a70f-bb17ebfca35e-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bc3aad3e-95b0-9d6b-f58a-161a4a324d9d" name="Master of the Dead" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2659,7 +2661,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="576b3921-fdcc-3399-0835-0901c48ad1c6" hidden="false" targetId="e6fdbe82-3fbc-d31c-c930-7ef812626c49" type="rule"/>
+            <infoLink id="576b3921-fdcc-3399-0835-0901c48ad1c6" hidden="false" targetId="e6fdbe82-3fbc-d31c-c930-7ef812626c49" type="rule" name="Master of the Dead"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20"/>
@@ -2675,11 +2677,11 @@
                 <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="fa93aa20-59d6-962f-ab77-cfbc9db44376" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup"/>
-                <entryLink id="7c3de87a-2124-38d3-9b7a-4e242a6e9629" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup"/>
-                <entryLink id="33294cd9-a622-a5c7-1394-30cca5e6d8a2" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
-                <entryLink id="860729d4-ef24-e30a-aae6-8c719cc35efd" hidden="false" collective="false" import="true" targetId="5f3face9-834d-a1c3-f1d7-0dbb717edfcf" type="selectionEntryGroup"/>
-                <entryLink id="b130e800-fe08-eb06-69d7-650cb3c8fe23" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup"/>
+                <entryLink id="fa93aa20-59d6-962f-ab77-cfbc9db44376" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="7c3de87a-2124-38d3-9b7a-4e242a6e9629" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="33294cd9-a622-a5c7-1394-30cca5e6d8a2" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="860729d4-ef24-e30a-aae6-8c719cc35efd" hidden="false" collective="false" import="true" targetId="5f3face9-834d-a1c3-f1d7-0dbb717edfcf" type="selectionEntryGroup" name="Magic Armour (Necromancers)"/>
+                <entryLink id="b130e800-fe08-eb06-69d7-650cb3c8fe23" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup" name="Talismans"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2693,7 +2695,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="47c14d03-9e53-f8f2-4622-0f3952e77bd8" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="47c14d03-9e53-f8f2-4622-0f3952e77bd8" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2743,7 +2745,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="74cd54d0-e80a-49ab-9ce1-8ddf33371edb" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+                <entryLink id="74cd54d0-e80a-49ab-9ce1-8ddf33371edb" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15"/>
@@ -2751,10 +2753,10 @@
             </selectionEntry>
             <selectionEntry id="d1ee8b56-480f-4eba-9c89-f3ed655f730c" name="Corpse Cart" page="0" hidden="false" collective="false" import="true" type="unit">
               <categoryLinks>
-                <categoryLink id="d1ee8b56-480f-4eba-9c89-f3ed655f730c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+                <categoryLink id="d1ee8b56-480f-4eba-9c89-f3ed655f730c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink id="7d3a241b-6bef-c108-9944-ba17d6dd6ed8" hidden="false" collective="false" import="true" targetId="f1d09641-50a1-52bc-d6a0-dbf9a700969c" type="selectionEntry"/>
+                <entryLink id="7d3a241b-6bef-c108-9944-ba17d6dd6ed8" hidden="false" collective="false" import="true" targetId="f1d09641-50a1-52bc-d6a0-dbf9a700969c" type="selectionEntry" name="Corpse Cart"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="90"/>
@@ -2793,13 +2795,13 @@
     </selectionEntry>
     <selectionEntry id="c073446e-d7f3-4e34-aad4-c8ecbca998dc" name="Skeleton Warriors" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="6f5d4b63-6f79-b2a5-b4c4-c93c96c224b6" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="b4f4771a-af8a-7aa4-a801-d9945bfddf97" hidden="false" targetId="7145e4ef-6a6d-31dd-9969-4a4eaa585305" type="profile"/>
-        <infoLink id="bb03d4c6-06e8-6ce2-e3a0-4d89dd0a4268" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
-        <infoLink id="48f2846f-e7fc-fe57-60dd-2f9adc7f2f3a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="6f5d4b63-6f79-b2a5-b4c4-c93c96c224b6" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="b4f4771a-af8a-7aa4-a801-d9945bfddf97" hidden="false" targetId="7145e4ef-6a6d-31dd-9969-4a4eaa585305" type="profile" name="Light Armour"/>
+        <infoLink id="bb03d4c6-06e8-6ce2-e3a0-4d89dd0a4268" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
+        <infoLink id="48f2846f-e7fc-fe57-60dd-2f9adc7f2f3a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c073446e-d7f3-4e34-aad4-c8ecbca998dc-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="c073446e-d7f3-4e34-aad4-c8ecbca998dc-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5a77ec28-bc31-4309-b5cd-231bb78faa8a" name="Skeleton Warrior" page="0" hidden="false" collective="false" import="true" type="model">
@@ -2831,7 +2833,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="83cf29a0-5be0-2c0d-1a76-261beede9ea4" hidden="false" targetId="f4ce31f0-5565-d5f7-8a8a-c0eb78ef241e" type="profile"/>
+                <infoLink id="83cf29a0-5be0-2c0d-1a76-261beede9ea4" hidden="false" targetId="f4ce31f0-5565-d5f7-8a8a-c0eb78ef241e" type="profile" name="Spear (Foot)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -2857,7 +2859,7 @@
                     <constraint field="points" scope="parent" value="25" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="dd4b6036-0b0a-53dd-69ee-4fa9ed692546" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup"/>
+                    <entryLink id="dd4b6036-0b0a-53dd-69ee-4fa9ed692546" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup" name="Magic Standards"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2920,13 +2922,13 @@
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="0b5760cb-0cdb-fdf7-3939-6a2a3840066e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="73dbc05b-e1d8-185f-e62e-e653a7dec8c4" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule"/>
-        <infoLink id="6884fe94-26f7-a410-43db-ec22e679055b" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule"/>
-        <infoLink id="cc9740a2-f82d-1676-b336-bea48605586f" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="0b5760cb-0cdb-fdf7-3939-6a2a3840066e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="73dbc05b-e1d8-185f-e62e-e653a7dec8c4" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule" name="Ethereal"/>
+        <infoLink id="6884fe94-26f7-a410-43db-ec22e679055b" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
+        <infoLink id="cc9740a2-f82d-1676-b336-bea48605586f" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4c365d1c-3806-4e80-adbd-fc3a1dda4ae3-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="4c365d1c-3806-4e80-adbd-fc3a1dda4ae3-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9bb58ed5-076b-40c8-9888-a3ac4968ca55" name="Spirt Host" page="0" hidden="false" collective="false" import="true" type="model">
@@ -2984,19 +2986,19 @@
       </profiles>
       <rules>
         <rule id="609135e2-f53c-2205-b7d4-876629adb8a6" name="Infinite Hatred" publicationId="eb04bd3b--pubN65823" page="32" hidden="false">
-          <description>.</description>
+          <description>Ghoul Kings have the Hatred special rule. However, they may re-roll failed rolls To Hit in every round of close combat, not just the first.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="4ff6e949-4caa-01a6-b78c-3c92e17b2784" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="b8b88a5e-924c-31b9-31c4-3008192f9e9f" hidden="false" targetId="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" type="rule"/>
-        <infoLink id="fa4e6056-85f5-a833-423e-3d5219f03de9" hidden="false" targetId="f59ddb4d-725a-02f3-d561-1122bddd78f3" type="rule"/>
-        <infoLink id="ad790e1e-a395-770a-a7f8-06c27ed9aee3" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="985e1280-3db1-ab17-900b-0870b96aa9bf" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="8bc6a1be-8c87-c08b-c42c-7f963f7bf646" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="4ff6e949-4caa-01a6-b78c-3c92e17b2784" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="b8b88a5e-924c-31b9-31c4-3008192f9e9f" hidden="false" targetId="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" type="rule" name="Poisoned Attacks"/>
+        <infoLink id="fa4e6056-85f5-a833-423e-3d5219f03de9" hidden="false" targetId="f59ddb4d-725a-02f3-d561-1122bddd78f3" type="rule" name="Regeneration (5+)"/>
+        <infoLink id="ad790e1e-a395-770a-a7f8-06c27ed9aee3" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="985e1280-3db1-ab17-900b-0870b96aa9bf" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="8bc6a1be-8c87-c08b-c42c-7f963f7bf646" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f8a9ee94-c909-44c1-91d9-b599f25c5673-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="f8a9ee94-c909-44c1-91d9-b599f25c5673-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3f97b5ae-de87-4d0e-87c9-70397c10fa74" name="Magic Items" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3009,10 +3011,10 @@
                 <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="57a863bb-16f8-30b9-d2a7-eea33abfaa0b" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup"/>
-                <entryLink id="0588b69f-b876-ade3-fd8b-0ac40d65905c" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup"/>
-                <entryLink id="77a928be-7f8d-79cc-90c5-1b8e023acae6" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
-                <entryLink id="d5b4406c-825a-a5b5-eb61-49f410c6f12c" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup"/>
+                <entryLink id="57a863bb-16f8-30b9-d2a7-eea33abfaa0b" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="0588b69f-b876-ade3-fd8b-0ac40d65905c" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="77a928be-7f8d-79cc-90c5-1b8e023acae6" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="d5b4406c-825a-a5b5-eb61-49f410c6f12c" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup" name="Talismans"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3026,7 +3028,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="47560acd-77ce-d63a-9333-400118fdad69" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="47560acd-77ce-d63a-9333-400118fdad69" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -3041,10 +3043,10 @@
           <selectionEntries>
             <selectionEntry id="fb93f57a-2cba-4013-94bc-e1022e2d2da4" name="Terrorgheist" page="0" hidden="false" collective="false" import="true" type="unit">
               <categoryLinks>
-                <categoryLink id="fb93f57a-2cba-4013-94bc-e1022e2d2da4-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+                <categoryLink id="fb93f57a-2cba-4013-94bc-e1022e2d2da4-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink id="805d6fbd-f796-92c9-aa50-83a6afb632df" hidden="false" collective="false" import="true" targetId="4c84b5bd-cd62-a311-8b05-7dfe84128b3b" type="selectionEntry"/>
+                <entryLink id="805d6fbd-f796-92c9-aa50-83a6afb632df" hidden="false" collective="false" import="true" targetId="4c84b5bd-cd62-a311-8b05-7dfe84128b3b" type="selectionEntry" name="Terrorgheist"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="225"/>
@@ -3057,7 +3059,7 @@
             <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b6a1ca0c-59ee-5f8f-b154-7c771ae40792" hidden="false" collective="false" import="true" targetId="86061326-1741-6f5c-2417-2760cd13c790" type="selectionEntryGroup"/>
+            <entryLink id="b6a1ca0c-59ee-5f8f-b154-7c771ae40792" hidden="false" collective="false" import="true" targetId="86061326-1741-6f5c-2417-2760cd13c790" type="selectionEntryGroup" name="Vampiric Powers"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f69dc725-08b6-4595-97a6-6f7cea7382be" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="3f72114f-2fe7-4984-9b85-efa34018144c">
@@ -3129,16 +3131,16 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f00ee724-1f70-dd7f-095d-ca9f825c9952" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
-        <infoLink id="6eaf6b0d-48ea-c9dd-7699-500674a3d5fe" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule"/>
-        <infoLink id="fc47a1f0-df55-57d8-0e41-12b610ce1f4b" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="69889359-8397-05e8-56e9-e76098b8dafa" hidden="false" targetId="696c399a-e2ce-f538-2ed0-16ccc2294b08" type="rule"/>
-        <infoLink id="9faf66e2-05bd-1bc4-c5ca-70eca38dbf67" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="82181f73-4b8b-4387-7259-6932c2eae84d" hidden="false" targetId="69c9b553-6c8c-6498-a816-a75985cde3d5" type="rule"/>
-        <infoLink id="29d8f772-3f3b-bb5e-c282-a284992a4960" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule"/>
+        <infoLink id="f00ee724-1f70-dd7f-095d-ca9f825c9952" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
+        <infoLink id="6eaf6b0d-48ea-c9dd-7699-500674a3d5fe" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule" name="Thunderstomp"/>
+        <infoLink id="fc47a1f0-df55-57d8-0e41-12b610ce1f4b" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="69889359-8397-05e8-56e9-e76098b8dafa" hidden="false" targetId="696c399a-e2ce-f538-2ed0-16ccc2294b08" type="rule" name="Death Shriek"/>
+        <infoLink id="9faf66e2-05bd-1bc4-c5ca-70eca38dbf67" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="82181f73-4b8b-4387-7259-6932c2eae84d" hidden="false" targetId="69c9b553-6c8c-6498-a816-a75985cde3d5" type="rule" name="Regeneration (6+)"/>
+        <infoLink id="29d8f772-3f3b-bb5e-c282-a284992a4960" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="63f33e99-601d-4d67-8440-d87adc5bab13-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="63f33e99-601d-4d67-8440-d87adc5bab13-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="093228c4-52ca-49b7-93ec-fc8c71e6d3a3" name="Rancid Maw" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3193,13 +3195,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="600f7632-8369-4cdc-0a72-05a27bddd9be" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule"/>
-        <infoLink id="660a2c2a-158c-1e53-04b5-f819a20a6ecd" hidden="false" targetId="48eea62d-c5cf-676f-1cb3-77956b2781db" type="rule"/>
-        <infoLink id="22eae396-17ff-012b-68b9-e083085c8d26" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="b03c0ad4-5a93-5ca3-a94c-2565c734ce03" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="600f7632-8369-4cdc-0a72-05a27bddd9be" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule" name="Ethereal"/>
+        <infoLink id="660a2c2a-158c-1e53-04b5-f819a20a6ecd" hidden="false" targetId="48eea62d-c5cf-676f-1cb3-77956b2781db" type="rule" name="Ghostly Howl"/>
+        <infoLink id="22eae396-17ff-012b-68b9-e083085c8d26" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="b03c0ad4-5a93-5ca3-a94c-2565c734ce03" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="40292084-7694-4be3-98b7-393ec23f00a7-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="40292084-7694-4be3-98b7-393ec23f00a7-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="95"/>
@@ -3226,13 +3228,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5c36c8de-168f-27d6-a2a0-f79b6b50c7b3" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="46044b49-72e2-34f7-e1ff-2c6c2c1935ef" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="c6d49bc3-64cf-662a-2371-e51ca6826238" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="c0df59fa-e967-b0af-d660-d7d03b883216" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="5c36c8de-168f-27d6-a2a0-f79b6b50c7b3" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="46044b49-72e2-34f7-e1ff-2c6c2c1935ef" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="c6d49bc3-64cf-662a-2371-e51ca6826238" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="c0df59fa-e967-b0af-d660-d7d03b883216" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fe104b36-d666-4036-8e44-a7efbd4ef967-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="fe104b36-d666-4036-8e44-a7efbd4ef967-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fabdd3f1-5abe-44c8-a8ed-dfcdf61e3e28" name="Heavy Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3240,7 +3242,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f31c9737-2f70-9221-14e8-79e2f58f49e4" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
+            <infoLink id="f31c9737-2f70-9221-14e8-79e2f58f49e4" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="4"/>
@@ -3251,7 +3253,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a8d9beef-1c95-b675-6e8c-4f00273babb0" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
+            <infoLink id="a8d9beef-1c95-b675-6e8c-4f00273babb0" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="2"/>
@@ -3263,7 +3265,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="87554103-da68-9b92-e707-2832b6fe8cb2" hidden="false" targetId="3ea98e2f-6f4d-8069-65c8-b2d8cf170d73" type="rule"/>
+            <infoLink id="87554103-da68-9b92-e707-2832b6fe8cb2" hidden="false" targetId="3ea98e2f-6f4d-8069-65c8-b2d8cf170d73" type="rule" name="Vampire Counts Battle Standards"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="c4483d4c-7dd7-4c2e-a2e4-24c7dd141f05" name="Magic Banners" hidden="false" collective="false" import="true">
@@ -3271,7 +3273,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="4ec27b21-4fa3-4d4a-9ed0-8f50b25e658e" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup"/>
+                <entryLink id="4ec27b21-4fa3-4d4a-9ed0-8f50b25e658e" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup" name="Magic Standards"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3296,11 +3298,11 @@
                 <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="625bf6d1-9a8c-d7d9-d470-40b904a0de9a" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup"/>
-                <entryLink id="61c8d876-5415-b7d4-54fd-684329b886be" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup"/>
-                <entryLink id="6efb57dd-23ec-ce76-3b2e-64aafc1ef80a" hidden="false" collective="false" import="true" targetId="ec0320e3-b08a-bd91-8f70-36fe8ac59e27" type="selectionEntryGroup"/>
-                <entryLink id="0bc17ab1-78a4-df78-29eb-84351869147b" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup"/>
-                <entryLink id="f3c58431-07d9-e339-9968-49ce803dbc39" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
+                <entryLink id="625bf6d1-9a8c-d7d9-d470-40b904a0de9a" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="61c8d876-5415-b7d4-54fd-684329b886be" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="6efb57dd-23ec-ce76-3b2e-64aafc1ef80a" hidden="false" collective="false" import="true" targetId="ec0320e3-b08a-bd91-8f70-36fe8ac59e27" type="selectionEntryGroup" name="Magic Armour"/>
+                <entryLink id="0bc17ab1-78a4-df78-29eb-84351869147b" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup" name="Talismans"/>
+                <entryLink id="f3c58431-07d9-e339-9968-49ce803dbc39" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3314,7 +3316,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="7dbe161a-cfd5-de98-d9d9-e04cced28a67" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="7dbe161a-cfd5-de98-d9d9-e04cced28a67" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -3371,7 +3373,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="338e54c5-798c-aef6-9f65-2a557794f95e" hidden="false" targetId="75b6f302-d424-47da-cd2d-a4b506efbb6c" type="profile"/>
+                <infoLink id="338e54c5-798c-aef6-9f65-2a557794f95e" hidden="false" targetId="75b6f302-d424-47da-cd2d-a4b506efbb6c" type="profile" name="Two/Additional Hand Weapons (Models on foot only) (FAQ&apos;ed)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3"/>
@@ -3382,7 +3384,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e72b5474-7b72-0e38-1a82-487ba0dcdd7a" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
+                <infoLink id="e72b5474-7b72-0e38-1a82-487ba0dcdd7a" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8"/>
@@ -3400,7 +3402,7 @@
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="f5ff8abb-a731-ce27-e9d1-639a4ec179e0" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile"/>
+                <infoLink id="f5ff8abb-a731-ce27-e9d1-639a4ec179e0" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile" name="Lance (mounted models only)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8"/>
@@ -3418,10 +3420,10 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="465fb704-f7ae-d36f-d92f-321af2a8a2e4" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                <infoLink id="465fb704-f7ae-d36f-d92f-321af2a8a2e4" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="2b8d146a-5f97-d0e0-9c1c-3b6969c028e4" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+                <entryLink id="2b8d146a-5f97-d0e0-9c1c-3b6969c028e4" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16"/>
@@ -3432,7 +3434,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="376d02f9-db91-d491-9180-59f2fa21dd66" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry"/>
+                <entryLink id="376d02f9-db91-d491-9180-59f2fa21dd66" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry" name="Hellsteed"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30"/>
@@ -3443,7 +3445,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="06a8a7fa-fc13-4e21-9cc0-83457d124f15" hidden="false" collective="false" import="true" targetId="5d9cff55-bd58-1511-dc20-c00b16ce51e4" type="selectionEntry"/>
+                <entryLink id="06a8a7fa-fc13-4e21-9cc0-83457d124f15" hidden="false" collective="false" import="true" targetId="5d9cff55-bd58-1511-dc20-c00b16ce51e4" type="selectionEntry" name="Coven Throne"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="230"/>
@@ -3456,7 +3458,7 @@
             <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="01fa4f97-255d-532f-032c-3b63c3c36c20" hidden="false" collective="false" import="true" targetId="86061326-1741-6f5c-2417-2760cd13c790" type="selectionEntryGroup"/>
+            <entryLink id="01fa4f97-255d-532f-032c-3b63c3c36c20" hidden="false" collective="false" import="true" targetId="86061326-1741-6f5c-2417-2760cd13c790" type="selectionEntryGroup" name="Vampiric Powers"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="44fce6bb-0e2c-4576-bb08-b4f5118f941d" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c702636-0e5a-4188-a7b8-288ea1a81311">
@@ -3509,13 +3511,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b7c38972-9af6-3790-dd92-533935be57d4" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="fd84ed4a-f61c-42ae-7377-e3b9e1ed6757" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="88929879-58a1-2303-947e-3b4d3d3262b0" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="96444e82-b2e6-5974-8ac6-00fd6de9dd1d" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="b7c38972-9af6-3790-dd92-533935be57d4" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="fd84ed4a-f61c-42ae-7377-e3b9e1ed6757" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="88929879-58a1-2303-947e-3b4d3d3262b0" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="96444e82-b2e6-5974-8ac6-00fd6de9dd1d" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="24e2d9b2-5b23-463a-bdbb-3b7d4c00f3c0-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="24e2d9b2-5b23-463a-bdbb-3b7d4c00f3c0-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c812e05b-ff49-4486-8a25-c4371ed7d46d" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3523,7 +3525,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="293321b8-81a3-3502-66fe-8c00d47ff023" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
+            <infoLink id="293321b8-81a3-3502-66fe-8c00d47ff023" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="3"/>
@@ -3534,7 +3536,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="053902c7-32d2-93ec-8abf-09786c723daf" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
+            <infoLink id="053902c7-32d2-93ec-8abf-09786c723daf" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="6"/>
@@ -3550,11 +3552,11 @@
                 <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="64b0b577-1db1-0298-c526-9ff7849e9560" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup"/>
-                <entryLink id="171cc9e6-2a81-5732-0253-e889406897bb" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup"/>
-                <entryLink id="c0dff097-854d-e5cd-778e-53b5eddf7c57" hidden="false" collective="false" import="true" targetId="ec0320e3-b08a-bd91-8f70-36fe8ac59e27" type="selectionEntryGroup"/>
-                <entryLink id="21ec348e-dee3-12c5-7b1c-3648bc7e844d" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
-                <entryLink id="a635003e-4d50-b802-3adb-2ee652d83149" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup"/>
+                <entryLink id="64b0b577-1db1-0298-c526-9ff7849e9560" hidden="false" collective="false" import="true" targetId="3c896379-3396-ee08-15cf-8524160c9dcc" type="selectionEntryGroup" name="Arcane Items"/>
+                <entryLink id="171cc9e6-2a81-5732-0253-e889406897bb" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="c0dff097-854d-e5cd-778e-53b5eddf7c57" hidden="false" collective="false" import="true" targetId="ec0320e3-b08a-bd91-8f70-36fe8ac59e27" type="selectionEntryGroup" name="Magic Armour"/>
+                <entryLink id="21ec348e-dee3-12c5-7b1c-3648bc7e844d" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="a635003e-4d50-b802-3adb-2ee652d83149" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup" name="Talismans"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3568,7 +3570,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="607c322f-b566-82f8-425e-6287e65092b9" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="607c322f-b566-82f8-425e-6287e65092b9" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -3586,7 +3588,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="02941ee2-57e1-4d03-a32b-1fd2dee3e5e9" hidden="false" targetId="75b6f302-d424-47da-cd2d-a4b506efbb6c" type="profile"/>
+                <infoLink id="02941ee2-57e1-4d03-a32b-1fd2dee3e5e9" hidden="false" targetId="75b6f302-d424-47da-cd2d-a4b506efbb6c" type="profile" name="Two/Additional Hand Weapons (Models on foot only) (FAQ&apos;ed)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4"/>
@@ -3597,7 +3599,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="d1297a98-d33d-18da-91b2-70dfa8f81221" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile"/>
+                <infoLink id="d1297a98-d33d-18da-91b2-70dfa8f81221" hidden="false" targetId="91db2247-67d6-bb70-71ac-70dcdb259e24" type="profile" name="Great Weapon"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
@@ -3615,7 +3617,7 @@
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="be81ecff-fa18-5e3f-0f43-d012a3649730" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile"/>
+                <infoLink id="be81ecff-fa18-5e3f-0f43-d012a3649730" hidden="false" targetId="e71dca07-ec1a-faa7-43b9-3c0f767c6b56" type="profile" name="Lance (mounted models only)"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
@@ -3633,10 +3635,10 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a2a0278d-846a-a11d-f941-c25ff22d32b9" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                <infoLink id="a2a0278d-846a-a11d-f941-c25ff22d32b9" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="f8e06440-a474-7641-63c7-177a597576b2" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry"/>
+                <entryLink id="f8e06440-a474-7641-63c7-177a597576b2" hidden="false" collective="false" import="true" targetId="b85a3b29-5723-75e1-5a64-acf97a76ff31" type="selectionEntry" name="Nightmare"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24"/>
@@ -3647,7 +3649,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="2cb674ac-931e-0926-f194-ce42ca3ffcd2" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry"/>
+                <entryLink id="2cb674ac-931e-0926-f194-ce42ca3ffcd2" hidden="false" collective="false" import="true" targetId="e18d6047-38de-a897-e09e-ee1d5eb613c6" type="selectionEntry" name="Hellsteed"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30"/>
@@ -3658,7 +3660,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="cb4c6f20-ff11-f40c-2797-4b3cda8692ae" hidden="false" collective="false" import="true" targetId="f81df4c1-dbbd-74d3-47db-651a749c8751" type="selectionEntry"/>
+                <entryLink id="cb4c6f20-ff11-f40c-2797-4b3cda8692ae" hidden="false" collective="false" import="true" targetId="f81df4c1-dbbd-74d3-47db-651a749c8751" type="selectionEntry" name="Zombie Dragon"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="245"/>
@@ -3669,7 +3671,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="cd6e8df7-6a5a-2c7f-f372-2ed5d18e75ce" hidden="false" collective="false" import="true" targetId="5d9cff55-bd58-1511-dc20-c00b16ce51e4" type="selectionEntry"/>
+                <entryLink id="cd6e8df7-6a5a-2c7f-f372-2ed5d18e75ce" hidden="false" collective="false" import="true" targetId="5d9cff55-bd58-1511-dc20-c00b16ce51e4" type="selectionEntry" name="Coven Throne"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="230"/>
@@ -3680,7 +3682,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7379b55c-e43a-bb71-fef8-929aab3f3e8a" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry"/>
+                <entryLink id="7379b55c-e43a-bb71-fef8-929aab3f3e8a" hidden="false" collective="false" import="true" targetId="8f741716-7f82-f437-03a7-0a2e1361f0c5" type="selectionEntry" name="Abyssal Teror"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="120"/>
@@ -3693,7 +3695,7 @@
             <constraint field="points" scope="parent" value="100" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="eef743bc-a774-fb51-5bd4-2907e16d6c6d" hidden="false" collective="false" import="true" targetId="86061326-1741-6f5c-2417-2760cd13c790" type="selectionEntryGroup"/>
+            <entryLink id="eef743bc-a774-fb51-5bd4-2907e16d6c6d" hidden="false" collective="false" import="true" targetId="86061326-1741-6f5c-2417-2760cd13c790" type="selectionEntryGroup" name="Vampiric Powers"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="664a026d-b8e8-4cc2-87db-b43145ed6beb" name="Lore" hidden="false" collective="false" import="true">
@@ -3792,15 +3794,15 @@
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="ecefb3cb-ddd7-fb54-e324-64729063e35c" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
-        <infoLink id="9d2647be-1654-58b6-9da5-aeafedbea605" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
-        <infoLink id="31f8b8d0-fe23-2e27-e4b7-d72bb40961b1" hidden="false" targetId="f0c3028b-71a4-4f53-f1ca-c8e090599529" type="rule"/>
-        <infoLink id="0881f090-851d-533e-76e6-6599e1eceb64" hidden="false" targetId="d9150917-e572-36a9-021d-dc5a09ac4aab" type="rule"/>
-        <infoLink id="d8af7636-fd4b-bbee-c0dc-2d206ff2ec53" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="f5eddf47-2169-9643-6b6f-f78d622f0a9f" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="ecefb3cb-ddd7-fb54-e324-64729063e35c" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
+        <infoLink id="9d2647be-1654-58b6-9da5-aeafedbea605" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
+        <infoLink id="31f8b8d0-fe23-2e27-e4b7-d72bb40961b1" hidden="false" targetId="f0c3028b-71a4-4f53-f1ca-c8e090599529" type="rule" name="Frenzy"/>
+        <infoLink id="0881f090-851d-533e-76e6-6599e1eceb64" hidden="false" targetId="d9150917-e572-36a9-021d-dc5a09ac4aab" type="rule" name="Stomp"/>
+        <infoLink id="d8af7636-fd4b-bbee-c0dc-2d206ff2ec53" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="f5eddf47-2169-9643-6b6f-f78d622f0a9f" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="75088565-ba12-4c06-9476-af221fd50ed1-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="75088565-ba12-4c06-9476-af221fd50ed1-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e55d37f8-bc99-406b-9700-ea657ed63a15" name="Vargheist" page="0" hidden="false" collective="false" import="true" type="model">
@@ -3903,17 +3905,17 @@
         <rule id="92c3c523-7fb2-67d3-eb73-617332229b55" name="Bestial Fury" publicationId="eb04bd3b--pubN65823" page="44" hidden="false">
           <description>Has no flanks or rear for purpose of combat results.</description>
         </rule>
+        <rule name="Regeneration (4+)" id="a7bf-106f-eb09-34a5" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="7ba07010-070a-fb7d-2d8a-896b401229ac" hidden="false" targetId="967ee5fe-b3a0-d20e-6e63-64d1e8aea74a" type="rule"/>
-        <infoLink id="08202ea9-ef21-34e3-2a37-cd3556892589" hidden="false" targetId="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" type="rule"/>
-        <infoLink id="b6f732ed-893d-01ed-3c86-f54ddee2a635" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="e5d06b38-fc93-3b6f-62fb-50db8f5ea0a3" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule"/>
-        <infoLink id="386d4c1b-83ab-efb2-10ae-c7b9c80ef9b8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="c0a3385c-145f-4a72-554d-42753adb6e50" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="7ba07010-070a-fb7d-2d8a-896b401229ac" hidden="false" targetId="967ee5fe-b3a0-d20e-6e63-64d1e8aea74a" type="rule" name="Hatred"/>
+        <infoLink id="b6f732ed-893d-01ed-3c86-f54ddee2a635" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="e5d06b38-fc93-3b6f-62fb-50db8f5ea0a3" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule" name="Thunderstomp"/>
+        <infoLink id="386d4c1b-83ab-efb2-10ae-c7b9c80ef9b8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="c0a3385c-145f-4a72-554d-42753adb6e50" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b734e09b-feac-42ee-940d-0d6e38a14f0e-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="b734e09b-feac-42ee-940d-0d6e38a14f0e-5261726523232344415441232323" hidden="false" targetId="5.261726523232345e+27" primary="true" name="Rare"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="175"/>
@@ -3949,13 +3951,13 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="8a9c655b-b16c-be4e-90c1-3898e25e4e02" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule"/>
-        <infoLink id="98d490a0-3b37-5581-9d7c-29c12d9d2e58" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="9f12868f-6c07-cc5d-b838-5b881f6912f0" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
-        <infoLink id="4874ad1c-cadf-aff6-bc37-300ee7e3dc7e" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
+        <infoLink id="8a9c655b-b16c-be4e-90c1-3898e25e4e02" hidden="false" targetId="633cb2e4-43cb-a888-83b1-d501c566dcbd" type="rule" name="The Hunger"/>
+        <infoLink id="98d490a0-3b37-5581-9d7c-29c12d9d2e58" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="9f12868f-6c07-cc5d-b838-5b881f6912f0" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
+        <infoLink id="4874ad1c-cadf-aff6-bc37-300ee7e3dc7e" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e3f41f3b-6fd6-43d9-bec2-49e3045d72a3-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="e3f41f3b-6fd6-43d9-bec2-49e3045d72a3-4c6f72647323232344415441232323" hidden="false" targetId="4c6f72647323232344415441232323" primary="true" name="Lords"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f62cf7de-7b82-daa1-cda8-fd40db29e238" name="The General of Undeath" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -3964,7 +3966,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="b83da24e-9dc6-a6fa-287f-50bd1c540651" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule"/>
+            <infoLink id="b83da24e-9dc6-a6fa-287f-50bd1c540651" hidden="false" targetId="416135ba-6e09-84b0-477b-6372bb12f204" type="rule" name="The General of Undeath"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -4148,13 +4150,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6fb3600f-4c7a-c946-424e-c85839d4474e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile"/>
-        <infoLink id="e16e8d63-1b68-f4f4-405e-cbbd83da1e24" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile"/>
-        <infoLink id="8443ec40-f87f-8e8a-dbdb-53f4515115dd" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule"/>
-        <infoLink id="f22676e6-e82e-58d5-ee51-eaa73c4a11fc" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="6fb3600f-4c7a-c946-424e-c85839d4474e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
+        <infoLink id="e16e8d63-1b68-f4f4-405e-cbbd83da1e24" hidden="false" targetId="7739b11a-9f70-a94a-0a0f-0b830123263d" type="profile" name="Heavy Armour"/>
+        <infoLink id="8443ec40-f87f-8e8a-dbdb-53f4515115dd" hidden="false" targetId="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" type="rule" name="Killing Blow"/>
+        <infoLink id="f22676e6-e82e-58d5-ee51-eaa73c4a11fc" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c98e9b90-9eeb-4e10-86f3-af14d118ed8a-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="c98e9b90-9eeb-4e10-86f3-af14d118ed8a-4865726f657323232344415441232323" hidden="false" targetId="4865726f657323232344415441232323" primary="true" name="Heroes"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f8ca623e-65e3-41bb-8f43-35b4143cd990" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -4162,7 +4164,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="96a36d66-5ae3-735a-d351-924e1f7519ca" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile"/>
+            <infoLink id="96a36d66-5ae3-735a-d351-924e1f7519ca" hidden="false" targetId="95a3cf34-7363-828a-3198-ded5fd64b61f" type="profile" name="Shield"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="4"/>
@@ -4174,7 +4176,7 @@
             <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="bd416603-ada0-4559-9c59-7bbc8af6aeed" hidden="false" targetId="3ea98e2f-6f4d-8069-65c8-b2d8cf170d73" type="rule"/>
+            <infoLink id="bd416603-ada0-4559-9c59-7bbc8af6aeed" hidden="false" targetId="3ea98e2f-6f4d-8069-65c8-b2d8cf170d73" type="rule" name="Vampire Counts Battle Standards"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="9e42c977-1240-4845-a44b-26e699b58046" name="Magic Banners" hidden="false" collective="false" import="true">
@@ -4182,7 +4184,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c80b03f9-e45f-92c3-7137-1a4cf1999178" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup"/>
+                <entryLink id="c80b03f9-e45f-92c3-7137-1a4cf1999178" hidden="false" collective="false" import="true" targetId="7139faa9-39ef-400e-b810-b7c00c266ad6" type="selectionEntryGroup" name="Magic Standards"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -4207,10 +4209,10 @@
                 <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="95ce8e57-48f2-7685-574f-fac99635d02d" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup"/>
-                <entryLink id="7f74097d-1029-981f-a6d4-a2951cc413c9" hidden="false" collective="false" import="true" targetId="ec0320e3-b08a-bd91-8f70-36fe8ac59e27" type="selectionEntryGroup"/>
-                <entryLink id="5de4b566-1a53-3677-4620-ec286758d75b" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup"/>
-                <entryLink id="31ca33c8-1c56-52d2-4005-d2a026c0aee3" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup"/>
+                <entryLink id="95ce8e57-48f2-7685-574f-fac99635d02d" hidden="false" collective="false" import="true" targetId="d8d8915f-8a13-8b68-6ad8-0c99fff34dc0" type="selectionEntryGroup" name="Enchanted Items"/>
+                <entryLink id="7f74097d-1029-981f-a6d4-a2951cc413c9" hidden="false" collective="false" import="true" targetId="ec0320e3-b08a-bd91-8f70-36fe8ac59e27" type="selectionEntryGroup" name="Magic Armour"/>
+                <entryLink id="5de4b566-1a53-3677-4620-ec286758d75b" hidden="false" collective="false" import="true" targetId="df2a6a21-39d3-95b1-35b0-5770ad1cb5f6" type="selectionEntryGroup" name="Magic Weapons"/>
+                <entryLink id="31ca33c8-1c56-52d2-4005-d2a026c0aee3" hidden="false" collective="false" import="true" targetId="c3144f59-d96a-8155-edd0-49fff0091edb" type="selectionEntryGroup" name="Talismans"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -4300,7 +4302,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="d5a1e99d-8628-9295-a5dc-fc35f74a5372" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile"/>
+                    <infoLink id="d5a1e99d-8628-9295-a5dc-fc35f74a5372" hidden="false" targetId="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" type="profile" name="Barding"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="8"/>
@@ -4308,7 +4310,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="fb2d31d8-1659-6b1d-ad61-a7d47ee53692" hidden="false" collective="false" import="true" targetId="87317591-937d-6ccc-5fee-a762d93d3712" type="selectionEntry"/>
+                <entryLink id="fb2d31d8-1659-6b1d-ad61-a7d47ee53692" hidden="false" collective="false" import="true" targetId="87317591-937d-6ccc-5fee-a762d93d3712" type="selectionEntry" name="Skeletal Steed"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="12"/>
@@ -4328,11 +4330,11 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d0cbe7e1-8e31-1c56-f590-f69b2b418748" hidden="false" targetId="96581d87-a422-6a47-9928-a991d8b39cee" type="rule"/>
-        <infoLink id="30cac00a-e5b0-ffa2-c817-559f0a889f61" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="d0cbe7e1-8e31-1c56-f590-f69b2b418748" hidden="false" targetId="96581d87-a422-6a47-9928-a991d8b39cee" type="rule" name="Always Strikes Last"/>
+        <infoLink id="30cac00a-e5b0-ffa2-c817-559f0a889f61" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f03c43ee-44ee-457c-9d5a-f919581de8d6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="f03c43ee-44ee-457c-9d5a-f919581de8d6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="85f2c78b-e7ba-41da-9ca4-76933d209115" name="Zombie" page="0" hidden="false" collective="false" import="true" type="model">
@@ -4416,11 +4418,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bae2d6da-f555-ab3c-5592-c7495ba8dede" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
-        <infoLink id="b534406b-e10a-c677-59d0-3e8590b7b9c2" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule"/>
-        <infoLink id="2455399b-a73b-3478-31b2-dce44eb59846" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule"/>
-        <infoLink id="352a1e86-01b8-aa30-b6bf-00cca2881d6d" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="3218b90a-9963-f915-340b-423255324cde" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="bae2d6da-f555-ab3c-5592-c7495ba8dede" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
+        <infoLink id="b534406b-e10a-c677-59d0-3e8590b7b9c2" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule" name="Thunderstomp"/>
+        <infoLink id="2455399b-a73b-3478-31b2-dce44eb59846" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
+        <infoLink id="352a1e86-01b8-aa30-b6bf-00cca2881d6d" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="3218b90a-9963-f915-340b-423255324cde" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="2312b67f-f564-b281-d471-9b9baa853d54" name="Poisonous Tail" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -4429,7 +4431,7 @@
           </constraints>
           <rules>
             <rule id="276148d4-8434-d1bc-1080-76ef8e47ac41" name="Poisonous Tail" publicationId="eb04bd3b--pubN65823" page="51" hidden="false">
-              <description>.</description>
+              <description>Attacks made by an Abyssal Terror with this upgrade have the Poisoned Attacks special rule. Note that this does not include its Thunderstomp.</description>
             </rule>
           </rules>
           <costs>
@@ -4480,16 +4482,16 @@
       </profiles>
       <rules>
         <rule id="e8747df9-a7f1-dba9-a9e0-453d12f2321a" name="Vigor Mortis" publicationId="eb04bd3b--pubN65823" page="40" hidden="false">
-          <description>.</description>
+          <description>If an augment spell from the Lore of Vampires targets a Corpse Cart, and is successfully cast, then all friendly Undead units within 6&quot; of the Corpse Cart, including the Corpse Cart itself) have the Always Strikes First special rule until the start of your next Magic phase. Zombies affected by Vigour Mortis lose their Always Strikes Last special rule, and gain Always Strikes First instead.</description>
         </rule>
+        <rule name="Regeneration (4+)" id="f20c-6c55-4f7c-d89d" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="b0ce5999-073d-1d9b-8002-f8af516c0b50" hidden="false" targetId="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" type="rule"/>
-        <infoLink id="8fa2f16d-3a99-af1c-a610-605d1d676f36" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="4959098e-205f-972c-39ae-efa68f2be066" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule"/>
+        <infoLink id="8fa2f16d-3a99-af1c-a610-605d1d676f36" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="4959098e-205f-972c-39ae-efa68f2be066" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f1d09641-50a1-52bc-d6a0-dbf9a700969c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="f1d09641-50a1-52bc-d6a0-dbf9a700969c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4adf13bd-e8cb-b488-cb25-41b16a24da7d" name="Steeds" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -4516,12 +4518,12 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="16efa804-8f87-2bf2-554a-4afae803dc19" hidden="false" targetId="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <rules>
+            <rule name="Random Attacks (2d6)" id="7225-c966-e7cf-7caf" hidden="false"/>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4536,7 +4538,7 @@
               </constraints>
               <rules>
                 <rule id="2a700f7d-9c08-207a-627a-e7d40319ae7f" name="Balefire" publicationId="eb04bd3b--pubN65823" page="40" hidden="false">
-                  <description>.</description>
+                  <description>Enemy Wizards suffer a -1 modifier to their casting rolls if there is one or more units with the Balefire upgrade within 24&quot;.</description>
                 </rule>
               </rules>
               <costs>
@@ -4549,7 +4551,7 @@
               </constraints>
               <rules>
                 <rule id="98b3cde5-aaf3-a6e1-a52f-fd0ee14759b7" name="Unholy Lodestone" publicationId="eb04bd3b--pubN65823" page="40" hidden="false">
-                  <description>.</description>
+                  <description>When a friendly Wizard within 6&quot; of an Unholy Lodestone successfully casts Invocation of Nehek, he may re-roll a single D6 to determine how many Wounds are restored for each eligible Infantry unit.</description>
                 </rule>
               </rules>
               <costs>
@@ -4589,21 +4591,18 @@
       </profiles>
       <rules>
         <rule id="046d7023-edf5-9c69-f581-60c993a66ea9" name="Scrying Pool" publicationId="eb04bd3b--pubN65823" page="52" hidden="false">
-          <description>.</description>
+          <description>Bound Spell (Power Level 3). If cast successfully, the Coven Throne and all of its constituent parts, including its crew and any character using it as a mount, re-rolls failed To Hit or To Wound rolls (owning player&apos;s choice) for the remainder of the turn.</description>
         </rule>
-        <rule id="b7355f46-079a-14bf-58cd-4c505a5f66a9" name="Battle of Wills (FAQ&apos;ed)" publicationId="eb04bd3b--pubN65823" page="52" hidden="false">
-          <description>ERRATA
-Page 52 – Coven Thrones, Battle of Wills.
-Change result 1-2 on the Battle of Wills table to “The enemy is
-at -1WS and -1BS to a minimum of 1&quot;.</description>
+        <rule id="b7355f46-079a-14bf-58cd-4c505a5f66a9" name="Battle of Wills" publicationId="eb04bd3b--pubN65823" page="52" hidden="false">
+          <description>Immediately before the first model in an enemy unit rolls To Hit against the Coven Throne see Pg 52</description>
         </rule>
+        <rule name="Ward Save (4+)" id="a8dd-12b8-6ab3-6957" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="a81a6dd2-be64-3e93-fc68-26e15928cb76" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule"/>
-        <infoLink id="57101110-9fa4-9866-4dc2-8a4febb7ec95" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule"/>
-        <infoLink id="0b345c3c-6849-2427-0825-b62690fe8fb8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="f8846553-e5f9-1915-000b-8c5ce5d54ca2" hidden="false" targetId="18fea374-205f-ced6-bf28-68bf502bc961" type="rule"/>
-        <infoLink id="37034acb-6d25-c7f8-f7f2-89edf1f47811" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule"/>
+        <infoLink id="a81a6dd2-be64-3e93-fc68-26e15928cb76" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="57101110-9fa4-9866-4dc2-8a4febb7ec95" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
+        <infoLink id="0b345c3c-6849-2427-0825-b62690fe8fb8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="37034acb-6d25-c7f8-f7f2-89edf1f47811" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="45d39504-44c8-50da-4c44-538c97fd7967" name="Crew" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -4631,7 +4630,7 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="b2770216-c59c-0e17-2110-42bea44ab1d5" hidden="false" targetId="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" type="rule"/>
+            <infoLink id="b2770216-c59c-0e17-2110-42bea44ab1d5" hidden="false" targetId="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" type="rule" name="Always Strikes First (FAQ&apos;ed)"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -4662,12 +4661,14 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7cb62f3b-ff83-c726-2a13-9236a8cbd0fb" hidden="false" targetId="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" type="rule"/>
-            <infoLink id="f9763dd4-3166-0fb7-8347-ae51f7c6b2de" hidden="false" targetId="0c4b16cc-a45d-afca-5505-a097980d1597" type="rule"/>
+            <infoLink id="f9763dd4-3166-0fb7-8347-ae51f7c6b2de" hidden="false" targetId="0c4b16cc-a45d-afca-5505-a097980d1597" type="rule" name="Spectral Steeds"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <rules>
+            <rule name="Random Attacks (2d6)" id="6c07-54a4-edb6-cca7" hidden="false"/>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4699,9 +4700,9 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b62f5280-db28-fed5-74a9-440bd64e7133" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="f6ec5d3b-3226-acf1-ca12-8ce21ce4f87f" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
-        <infoLink id="3718fd35-02a9-9cfa-2823-1c8eeef27fd0" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
+        <infoLink id="b62f5280-db28-fed5-74a9-440bd64e7133" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="f6ec5d3b-3226-acf1-ca12-8ce21ce4f87f" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
+        <infoLink id="3718fd35-02a9-9cfa-2823-1c8eeef27fd0" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -4732,8 +4733,8 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8f0e483a-1750-9066-4715-e8b4b72f6ef5" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
-        <infoLink id="2e7b7bba-26bc-fb95-f76a-37bd33254d1d" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
+        <infoLink id="8f0e483a-1750-9066-4715-e8b4b72f6ef5" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
+        <infoLink id="2e7b7bba-26bc-fb95-f76a-37bd33254d1d" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -4764,9 +4765,9 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8197df00-0641-c7b9-494f-7c008de26477" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule"/>
-        <infoLink id="42238766-a106-9408-5780-632581bf6655" hidden="false" targetId="0c4b16cc-a45d-afca-5505-a097980d1597" type="rule"/>
-        <infoLink id="5c1f84df-ddb0-a4bf-480b-9bc6eb63d553" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="8197df00-0641-c7b9-494f-7c008de26477" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
+        <infoLink id="42238766-a106-9408-5780-632581bf6655" hidden="false" targetId="0c4b16cc-a45d-afca-5505-a097980d1597" type="rule" name="Spectral Steeds"/>
+        <infoLink id="5c1f84df-ddb0-a4bf-480b-9bc6eb63d553" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -4797,13 +4798,13 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="49273e9d-8c45-c653-bef1-9618ac26de02" hidden="false" targetId="696c399a-e2ce-f538-2ed0-16ccc2294b08" type="rule"/>
-        <infoLink id="6e2e8a06-16fb-f1f7-265c-93e09695326b" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
-        <infoLink id="06b9dc49-7ffa-8a4a-135a-c8d9e8ed8d78" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule"/>
-        <infoLink id="cd7c5f7f-b889-4cc8-2d67-4eec3fb1f6b9" hidden="false" targetId="69c9b553-6c8c-6498-a816-a75985cde3d5" type="rule"/>
-        <infoLink id="e4a8a098-b49b-fe14-6d62-1b57ad6ffd3e" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="353db8ef-ed64-fad8-1f09-ff595a86e082" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule"/>
-        <infoLink id="3bf981bd-af1c-975e-180d-20fe2266d45f" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="49273e9d-8c45-c653-bef1-9618ac26de02" hidden="false" targetId="696c399a-e2ce-f538-2ed0-16ccc2294b08" type="rule" name="Death Shriek"/>
+        <infoLink id="6e2e8a06-16fb-f1f7-265c-93e09695326b" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
+        <infoLink id="06b9dc49-7ffa-8a4a-135a-c8d9e8ed8d78" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
+        <infoLink id="cd7c5f7f-b889-4cc8-2d67-4eec3fb1f6b9" hidden="false" targetId="69c9b553-6c8c-6498-a816-a75985cde3d5" type="rule" name="Regeneration (6+)"/>
+        <infoLink id="e4a8a098-b49b-fe14-6d62-1b57ad6ffd3e" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="353db8ef-ed64-fad8-1f09-ff595a86e082" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule" name="Thunderstomp"/>
+        <infoLink id="3bf981bd-af1c-975e-180d-20fe2266d45f" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="03af2a05-8898-eca3-a433-ad2469c7d41a" name="Rancid Maw" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -4825,7 +4826,7 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
           </constraints>
           <rules>
             <rule id="3e6fcc3b-9b00-692a-88cf-4ac948251d74" name="Infested" publicationId="eb04bd3b--pubN65823" page="48" hidden="false">
-              <description>.</description>
+              <description>When a Terrorgheist with this upgrade is removed as a casualty, all units that were in base contact (friend or foe) take 3D6 Strength 2 hits.</description>
             </rule>
           </rules>
           <costs>
@@ -4862,24 +4863,20 @@ at -1WS and -1BS to a minimum of 1&quot;.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="16d9fd49-a316-345e-ba15-6b83b13a09e8" name="Swarm of Flies (FAQ&apos;ed)" publicationId="eb04bd3b--pubN65823" page="49" hidden="false">
-          <description>ERRATA
-Page 49 – Zombie Dragon, Swarm of Flies.
-Change this entry to read “Enemy models in base contact with
-a Zombie Dragon deduct 1 from their rolls To Hit in close
-combat”.</description>
+        <rule id="16d9fd49-a316-345e-ba15-6b83b13a09e8" name="Swarm of Flies" publicationId="eb04bd3b--pubN65823" page="49" hidden="false">
+          <description>Enemy models in base contact with a Zombie Dragon deduct 1 from their rolls To Hit in close combat.</description>
         </rule>
-        <rule id="6e83f9b9-d9ad-489d-7a24-b48e86494761" name="Pestilential Breath (AB-49)" publicationId="eb04bd3b--pubN65823" page="49" hidden="false">
-          <description>.</description>
+        <rule id="6e83f9b9-d9ad-489d-7a24-b48e86494761" name="Pestilential Breath" publicationId="eb04bd3b--pubN65823" page="49" hidden="false">
+          <description>The Zombie Dragon has a Breath Weapon. Any model hit suffers a Strength 2 hit, with a -3 armour save modifier.</description>
         </rule>
+        <rule name="Scaly Skin (5+)" id="8215-a3b8-ce0e-a708" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="a942b2ca-ce3c-8609-1996-f99c8695f384" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule"/>
-        <infoLink id="7ed35eb5-e170-d6fe-f66a-cc7c03a380ae" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule"/>
-        <infoLink id="e8cebd27-035e-ec95-8486-afdee4a9c1f5" hidden="false" targetId="a5361f8b-8beb-ce84-9df3-d195271bbd65" type="rule"/>
-        <infoLink id="d39b3e06-0924-9f3e-86b5-235ae9c548b7" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule"/>
-        <infoLink id="3f02ad61-fdb8-e274-f7b8-b54b224356b2" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule"/>
-        <infoLink id="e2ed8458-dc1a-3a41-4b9c-19da5ed26c8b" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule"/>
+        <infoLink id="a942b2ca-ce3c-8609-1996-f99c8695f384" hidden="false" targetId="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" type="rule" name="Fly"/>
+        <infoLink id="7ed35eb5-e170-d6fe-f66a-cc7c03a380ae" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
+        <infoLink id="d39b3e06-0924-9f3e-86b5-235ae9c548b7" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
+        <infoLink id="3f02ad61-fdb8-e274-f7b8-b54b224356b2" hidden="false" targetId="a3751cf1-7c54-da2a-6586-aea81f497f0e" type="rule" name="Thunderstomp"/>
+        <infoLink id="e2ed8458-dc1a-3a41-4b9c-19da5ed26c8b" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -6773,231 +6770,218 @@ combat”.</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" name="Always Strikes First (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="66" hidden="false">
-      <description>ERRATA
-Change “[...]re-roll failed misses[...]” to “[...]re-roll
-misses[...]” in the first sentence of the third paragraph.</description>
+    <rule id="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" name="Always Strikes First" publicationId="eb04bd3b--pubN87309" page="66" hidden="false">
+      <description>
+</description>
     </rule>
     <rule id="96581d87-a422-6a47-9928-a991d8b39cee" name="Always Strikes Last" publicationId="eb04bd3b--pubN87309" page="66" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
-    <rule id="23e8fc83-b5fe-be66-0b70-14aa816e15fa" name="Ambushers (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
+    <rule id="23e8fc83-b5fe-be66-0b70-14aa816e15fa" name="Ambushers" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
 turn[...]” in the second paragraph</description>
     </rule>
     <rule id="e4d1f92e-3c6e-9c79-9878-042d55c3be90" name="Armour Piercing" publicationId="eb04bd3b--pubN87309" page="67" hidden="false">
-      <description>.</description>
+      <description>-1 armour save modifier, in addition to those for Strength.</description>
     </rule>
     <rule id="cae33b3d-5eb8-0718-3c66-fcd7bd981fed" name="Breath Weapons" publicationId="eb04bd3b--pubN87309" page="67" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="20949968-72ff-de65-5c62-f774c7423018" name="Chill Grasp" publicationId="eb04bd3b--pubN65823" page="30" hidden="false">
-      <description>.</description>
+      <description>A Wraith can substitute all of its Attacks in close combat for a single Chill Grasp Attack. The Wraith makes a single Attack; if this Attack hits, then it will automatically wound. No armour saves are allowed against the Chill Grasp Attack.</description>
     </rule>
     <rule id="696c399a-e2ce-f538-2ed0-16ccc2294b08" name="Death Shriek" publicationId="eb04bd3b--pubN65823" page="48" hidden="false">
-      <description>A death shriek is a special attack which happens in the shooting phase. can be targeted into combat. 
-        &quot;8&quot; 2d6+wounds left on Terrorgheist vs targets ld-Counts as magical, no armour saves.</description>
+      <description>A death shriek is a special attack which happens in the shooting phase. can be targeted into combat, 8&quot; 2d6+wounds left on Terrorgheist vs targets ld-Counts as magical, no armour saves.</description>
     </rule>
     <rule id="cb66c395-7946-f038-064e-093cbd799210" name="Devastating Charge" publicationId="eb04bd3b--pubN87309" page="68" hidden="false">
-      <description>.</description>
+      <description>+1 Attack during a turn in which they charge into combat.</description>
     </rule>
     <rule id="2af09ef2-71da-e8d4-1cad-af5e256bef93" name="Ethereal" publicationId="eb04bd3b--pubN87309" page="68" hidden="false">
       <description>Treat all terrain as open Can never be slowed by spells/items.Has Magical attacks and only wounded by magical attacks</description>
     </rule>
-    <rule id="87be5019-3797-4850-5a89-889472ca9a9f" name="Extra Attack (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description>ERRATA:
-Add “Unlike most special rules, the effects of multiple Extra
-Attack special rules are cumulative.”</description>
+    <rule id="87be5019-3797-4850-5a89-889472ca9a9f" name="Extra Attack" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
+      <description/>
     </rule>
     <rule id="abd99c50-391f-00a0-acd2-b23a4f5c3c99" name="Fast Cavalry" publicationId="eb04bd3b--pubN87309" page="68" hidden="false">
-      <description>.</description>
+      <description>Vanguard, Free Reform, Feigned Flight, Fire on the March</description>
     </rule>
     <rule id="a72bd698-163f-a966-7812-5faf946a7f94" name="Fear" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description>.</description>
+      <description>At the start of each Close Combat round, a unit that is in base contact with one or more enemy models that cause Fear must take a Leadership test, all models in the unit have their Weapon Skill reduced to 1 for the remainder of that round of close combat.</description>
     </rule>
-    <rule id="30831b75-fc6b-1446-b19d-67b542849eb7" name="Fight in Extra Ranks (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description>ERRATA
-Add “Unlike most special rules, the effects of multiple Fight
-In Extra Ranks special rules are cumulative.”</description>
+    <rule id="30831b75-fc6b-1446-b19d-67b542849eb7" name="Fight in Extra Ranks" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
+      <description/>
     </rule>
     <rule id="72a7ae1a-861b-6e63-f5df-501fc3445106" name="Flaming Attacks" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="f32b7702-caa9-0d4c-7a18-dcf29b30b5ea" name="Flammable" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" name="Fly" publicationId="eb04bd3b--pubN87309" page="70" hidden="false">
-      <description>.</description>
+      <description>Fly 10&quot;</description>
     </rule>
     <rule id="f0c3028b-71a4-4f53-f1ca-c8e090599529" name="Frenzy" publicationId="eb04bd3b--pubN87309" page="70" hidden="false">
       <description>Extra attack, Immune to psychology. Frenzied units must test against ld in charge phase or charge closest visible enemy. Frenzied models must overrun, cannot parry. But Lose frenzy if beaten in a round of combat.</description>
     </rule>
     <rule id="48eea62d-c5cf-676f-1cb3-77956b2781db" name="Ghostly Howl" publicationId="eb04bd3b--pubN65823" page="31" hidden="false">
-      <description>.</description>
+      <description>A Ghostly Howl is a special attack that can be used against a single enemy unit in the Shooting phase, even if the Tomb Banshee has marched, charged or is engaged in close combat. This attack has a range of 8&quot; and needs line of sight to its target. If the Tomb Banshee is engaged in combat, her Ghostly Howl can only target an enemy unit in base contact. To resolve a Ghostly Howl, roll 2D6+2. For each point by which the result exceeds the target unit&apos;s Leadership, the target unit suffers 1 Wound with no armour saves allowed. Wounds from a Ghostly Howl are magical attacks and are distributed as if from shooting.</description>
     </rule>
     <rule id="967ee5fe-b3a0-d20e-6e63-64d1e8aea74a" name="Hatred" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description>.</description>
+      <description>A model striking a hated foe in close combat re-rolls all misses during the first round of combat.</description>
     </rule>
     <rule id="63de25ba-7e53-56df-a65b-205f239590c7" name="Heroic Killing Blow" publicationId="eb04bd3b--pubN87309" page="72" hidden="false">
       <description>6&apos;s to wound in close combat automatically kills opponent, only ward save allowed.</description>
     </rule>
     <rule id="1572ae64-6ee9-0820-34f3-9f568b7c70de" name="Hover" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description>.</description>
+      <description>Models with the Hover special rule follow all the rules for Flyers, but cannot march.</description>
     </rule>
     <rule id="9f7c88af-0afd-5b53-46d3-4d294cfce5e9" name="Ignores Cover" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="ffb5699b-ac1a-7f5d-efc6-bddfbf2f1400" name="Immune to Psychology" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description>.</description>
+      <description>If the majority of the models in a unit have the Immune to Psychology rule, the unit automatically passes all Panic, Fear and Terror tests it has to take. It should be noted that they have to take Break tests (and other Leadership tests) normally. Unit cannot choose Flee! as a charge reaction.</description>
     </rule>
-    <rule id="c76bbcef-65aa-57e0-fe96-5e108d621448" name="Impact Hits (D6) (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description>ERRATA:
-Change “[...]this rule has no effect.” to “[...]no Impact Hits
-are inflicted.”
-
-Add the following sentence to the end of the third paragraph:
-‘“Look Out Sir!” rolls cannot be taken against Impact Hits.’</description>
+    <rule id="c76bbcef-65aa-57e0-fe96-5e108d621448" name="Impact Hits (D6)" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
+      <description/>
     </rule>
     <rule id="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" name="Killing Blow" publicationId="eb04bd3b--pubN87309" page="72" hidden="false">
-      <description>.</description>
+      <description>6&apos;s to wound in close combat automatically kills opponent, only ward save allowed. Killing Blow is only effective against infantry, cavalry and war beasts.</description>
     </rule>
     <rule id="96b7e486-4233-c907-ff2f-21f4f65ba5c8" name="Large Target" publicationId="eb04bd3b--pubN87309" page="72" hidden="false">
-      <description>.</description>
+      <description>Large Targets are models that are especially tall, such as Dragons, Giants and Greater Daemons. Such foes cannot easily take cover behind obstacles that would shelter lesser troops. Large Targets cannot claim cover modifiers for obstacles (see the Battlefield Terrain chapter).
+
+
+However, if your General or Battle Standard Bearer is a Large Target (or is mounted on one), then the range of their respective Inspiring Presence and Hold Your Ground! abilities is increased from 12&quot; to 18&quot; to represent the ease with which your troops can see them.</description>
     </rule>
     <rule id="7b0ddc22-1b5c-e7ea-3554-5579103795f4" name="Loremaster (*)" publicationId="eb04bd3b--pubN87309" page="72" hidden="false">
-      <description>.</description>
+      <description>A Wizard with the Loremaster special rule knows all the spells from his chosen lore – he does not need to roll randomly. The lore in question is normally given in brackets as part of the Loremaster special rule. For example, a model with Loremaster (Fire) would know all the spells from the Lore of Fire.</description>
     </rule>
     <rule id="ac96a2d4-7ee1-674d-3b68-cb2f7ed2ba74" name="Magic Resistance (*)" publicationId="eb04bd3b--pubN87309" page="72" hidden="false">
-      <description>.</description>
+      <description>Bonus to its ward saves when saving against damage caused by spells. This bonus is based on the number shown in brackets after the Magic Resistance special rule</description>
     </rule>
     <rule id="e6fdbe82-3fbc-d31c-c930-7ef812626c49" name="Master of the Dead" publicationId="eb04bd3b--pubN65823" page="28" hidden="false">
-      <description>.</description>
+      <description>Magic Resistance has a bonus to its ward saves when saving against damage caused by spells. This bonus is based on the number shown in brackets after the Magic Resistance special rule</description>
     </rule>
     <rule id="01ff412c-d4cc-d405-4816-8e35f5982073" name="Monster and Handlers" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="907d4355-126e-1846-10ec-f1c01480b41e" name="Move or Fire" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="d00cc59b-02d3-388a-64ab-1494ad40cbbc" name="Multiple Shots" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description>.</description>
+      <description>When the monster suffers an unsaved wound, roll a D6. On a roll of 1-4 the monster suffers the wound as normal, but on a roll of 5-6 a handler model is removed instead. Once all the handlers have been removed, the monster must take a Monster Reaction test just like a ridden monster that loses its rider.</description>
     </rule>
     <rule id="e54d4cdd-b10e-1514-329c-0098ba077228" name="Multiple Wounds" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description>.</description>
+      <description>Such weapons can either fire once without penalty, or as many times as indicated in their rules with a -1 To Hit penalty (this is in addition to any other modifiers for range, cover and so on).</description>
     </rule>
     <rule id="cd5b48e5-da3c-83c4-d1a4-1965fd05294a" name="Poisoned Attacks" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description>wounds target automatically if a 6 is rolled to hit</description>
+      <description>Wounds target automatically if a 6 is rolled to hit</description>
     </rule>
     <rule id="5be98526-8099-0f14-c181-d8865c6a319e" name="Quick to Fire" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description>.</description>
+      <description>Quick to Fire weapons do not suffer the usual -1 To Hit penalty for moving and shooting.</description>
     </rule>
     <rule id="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" name="Random Attacks" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
-    <rule id="d37f5db6-4316-a3bc-7836-fc80804fecd0" name="Random Movement (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description>ERRATA:
-Add “If a model has the Random Movement and Swiftstride
-special rules (a chariot with Random Movement, for example),
-then the Swiftstride special rule is not used.” to the end of the
-first paragraph.</description>
+    <rule id="d37f5db6-4316-a3bc-7836-fc80804fecd0" name="Random Movement" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
+      <description/>
     </rule>
     <rule id="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" name="Regeneration (*)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="f59ddb4d-725a-02f3-d561-1122bddd78f3" name="Regeneration (5+)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="69c9b553-6c8c-6498-a816-a75985cde3d5" name="Regeneration (6+)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="850e6dc6-a065-254a-55e2-c503ad242db1" name="Requires Two Hands" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="a5361f8b-8beb-ce84-9df3-d195271bbd65" name="Scaly Skin (*)" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="e77da417-6f60-e6b4-f6fb-13b9873a2317" name="Scouts" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
     <rule id="3b2a61a9-3a0b-3527-860c-857e18d4f3e7" name="Scythes" publicationId="eb04bd3b--pubN87309" page="86" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
-    <rule id="835aa0b0-059c-716e-2102-253d5782ce7a" name="Skirmishers (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="77" hidden="false">
-      <description>ERRATA
-Free Reform.
-Change “[...]move, provided[...]” to “[...]move, even if it
-marches, provided[...]”. Change “[...]double its Move value.”
-to “[...]double its Movement value.”
-
-Light Troops.
-Change “[...]zero ranks[...]” to “[...]zero ranks in
-combat[...]”.</description>
+    <rule id="835aa0b0-059c-716e-2102-253d5782ce7a" name="Skirmishers" publicationId="eb04bd3b--pubN87309" page="77" hidden="false">
+      <description/>
     </rule>
     <rule id="b31b401a-1628-2e8c-9066-a5a7b0e13dec" name="Slow to Fire" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
-      <description>.</description>
+      <description>Weapons with the Slow to Fire special rule cannot be used to Stand and Shoot.</description>
     </rule>
-    <rule id="06934ea0-c726-fb25-8e47-a2d7d34f71b8" name="Sniper (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
-      <description>ERRATA:
-Change “A model making a[...]” to “unless making a Stand
-and Shoot charge reaction, a model making a[...]” at the start
-of the third paragraph.</description>
+    <rule id="06934ea0-c726-fb25-8e47-a2d7d34f71b8" name="Sniper" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
+      <description>A model with the Sniper special rule can make a special Sniper shot instead of shooting normally. A Sniper&apos;s shot suffers an additional -1 To Hit penalty, in addition to any other modifiers, but can be aimed with great precision.
+
+
+Unless making a Stand and Shoot reaction, a model making a Sniper shot can shoot at a different target from the one chosen by his unit. A hit from a Sniper shot is not distributed in the same manner as other shooting attacks. The Sniper can shoot at any model he can see, including characters or champions within a unit and so on – the controlling player simply declares which model will be the Sniper&apos;s target – &quot;Look Out Sir!&quot; cannot be taken.
+
+
+A Sniper shot can even target a character riding on the back of a ridden monster or chariot if he wishes, or indeed a specific model where the target is usually rolled for randomly (such as a character who has joined a war machine).</description>
     </rule>
     <rule id="0c4b16cc-a45d-afca-5505-a097980d1597" name="Spectral Steeds" publicationId="eb04bd3b--pubN65823" page="51" hidden="false">
       <description>Counts as ethereal for movement only.</description>
     </rule>
     <rule id="d9150917-e572-36a9-021d-dc5a09ac4aab" name="Stomp" publicationId="eb04bd3b--pubN87309" page="76" hidden="false">
-      <description>.</description>
+      <description>A Stomp has the Always Strikes Last special rule, and inflicts 1 automatic hit, at the model&apos;s Strength, on one enemy infantry, war beasts or swarm unit in base contact with the model.</description>
     </rule>
     <rule id="9841bdbd-f645-1b85-f9a5-f44124153ccf" name="Strider" publicationId="eb04bd3b--pubN87309" page="76" hidden="false">
       <description>.</description>
     </rule>
     <rule id="54271483-eb36-7e4d-debd-332e6da2865d" name="Stubborn" publicationId="eb04bd3b--pubN87309" page="76" hidden="false">
-      <description>.</description>
+      <description>Always steadfast.</description>
     </rule>
     <rule id="6c5e3c63-c338-c1f0-6a46-d1622f283ba4" name="Stupidity" publicationId="eb04bd3b--pubN87309" page="76" hidden="false">
-      <description>.</description>
+      <description>Models that are subject to Stupidity are also Immune to Psychology – they just don&apos;t get frightened that easily, and by the time they do, it&apos;s normally too late.
+
+
+Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must try to overcome its Stupidity at the start of its turn by taking a Leadership test or stumble forward d6&quot;.</description>
     </rule>
     <rule id="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" name="Swiftstride" publicationId="eb04bd3b--pubN87309" page="76" hidden="false">
-      <description>.</description>
+      <description>When charging, fleeing and pursuing, units entirely made of models with the Swiftstride special rule roll 3D6, discard the lowest result, and add the result to their Move value.</description>
     </rule>
     <rule id="978cb138-9bf8-6b46-bf61-14121d8083bb" name="Terror" publicationId="eb04bd3b--pubN87309" page="78" hidden="false">
       <description>Fear causing models must take fear tests against a terror monster. IF charged by a terror causing unit, ld test or they MUST take the flee reaction.</description>
     </rule>
     <rule id="416135ba-6e09-84b0-477b-6372bb12f204" name="The General of Undeath" publicationId="eb04bd3b--pubN65823" page="26" hidden="false">
-      <description>.</description>
+      <description>Every Vampire Counts army is animated and driven onwards by the sorcery of its General. Your army’s General must be a Wizard. If he is able to choose a spell lore, he must use the Lore of Vampires. At the end of the phase in which the General is removed as a casualty, and at the start of every friendly turn thereafter, all friendly Undead units on the battlefield must take a Leadership test. If the test is failed, the unit immediately suffers a number of Wounds equal to the amount by which it failed the Leadership test, with no saves of any kind allowed. These Wounds must be distributed as if from a shooting attack. If, at the start of any of your turns following the death of the General, there is one more friendly Wizard on the table who knows spells from the Lore of Vampires, no unit the army needs to take this Leadership test – the Wizard’s powers are sufficient to sustain the Undead for now.</description>
     </rule>
     <rule id="633cb2e4-43cb-a888-83b1-d501c566dcbd" name="The Hunger" publicationId="eb04bd3b--pubN65823" page="27" hidden="false">
-      <description>.</description>
+      <description>Whenever a character with this special rule kills one or more enemy models in close combat, roll a D6 at the end of the Close Combat phase. On the roll of a 6, the character recovers a single Wound lost earlier in the battle.</description>
     </rule>
     <rule id="a3751cf1-7c54-da2a-6586-aea81f497f0e" name="Thunderstomp" publicationId="eb04bd3b--pubN87309" page="76" hidden="false">
       <description>Inflicts D6 automatic hits at model strength on one enemy infantry,war beasts or swarm in base contact. A.ways Strikes Last.</description>
     </rule>
     <rule id="51fcdc91-783c-e642-ec1e-c9b8e90bd201" name="Unbreakable" publicationId="eb04bd3b--pubN87309" page="78" hidden="false">
-      <description>.</description>
+      <description>A unit composed entirely of Unbreakable models is Immune to Psychology and passes Break tests automatically, no matter the odds!</description>
     </rule>
     <rule id="95882ded-3472-7ed3-c073-99047ac815c5" name="Undead" publicationId="eb04bd3b--pubN65823" page="26" hidden="false">
-      <description>Fear, cannot march, Unstable.</description>
+      <description>Unbreakable, Fear, Cannot March (unless 12&quot; from general), Unstable.</description>
     </rule>
     <rule id="5e45a335-ca2c-4724-496f-892b8201068b" name="Unstable" publicationId="eb04bd3b--pubN87309" page="78" hidden="false">
-      <description>.</description>
+      <description>Unstable units that lose a combat suffer one extra Wound for every point by which they lose the combat, with no saves of any kind permitted against these wounds.</description>
     </rule>
     <rule id="3ea98e2f-6f4d-8069-65c8-b2d8cf170d73" name="Vampire Counts Battle Standards" publicationId="eb04bd3b--pubN65823" page="26" hidden="false">
-      <description>.</description>
+      <description>The ensorcelled battle standards of the Vampire Counts magnify the invisible forces that give the Undead strength. In addition to the normal rules for the army battle standard, units of Undead within 12″ of the army Battle Standard Bearer suffer one less Wound than they normally would due to the Unstable special rule, or following the death of the army’s General.</description>
     </rule>
     <rule id="b72caa89-fe4a-eacc-233b-f3d4d5928030" name="Vampiric" publicationId="eb04bd3b--pubN65823" page="26" hidden="false">
       <description>Can march,Does not crumble</description>
     </rule>
-    <rule id="658e3120-c6b5-ca4a-c62c-487a65ce2017" name="Vanguard (FAQ&apos;ed)" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
-      <description>ERRATA:
-Change “[...]make a 12&quot; move[...]” to “[...]make a move of
-up to 12&quot;[...]”.</description>
+    <rule id="658e3120-c6b5-ca4a-c62c-487a65ce2017" name="Vanguard" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
+      <description>12&quot; Move after deployment.</description>
     </rule>
     <rule id="ab436da0-4b03-3596-44ac-e616d853a674" name="Volley Fire" publicationId="eb04bd3b--pubN87309" page="78" hidden="false">
-      <description>.</description>
+      <description>Half the models in the third and any subsequent ranks, rounding up, are allowed to shoot (in addition to the usual firing models in the front and second ranks). Models in rear ranks can use the line of sight and front arc of the first rank model directly to their front for the purposes of Volley Fire.
+
+
+A unit cannot Volley Fire if it moved earlier in the turn, or as a Stand and Shoot reaction.</description>
     </rule>
     <rule id="18fea374-205f-ced6-bf28-68bf502bc961" name="Ward Save (*)" publicationId="eb04bd3b--pubN87309" page="44" hidden="false">
-      <description>.</description>
+      <description/>
     </rule>
   </sharedRules>
   <sharedProfiles>
