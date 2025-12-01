@@ -1835,15 +1835,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d24e265-acb5-d8ab-3a52-f4577dba6a86" name="Lore of Undeath" publicationId="0f48c054--pubN75428" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e4ab8ed5-b942-b2ab-6dda-dced777df97c" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -2075,15 +2067,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b3944a80-f138-f697-ddb2-79f508824f9b" name="Lore of Undeath" publicationId="0f48c054--pubN75428" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="304e242d-b02f-c496-7e99-95ece99a1ec2" name="Mount" hidden="false" collective="false" import="true">
           <constraints>

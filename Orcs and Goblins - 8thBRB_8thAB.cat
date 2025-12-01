@@ -1903,15 +1903,7 @@ Should the artillery dice roll a misfire, roll a D6 and consult the Doom Diver M
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="79aa940c-95dd-f265-2642-c5227e2ebcda" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="fb9d92de-0ae0-4f01-937b-755eca3e95e8" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -2156,15 +2148,7 @@ Should the artillery dice roll a misfire, roll a D6 and consult the Doom Diver M
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6703e4e2-66c8-c9f9-9340-1d660a07fb7d" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="79d07d05-1afc-4baa-b98f-3ef64472198c" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -3823,15 +3807,7 @@ Any unit moves into contact with the Mangler Squigs - see Force of Total Destruc
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="64ef0b49-7924-0a6e-6cd7-dbba3a1bdda4" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3926,15 +3902,7 @@ Any unit moves into contact with the Mangler Squigs - see Force of Total Destruc
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="abbbca6d-b635-9df2-1f61-2360e9546dd9" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -5524,15 +5492,7 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="10c16e93-d50e-51b2-363f-8d68ffe970ba" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c4897db8-c7f7-432b-b21f-1fcfff61cb3e" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="f09f48ca-a072-4756-b7e2-bc50548626f7">
           <constraints>
@@ -5666,15 +5626,7 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="93d26c13-06dc-7218-849a-fe9d72ca7b0b" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="cb47454d-21b0-4b62-9d08-aaf65d7ac439" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbaa3970-9e86-4868-8650-19d15669c144">
           <constraints>
@@ -6705,15 +6657,7 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aaca6634-d131-b958-7262-6143615349dd" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="27ad3ec0-3afb-469f-9377-9c85aa03d064" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="435deb2c-1a02-4b4f-9210-e7424b48f04c">
           <constraints>
@@ -6838,15 +6782,7 @@ Friendly units do not take Panic tests if a Fanatic is destroyed.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e85ac1d7-2b93-e15d-b4d5-1be5d186e38b" name="Lore of Undeath" publicationId="f7b9cf3d--pubd1e6330" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2828e84d-bb38-42e1-9be5-1bd685ee0d5c" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="8d5ec9b4-cef3-4cb5-98e2-3e4543f43353">
           <constraints>

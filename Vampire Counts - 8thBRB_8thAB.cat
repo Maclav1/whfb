@@ -2382,15 +2382,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="127c2da7-5f51-5a7d-d349-f0a6e80f0489" name="Lore of Undeath" publicationId="eb04bd3b--pubN75729" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c433318d-05a0-4274-9cb7-487f1ff24c09" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -2725,15 +2717,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2b019ae4-4e40-bacb-10e5-ce8c4beb5eb3" name="Lore of Undeath" publicationId="eb04bd3b--pubN75729" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0759bc74-f3de-459c-bd47-ca6d029bfccb" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -3353,15 +3337,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="112441e3-32c0-5b3d-26de-0bcdcf51e32c" name="Lore of Undeath" publicationId="eb04bd3b--pubN75729" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7375528c-d673-4225-b297-d5bebf9550a3" name="Armament" hidden="false" collective="false" import="true">
           <constraints>
@@ -3727,15 +3703,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ae2b9b1f-9529-1766-834c-1fdf96b16670" name="Lore of Undeath" publicationId="eb04bd3b--pubN75729" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0bb2483e-6ce5-4276-b163-62c642c31a87" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f81a1a0-5cd8-489b-aa99-989c6b6b8b00">
           <constraints>

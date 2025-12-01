@@ -2877,15 +2877,7 @@ the same manner as a Screaming Bell (see page 43).”</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="585c4f08-d6fa-8597-2bce-e08c040197d8" name="Lore of Undeath" publicationId="3876997b--pubN80869" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -6837,15 +6829,7 @@ an extra rank even in the turn they charge.”</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9c4db215-6a74-c983-2dcd-46b16e866cbf" name="Lore of Undeath" publicationId="3876997b--pubN80869" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>

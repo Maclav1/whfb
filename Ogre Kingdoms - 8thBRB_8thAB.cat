@@ -421,15 +421,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="09a05010-f394-f0c2-a88e-eb694b0cda09" name="Lore of Undeath" publicationId="fad72a47--pubN68053" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="f7fa81d8-9dd1-468f-b887-daea02cbd760" name="Armament" hidden="false" collective="false" import="true">
           <constraints>
@@ -552,15 +544,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c045-9a6e-51ca-054f" name="Lore Of Undeath" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="132a9146-9f4c-499c-b3d0-9f39b1a22f58" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5052663-42e7-44af-9374-cc364f9120ee">
           <constraints>
@@ -3186,15 +3170,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="94621e25-2f24-1794-f7fa-c1542721c463" name="Lore of Undeath" publicationId="fad72a47--pubN68053" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9b2c6e5a-e4c5-4b53-86d2-670e85348439" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="89050642-bf6e-4d88-8f4f-ad9ba8814ab7">
           <constraints>

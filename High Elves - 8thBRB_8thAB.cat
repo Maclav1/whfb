@@ -875,15 +875,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e5d4bdd4-22be-36ab-238c-40b7daead966" name="Lore of Undeath" publicationId="6d2bd945--pubN69358" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="187373b5-15be-aa57-3cfe-8180327cfc30" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -1299,15 +1291,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3bd289bd-7141-34f9-a6df-745e8ad5019f" name="Lore of Undeath" publicationId="6d2bd945--pubN69358" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="38921385-ec03-abd4-dd07-85db3c153fad" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ef01d4b-faee-658f-90a4-5d4797b1925d">
           <constraints>
@@ -3125,15 +3109,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dcbb889c-6376-4c2f-99a2-e05b35c046ac" name="Lore of Undeath" publicationId="6d2bd945--pubN69358" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="5d4f6456-2a30-1d11-afb8-13318efb6843" name="Mount" hidden="false" collective="false" import="true">
           <constraints>

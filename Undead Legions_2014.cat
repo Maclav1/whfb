@@ -3684,15 +3684,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c588f86f-d89c-1da4-6cf4-5d7c07c32226" name="Lore of Undeath" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9f96ed19-9ee9-a26e-21d8-192c62cce8b9" name="Mount" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -4873,15 +4865,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f0098e86-eaa4-0da9-f012-4228f5e189fb" name="Lore of Undeath" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a2c196d4-0881-3d41-65e2-f0fb1cadfab9" name="Mount" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -6186,15 +6170,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d4d72103-d52e-a02f-1fd0-add1b3c64496" name="Lore of Undeath" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c433318d-05a0-4274-9cb7-487f1ff24c09" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -7931,15 +7907,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="08482272-4e3f-d7bd-b9f5-fa096d1f608e" name="Lore of Undeath" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0759bc74-f3de-459c-bd47-ca6d029bfccb" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -18022,15 +17990,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="305ad7b8-4d1a-ec26-ac43-094548f9ee10" name="Lore of Undeath" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7375528c-d673-4225-b297-d5bebf9550a3" name="Armament" hidden="false" collective="false" import="true">
           <constraints>
@@ -20477,15 +20437,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="14775e41-7540-e6fb-c14c-a7206c1ecd0c" name="Lore of Undeath" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0bb2483e-6ce5-4276-b163-62c642c31a87" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f81a1a0-5cd8-489b-aa99-989c6b6b8b00">
           <constraints>

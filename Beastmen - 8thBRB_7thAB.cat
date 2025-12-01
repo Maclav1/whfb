@@ -450,14 +450,6 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c81cc832-b85c-27f1-8aae-ea469985eef8" name="Lore of Undeath" publicationId="e4ea4dec--pubN67443" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="81c60174-bf4a-7e20-fa7d-428927ecbef2" name="Weapons" hidden="false" collective="false" import="true">
@@ -1855,15 +1847,7 @@ result for the signature spell.”</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="32cbcc2c-f0f9-311e-7004-fc0118e7654d" name="Lore of Undeath" publicationId="e4ea4dec--pubN67443" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="28ea6b1d-5b27-f1ea-f2e3-ff92cbb7664e" name="Weapons" hidden="false" collective="false" import="true">
           <constraints>

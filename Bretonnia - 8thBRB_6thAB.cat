@@ -347,14 +347,6 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3905d069-90db-2228-52c4-7951c74ef1f8" name="Lore of Undeath" publicationId="3a81ff07--pubN67095" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1562,16 +1554,6 @@ Ignore “even if normally immune to psychology.”</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd90cf2d-9a0c-3931-de7b-c8efcefeffdf" name="Peasant Bowmen" page="0" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a52d42e8-6868-4a1f-98a5-194ba67e0823" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="eb0eccc7-65ad-168d-f3b0-b2c70c5dd09f" hidden="false" targetId="937ec604-c9ce-a0ad-3c46-926f75fdf87b" type="rule" name="The Peasant&apos;s Duty"/>
         <infoLink id="4b91c48a-d765-3345-a275-0135880d6b85" hidden="false" targetId="89644ad4-3d62-a0d4-e858-aeb4c95b437a" type="profile" name="Hand Weapon"/>
@@ -1581,7 +1563,7 @@ Ignore “even if normally immune to psychology.”</description>
         <categoryLink id="dd90cf2d-9a0c-3931-de7b-c8efcefeffdf-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3bb53cb6-235b-aefb-1997-f4c25491822a" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="upgrade" sortIndex="1">
+        <selectionEntry id="3bb53cb6-235b-aefb-1997-f4c25491822a" name="Peasant Bowman" publicationId="3a81ff07--pubN66518" page="53" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
           </constraints>
@@ -1649,7 +1631,7 @@ Ignore “even if normally immune to psychology.”</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry id="5dbe4d88-b488-c37c-4fee-b9f581da314e" name="Braziers" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5dbe4d88-b488-c37c-4fee-b9f581da314e" name="Braziers" page="0" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
@@ -1662,7 +1644,7 @@ Ignore “even if normally immune to psychology.”</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a6077e5f-3183-a522-de59-07a2c30a2b72" name="Command" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a6077e5f-3183-a522-de59-07a2c30a2b72" name="Command" hidden="false" collective="false" import="true" sortIndex="3">
           <selectionEntries>
             <selectionEntry id="d9ffb02d-c2b2-4b26-2ed4-9bd0a8f70608" name="Musician" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1709,7 +1691,6 @@ Ignore “even if normally immune to psychology.”</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Peasant Bowman" id="1ae6-86b3-7ddf-36af" hidden="false"/>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1984,14 +1965,6 @@ Ignore “even if normally immune to psychology.”</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="511d7486-d13f-5ab4-786f-6a6661f009c5" name="Lore of Beasts" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="feb2762b-382d-d17d-9fbe-f81ddfbcb836" name="Lore of Undeath" publicationId="3a81ff07--pubN67095" page="15" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -2784,14 +2757,6 @@ Green Knight may move normally on the turn he appears.”</description>
             <selectionEntry id="4edd-dfc3-25cb-61b8" name="Lore of Beasts" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de44-04c0-c4ff-b85f" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7397-3410-ad4c-2d7a" name="Lore of Undeath" publicationId="3a81ff07--pubN67095" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a893-2540-d9af-40f9" type="max"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>

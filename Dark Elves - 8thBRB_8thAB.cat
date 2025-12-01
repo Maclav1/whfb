@@ -5093,15 +5093,7 @@ and that unit cannot make Parry saves this turn.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="09cf76b2-80ff-55a0-f385-a211d7103373" name="Lore of Undeath" publicationId="3d8fff6c--pubN89082" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="1b6323ce-6761-fe62-5bde-2ceec80a4328" name="Mounts" hidden="false" collective="false" import="true">
           <constraints>
@@ -5895,15 +5887,7 @@ and that unit cannot make Parry saves this turn.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5c90756e-f80b-37c7-a54e-4373fcf9da54" name="Lore of Undeath" publicationId="3d8fff6c--pubN89082" page="15" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+                      </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
