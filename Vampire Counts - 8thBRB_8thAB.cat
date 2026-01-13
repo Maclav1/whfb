@@ -60,7 +60,7 @@
       </rules>
       <infoLinks>
         <infoLink id="bedb303e-2952-c815-d2f3-73783bddfda0" hidden="false" targetId="1572ae64-6ee9-0820-34f3-9f568b7c70de" type="rule" name="Hover"/>
-        <infoLink id="8de24557-b281-5070-d082-d115871b9d5d" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
+        <infoLink id="8de24557-b281-5070-d082-d115871b9d5d" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule" name="Skirmishers"/>
         <infoLink id="0509c62c-163a-0c25-39c2-1c94d847c555" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
@@ -132,11 +132,20 @@
       </profiles>
       <rules>
         <rule id="ff17de22-f2c8-b725-3886-2d064d2d0e5a" name="Evocation of Death" publicationId="eb04bd3b--pubN65823" page="46" hidden="false">
-          <description>.</description>
+          <description>Roll all the power dice in the pool. For each 6 increases the Black Coach&apos;s abilities for the rest of the game.
+
+
+
+1 - Adds +1 to the number of Impact Hits it inflicts when it charges.
+2 - The Cairn Wraith and Nightmares have +1 Strength.
+3 - All Attacks gain the Killing Blow and Flaming Attacks.
+4 - Gains the Magic Resistance (2) and Strider.
+5 - Gains the Ethereal.
+6 - Has the Fly.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="cea7ed3c-61f4-5813-740a-f32195610fa4" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="cea7ed3c-61f4-5813-740a-f32195610fa4" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6)"/>
         <infoLink id="6c2d6995-9183-79bb-bf46-a8229a89e8f0" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
         <infoLink id="2be90180-a124-e043-2477-56ba0cd39d9e" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
         <infoLink id="b02ced88-91ae-bf62-6970-6831e17f0b31" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
@@ -675,7 +684,7 @@
       </rules>
       <infoLinks>
         <infoLink id="a742b7ff-1984-f20b-f884-bbe15131f38a" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
-        <infoLink id="ed246113-745f-6a4f-d14b-c86da5769dc2" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="ed246113-745f-6a4f-d14b-c86da5769dc2" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6)"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0b86d9fc-6e4a-4dee-8d03-50f4d6245c13-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
@@ -1233,7 +1242,7 @@
       <infoLinks>
         <infoLink id="f87294a5-6435-3d63-928b-f422fd3570f2" hidden="false" targetId="da287da6-9898-80e0-d3fe-44cb3ef1a7fe" type="rule" name="Swiftstride"/>
         <infoLink id="8b8ac354-8db0-1721-0e51-cb7a829d9900" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
-        <infoLink id="63b94e75-bb48-b300-723a-be06546f1a89" hidden="false" targetId="658e3120-c6b5-ca4a-c62c-487a65ce2017" type="rule" name="Vanguard (FAQ&apos;ed)"/>
+        <infoLink id="63b94e75-bb48-b300-723a-be06546f1a89" hidden="false" targetId="658e3120-c6b5-ca4a-c62c-487a65ce2017" type="rule" name="Vanguard"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eef00a30-30fd-4408-8161-66401f2b31e6-436f726523232344415441232323" hidden="false" targetId="436f726523232344415441232323" primary="true" name="Core"/>
@@ -2382,7 +2391,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-                      </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c433318d-05a0-4274-9cb7-487f1ff24c09" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -2503,7 +2512,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5769c5fd-a3bd-d875-d946-8b338481a11e" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="5769c5fd-a3bd-d875-d946-8b338481a11e" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6)"/>
         <infoLink id="7ea09382-e6da-1233-a731-fc0c6677c449" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
         <infoLink id="29918295-3e3e-9bc1-959b-90854e012f66" hidden="false" targetId="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" type="rule" name="Regeneration (*)"/>
         <infoLink id="3229030f-f74b-9651-f996-ec09b405d587" hidden="false" targetId="978cb138-9bf8-6b46-bf61-14121d8083bb" type="rule" name="Terror"/>
@@ -2717,7 +2726,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-                      </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0759bc74-f3de-459c-bd47-ca6d029bfccb" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -2908,7 +2917,7 @@
       <infoLinks>
         <infoLink id="0b5760cb-0cdb-fdf7-3939-6a2a3840066e" hidden="false" targetId="9b03c15f-054b-3e1f-a29f-4b898a3c1971" type="profile" name="Hand Weapon"/>
         <infoLink id="73dbc05b-e1d8-185f-e62e-e653a7dec8c4" hidden="false" targetId="2af09ef2-71da-e8d4-1cad-af5e256bef93" type="rule" name="Ethereal"/>
-        <infoLink id="6884fe94-26f7-a410-43db-ec22e679055b" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule" name="Skirmishers (FAQ&apos;ed)"/>
+        <infoLink id="6884fe94-26f7-a410-43db-ec22e679055b" hidden="false" targetId="835aa0b0-059c-716e-2102-253d5782ce7a" type="rule" name="Skirmishers"/>
         <infoLink id="cc9740a2-f82d-1676-b336-bea48605586f" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
       </infoLinks>
       <categoryLinks>
@@ -3337,7 +3346,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-                      </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7375528c-d673-4225-b297-d5bebf9550a3" name="Armament" hidden="false" collective="false" import="true">
           <constraints>
@@ -3703,7 +3712,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-                      </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0bb2483e-6ce5-4276-b163-62c642c31a87" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f81a1a0-5cd8-489b-aa99-989c6b6b8b00">
           <constraints>
@@ -4456,7 +4465,7 @@
       </rules>
       <infoLinks>
         <infoLink id="8fa2f16d-3a99-af1c-a610-605d1d676f36" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
-        <infoLink id="4959098e-205f-972c-39ae-efa68f2be066" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="4959098e-205f-972c-39ae-efa68f2be066" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6)"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f1d09641-50a1-52bc-d6a0-dbf9a700969c-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true" name="Special"/>
@@ -4567,7 +4576,7 @@
         <rule name="Ward Save (4+)" id="a8dd-12b8-6ab3-6957" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="a81a6dd2-be64-3e93-fc68-26e15928cb76" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6) (FAQ&apos;ed)"/>
+        <infoLink id="a81a6dd2-be64-3e93-fc68-26e15928cb76" hidden="false" targetId="c76bbcef-65aa-57e0-fe96-5e108d621448" type="rule" name="Impact Hits (D6)"/>
         <infoLink id="57101110-9fa4-9866-4dc2-8a4febb7ec95" hidden="false" targetId="96b7e486-4233-c907-ff2f-21f4f65ba5c8" type="rule" name="Large Target"/>
         <infoLink id="0b345c3c-6849-2427-0825-b62690fe8fb8" hidden="false" targetId="95882ded-3472-7ed3-c073-99047ac815c5" type="rule" name="Undead"/>
         <infoLink id="37034acb-6d25-c7f8-f7f2-89edf1f47811" hidden="false" targetId="b72caa89-fe4a-eacc-233b-f3d4d5928030" type="rule" name="Vampiric"/>
@@ -4598,7 +4607,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="b2770216-c59c-0e17-2110-42bea44ab1d5" hidden="false" targetId="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" type="rule" name="Always Strikes First (FAQ&apos;ed)"/>
+            <infoLink id="b2770216-c59c-0e17-2110-42bea44ab1d5" hidden="false" targetId="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" type="rule" name="Always Strikes First"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -6738,13 +6747,8 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" name="Always Strikes First" publicationId="eb04bd3b--pubN87309" page="66" hidden="false">
-      <description>
-</description>
-    </rule>
-    <rule id="96581d87-a422-6a47-9928-a991d8b39cee" name="Always Strikes Last" publicationId="eb04bd3b--pubN87309" page="66" hidden="false">
-      <description/>
-    </rule>
+    <rule id="aedbfb9c-39e6-2416-b64e-1a9e84ed92b7" name="Always Strikes First" publicationId="eb04bd3b--pubN87309" page="66" hidden="false"/>
+    <rule id="96581d87-a422-6a47-9928-a991d8b39cee" name="Always Strikes Last" publicationId="eb04bd3b--pubN87309" page="66" hidden="false"/>
     <rule id="23e8fc83-b5fe-be66-0b70-14aa816e15fa" name="Ambushers" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
       <description>ERRATA:
 Change “[...]start of the turn[...]” to “[...]start of his
@@ -6753,9 +6757,7 @@ turn[...]” in the second paragraph</description>
     <rule id="e4d1f92e-3c6e-9c79-9878-042d55c3be90" name="Armour Piercing" publicationId="eb04bd3b--pubN87309" page="67" hidden="false">
       <description>-1 armour save modifier, in addition to those for Strength.</description>
     </rule>
-    <rule id="cae33b3d-5eb8-0718-3c66-fcd7bd981fed" name="Breath Weapons" publicationId="eb04bd3b--pubN87309" page="67" hidden="false">
-      <description/>
-    </rule>
+    <rule id="cae33b3d-5eb8-0718-3c66-fcd7bd981fed" name="Breath Weapons" publicationId="eb04bd3b--pubN87309" page="67" hidden="false"/>
     <rule id="20949968-72ff-de65-5c62-f774c7423018" name="Chill Grasp" publicationId="eb04bd3b--pubN65823" page="30" hidden="false">
       <description>A Wraith can substitute all of its Attacks in close combat for a single Chill Grasp Attack. The Wraith makes a single Attack; if this Attack hits, then it will automatically wound. No armour saves are allowed against the Chill Grasp Attack.</description>
     </rule>
@@ -6768,24 +6770,16 @@ turn[...]” in the second paragraph</description>
     <rule id="2af09ef2-71da-e8d4-1cad-af5e256bef93" name="Ethereal" publicationId="eb04bd3b--pubN87309" page="68" hidden="false">
       <description>Treat all terrain as open Can never be slowed by spells/items.Has Magical attacks and only wounded by magical attacks</description>
     </rule>
-    <rule id="87be5019-3797-4850-5a89-889472ca9a9f" name="Extra Attack" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description/>
-    </rule>
+    <rule id="87be5019-3797-4850-5a89-889472ca9a9f" name="Extra Attack" publicationId="eb04bd3b--pubN87309" page="69" hidden="false"/>
     <rule id="abd99c50-391f-00a0-acd2-b23a4f5c3c99" name="Fast Cavalry" publicationId="eb04bd3b--pubN87309" page="68" hidden="false">
       <description>Vanguard, Free Reform, Feigned Flight, Fire on the March</description>
     </rule>
     <rule id="a72bd698-163f-a966-7812-5faf946a7f94" name="Fear" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
       <description>At the start of each Close Combat round, a unit that is in base contact with one or more enemy models that cause Fear must take a Leadership test, all models in the unit have their Weapon Skill reduced to 1 for the remainder of that round of close combat.</description>
     </rule>
-    <rule id="30831b75-fc6b-1446-b19d-67b542849eb7" name="Fight in Extra Ranks" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description/>
-    </rule>
-    <rule id="72a7ae1a-861b-6e63-f5df-501fc3445106" name="Flaming Attacks" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description/>
-    </rule>
-    <rule id="f32b7702-caa9-0d4c-7a18-dcf29b30b5ea" name="Flammable" publicationId="eb04bd3b--pubN87309" page="69" hidden="false">
-      <description/>
-    </rule>
+    <rule id="30831b75-fc6b-1446-b19d-67b542849eb7" name="Fight in Extra Ranks" publicationId="eb04bd3b--pubN87309" page="69" hidden="false"/>
+    <rule id="72a7ae1a-861b-6e63-f5df-501fc3445106" name="Flaming Attacks" publicationId="eb04bd3b--pubN87309" page="69" hidden="false"/>
+    <rule id="f32b7702-caa9-0d4c-7a18-dcf29b30b5ea" name="Flammable" publicationId="eb04bd3b--pubN87309" page="69" hidden="false"/>
     <rule id="7cb55f58-8634-f785-5ae4-ee0dba5c2c8b" name="Fly" publicationId="eb04bd3b--pubN87309" page="70" hidden="false">
       <description>Fly 10&quot;</description>
     </rule>
@@ -6804,15 +6798,11 @@ turn[...]” in the second paragraph</description>
     <rule id="1572ae64-6ee9-0820-34f3-9f568b7c70de" name="Hover" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
       <description>Models with the Hover special rule follow all the rules for Flyers, but cannot march.</description>
     </rule>
-    <rule id="9f7c88af-0afd-5b53-46d3-4d294cfce5e9" name="Ignores Cover" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description/>
-    </rule>
+    <rule id="9f7c88af-0afd-5b53-46d3-4d294cfce5e9" name="Ignores Cover" publicationId="eb04bd3b--pubN87309" page="71" hidden="false"/>
     <rule id="ffb5699b-ac1a-7f5d-efc6-bddfbf2f1400" name="Immune to Psychology" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
       <description>If the majority of the models in a unit have the Immune to Psychology rule, the unit automatically passes all Panic, Fear and Terror tests it has to take. It should be noted that they have to take Break tests (and other Leadership tests) normally. Unit cannot choose Flee! as a charge reaction.</description>
     </rule>
-    <rule id="c76bbcef-65aa-57e0-fe96-5e108d621448" name="Impact Hits (D6)" publicationId="eb04bd3b--pubN87309" page="71" hidden="false">
-      <description/>
-    </rule>
+    <rule id="c76bbcef-65aa-57e0-fe96-5e108d621448" name="Impact Hits (D6)" publicationId="eb04bd3b--pubN87309" page="71" hidden="false"/>
     <rule id="03d42f40-d92c-e47f-e7cf-7a0af91ddd56" name="Killing Blow" publicationId="eb04bd3b--pubN87309" page="72" hidden="false">
       <description>6&apos;s to wound in close combat automatically kills opponent, only ward save allowed. Killing Blow is only effective against infantry, cavalry and war beasts.</description>
     </rule>
@@ -6831,12 +6821,8 @@ However, if your General or Battle Standard Bearer is a Large Target (or is moun
     <rule id="e6fdbe82-3fbc-d31c-c930-7ef812626c49" name="Master of the Dead" publicationId="eb04bd3b--pubN65823" page="28" hidden="false">
       <description>Magic Resistance has a bonus to its ward saves when saving against damage caused by spells. This bonus is based on the number shown in brackets after the Magic Resistance special rule</description>
     </rule>
-    <rule id="01ff412c-d4cc-d405-4816-8e35f5982073" name="Monster and Handlers" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description/>
-    </rule>
-    <rule id="907d4355-126e-1846-10ec-f1c01480b41e" name="Move or Fire" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
-      <description/>
-    </rule>
+    <rule id="01ff412c-d4cc-d405-4816-8e35f5982073" name="Monster and Handlers" publicationId="eb04bd3b--pubN87309" page="73" hidden="false"/>
+    <rule id="907d4355-126e-1846-10ec-f1c01480b41e" name="Move or Fire" publicationId="eb04bd3b--pubN87309" page="73" hidden="false"/>
     <rule id="d00cc59b-02d3-388a-64ab-1494ad40cbbc" name="Multiple Shots" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
       <description>When the monster suffers an unsaved wound, roll a D6. On a roll of 1-4 the monster suffers the wound as normal, but on a roll of 5-6 a handler model is removed instead. Once all the handlers have been removed, the monster must take a Monster Reaction test just like a ridden monster that loses its rider.</description>
     </rule>
@@ -6849,36 +6835,16 @@ However, if your General or Battle Standard Bearer is a Large Target (or is moun
     <rule id="5be98526-8099-0f14-c181-d8865c6a319e" name="Quick to Fire" publicationId="eb04bd3b--pubN87309" page="73" hidden="false">
       <description>Quick to Fire weapons do not suffer the usual -1 To Hit penalty for moving and shooting.</description>
     </rule>
-    <rule id="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" name="Random Attacks" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description/>
-    </rule>
-    <rule id="d37f5db6-4316-a3bc-7836-fc80804fecd0" name="Random Movement" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description/>
-    </rule>
-    <rule id="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" name="Regeneration (*)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description/>
-    </rule>
-    <rule id="f59ddb4d-725a-02f3-d561-1122bddd78f3" name="Regeneration (5+)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description/>
-    </rule>
-    <rule id="69c9b553-6c8c-6498-a816-a75985cde3d5" name="Regeneration (6+)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false">
-      <description/>
-    </rule>
-    <rule id="850e6dc6-a065-254a-55e2-c503ad242db1" name="Requires Two Hands" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
-      <description/>
-    </rule>
-    <rule id="a5361f8b-8beb-ce84-9df3-d195271bbd65" name="Scaly Skin (*)" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
-      <description/>
-    </rule>
-    <rule id="e77da417-6f60-e6b4-f6fb-13b9873a2317" name="Scouts" publicationId="eb04bd3b--pubN87309" page="79" hidden="false">
-      <description/>
-    </rule>
-    <rule id="3b2a61a9-3a0b-3527-860c-857e18d4f3e7" name="Scythes" publicationId="eb04bd3b--pubN87309" page="86" hidden="false">
-      <description/>
-    </rule>
-    <rule id="835aa0b0-059c-716e-2102-253d5782ce7a" name="Skirmishers" publicationId="eb04bd3b--pubN87309" page="77" hidden="false">
-      <description/>
-    </rule>
+    <rule id="bfadcd21-bcd6-8f82-11ab-776b0e7ceca5" name="Random Attacks" publicationId="eb04bd3b--pubN87309" page="74" hidden="false"/>
+    <rule id="d37f5db6-4316-a3bc-7836-fc80804fecd0" name="Random Movement" publicationId="eb04bd3b--pubN87309" page="74" hidden="false"/>
+    <rule id="0c77bb6c-54ee-ddcd-a5a9-4d32498b5a74" name="Regeneration (*)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false"/>
+    <rule id="f59ddb4d-725a-02f3-d561-1122bddd78f3" name="Regeneration (5+)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false"/>
+    <rule id="69c9b553-6c8c-6498-a816-a75985cde3d5" name="Regeneration (6+)" publicationId="eb04bd3b--pubN87309" page="74" hidden="false"/>
+    <rule id="850e6dc6-a065-254a-55e2-c503ad242db1" name="Requires Two Hands" publicationId="eb04bd3b--pubN87309" page="75" hidden="false"/>
+    <rule id="a5361f8b-8beb-ce84-9df3-d195271bbd65" name="Scaly Skin (*)" publicationId="eb04bd3b--pubN87309" page="75" hidden="false"/>
+    <rule id="e77da417-6f60-e6b4-f6fb-13b9873a2317" name="Scouts" publicationId="eb04bd3b--pubN87309" page="79" hidden="false"/>
+    <rule id="3b2a61a9-3a0b-3527-860c-857e18d4f3e7" name="Scythes" publicationId="eb04bd3b--pubN87309" page="86" hidden="false"/>
+    <rule id="835aa0b0-059c-716e-2102-253d5782ce7a" name="Skirmishers" publicationId="eb04bd3b--pubN87309" page="77" hidden="false"/>
     <rule id="b31b401a-1628-2e8c-9066-a5a7b0e13dec" name="Slow to Fire" publicationId="eb04bd3b--pubN87309" page="75" hidden="false">
       <description>Weapons with the Slow to Fire special rule cannot be used to Stand and Shoot.</description>
     </rule>
@@ -6948,9 +6914,7 @@ Provided that they are not engaged in close combat, a unit that contains one or 
 
 A unit cannot Volley Fire if it moved earlier in the turn, or as a Stand and Shoot reaction.</description>
     </rule>
-    <rule id="18fea374-205f-ced6-bf28-68bf502bc961" name="Ward Save (*)" publicationId="eb04bd3b--pubN87309" page="44" hidden="false">
-      <description/>
-    </rule>
+    <rule id="18fea374-205f-ced6-bf28-68bf502bc961" name="Ward Save (*)" publicationId="eb04bd3b--pubN87309" page="44" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="6b6a3d0b-9f9e-5b0b-fa50-4b2fb9af788e" name="Barding" publicationId="eb04bd3b--pubN87309" page="83" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
